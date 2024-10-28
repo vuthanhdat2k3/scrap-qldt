@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 const puppeteer = require('puppeteer');
-
+const { login } = require('./src/modules/loginModule');
 
 app.get("/", async (req, res) => {
   try {
