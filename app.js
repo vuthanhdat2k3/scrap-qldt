@@ -19,9 +19,10 @@ app.get("/", async (req, res) => {
     });
 
     const page = await browser.newPage();
-    await page.goto("https://example.com");
-    const text = await page.$eval("h1", (el) => el.textContent);
-    res.send(text);
+    await page.goto("https://qldt.ptit.edu.vn/#/home", { waitUntil: 'networkidle2', timeout: 60000 });
+    await login(page);
+
+    res.send("ok");
 
     await browser.close();
   } catch (error) {
