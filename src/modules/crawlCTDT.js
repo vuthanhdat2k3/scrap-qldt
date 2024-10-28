@@ -114,9 +114,7 @@ const crawlCTDT = async (page) => {
   fs.writeFileSync('dataCrawl/CTDT.json', JSON.stringify(tableData, null, 2), 'utf-8');
   localStorage.setItem("crawlCTDT", JSON.stringify(tableData));
   console.log('Dữ liệu thời khóa biểu đã được lưu vào timetableData.json');
-  await page.evaluate((tableData) => {
-    localStorage.setItem("crawlCTDT", JSON.stringify(tableData));
-}, tableData);
+  
 
   // Khi bạn muốn crawl thông tin tiết thành phần cho một môn cụ thể
   const index = 0; // Ví dụ crawl thông tin tiết thành phần cho hàng đầu tiên (index = 0)
