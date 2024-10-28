@@ -16,4 +16,4 @@ async function login(page) {
   }
 }
 
-module.exports = { login };
+module.exports = { login }
