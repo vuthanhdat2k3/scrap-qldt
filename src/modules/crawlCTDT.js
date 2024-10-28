@@ -111,7 +111,7 @@ const crawlCTDT = async (page) => {
 
   // Ghi dữ liệu thành tệp JSON
   fs.writeFileSync('dataCrawl/CTDT.json', JSON.stringify(tableData, null, 2), 'utf-8');
-  localStorage.setItem("crawlCTDT", JSON.stringify(tableData));
+  // localStorage.setItem("crawlCTDT", JSON.stringify(tableData));
   console.log('Dữ liệu thời khóa biểu đã được lưu vào timetableData.json');
   
 
