@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
+const {crawlCTDT} = require('../modules/crawlCTDT'); // Import hàm lấy điểm
 const puppeteer = require('puppeteer');
 require('dotenv').config();
 const { login } = require('./src/modules/loginModule');
