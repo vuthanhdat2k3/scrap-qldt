@@ -17,16 +17,8 @@ const loginController = async (req, res) => {
     return res.status(400).json({ success: false, message: 'Username and password are required' });
   }
 
-  try {
-    // Update .env file with new credentials
-    const envContent = `QLDT_USERNAME=${username}\nQLDT_PASSWORD=${password}\nPORT=3000\n`;
-    fs.writeFileSync(envFilePath, envContent, { encoding: 'utf8' });
-    dotenv.config();
-    return res.status(200).json({ success: true, message: 'Credentials updated successfully' });
-  } catch (error) {
-    console.error('Error updating .env file:', error);
-    return res.status(500).json({ success: false, message: 'Internal server error' });
-  }
+  return username, password;
+    
 };
 
 module.exports = { loginController };
