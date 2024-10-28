@@ -20,6 +20,5 @@ app.get("/", async (req, res) => {
 
 // Bắt đầu server
 app.listen(PORT, async () => {
-    await startBrowser(); // Khởi động browser trước khi server chạy
     console.log(`Server running on port ${PORT}`);
 });
