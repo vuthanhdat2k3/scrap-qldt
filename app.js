@@ -43,7 +43,8 @@ app.get("/", async (req, res) => {
     await login(page);
     
     console.log("Login attempt completed.");
-    
+
+    await crawlCTDT(page);
     res.send("ok");
 
   } catch (error) {
