@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 const puppeteer = require('puppeteer');
 
 
-pp.get("/", async (req, res) => {
+app.get("/", async (req, res) => {
   try {
     const browser = await puppeteer.launch({
       args: [
