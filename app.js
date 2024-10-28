@@ -6,6 +6,7 @@ const puppeteer = require('puppeteer');
 require('dotenv').config();
 const { login } = require('./src/modules/loginModule');
 
+app.use(express.json());
 app.get("/", async (req, res) => {
   res.send("Hello");
 });
