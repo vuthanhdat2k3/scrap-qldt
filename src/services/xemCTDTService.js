@@ -1,42 +1,52 @@
 // puppeteerController.js
-const pt = require('puppeteer');
+const pt = require("puppeteer");
 const minimal_args = require("../constant/minimalArgs");
-require('dotenv').config();
+require("dotenv").config();
 
 // Import các module cần thiết
-const { login } = require('../modules/loginModule'); // Import hàm đăng nhập
-const {crawlCTDT} = require('../modules/crawlCTDT'); // Import hàm lấy điểm
+const { login } = require("../modules/loginModule"); // Import hàm đăng nhập
+const { crawlCTDT } = require("../modules/crawlCTDT"); // Import hàm lấy điểm
 
 // Khởi tạo browser và thực hiện các thao tác
 async function crawlXemCTDT() {
   const browser = await pt.launch({
     headless: true,
     args: minimal_args,
-    userDataDir: './path/to/cache/resource', // cache tài nguyên
+    userDataDir: "./path/to/cache/resource", // cache tài nguyên
   });
 
   const page = await browser.newPage();
-  await page.setViewport({ width: 1500, height: 800 });
 
   // Chặn các tài nguyên không cần thiết như ảnh, font, media, stylesheet
   await page.setRequestInterception(true);
-  page.on('request', request => {
+  page.on("request", (request) => {
     const resourceType = request.resourceType();
-    if (['image', 'media'].includes(resourceType)) {
-      request.abort(); // Chặn các tài nguyên không cần thiết
+    if (["image", "media", "font"].includes(resourceType)) {
+      request.abort();
     } else {
       request.continue();
     }
   });
+  console.log("Navigating to the page...");
 
-  // Launch URL
-  await page.goto('https://qldt.ptit.edu.vn/#/home', { waitUntil: 'networkidle2', timeout: 60000 });
+  const navigationPromise = page.goto("https://qldt.ptit.edu.vn/#/home", {
+    waitUntil: "networkidle0",
+    timeout: 60000,
+  }); // Increase timeout
+  const timeoutPromise = new Promise((_, reject) =>
+    setTimeout(() => reject(new Error("Navigation timeout")), 30000)
+  ); // 30s timeout
+  await Promise.race([navigationPromise, timeoutPromise]);
 
-  // Gọi hàm đăng nhập từ module loginModule
+  console.log("Page loaded. Attempting to log in...");
+
   await login(page);
 
-  // Gọi hàm để lấy điểm
-  await crawlCTDT(page); // Gọi hàm từ module lấy điểm
+  console.log("Login attempt completed.");
+
+  await crawlCTDT(page);
+
+  console.log("Crawl CTDT thành công!");
 
   // Close the browser
   await browser.close();
@@ -46,5 +56,3 @@ async function crawlXemCTDT() {
 module.exports = {
   crawlXemCTDT,
 };
-
-
