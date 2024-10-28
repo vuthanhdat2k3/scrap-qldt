@@ -49,6 +49,7 @@ async function crawlXemCTDT(username, password) {
       return data;
     } else{
       console.log("Login failed!");
+      
       return null;
     }
   }catch (error) {
