@@ -46,9 +46,6 @@ async function crawlXemCTDT() {
     if(isLogin) {
       console.log("Login access!");
       const data = await crawlCTDT(page); // Proceed to crawl if login succeeds
-      chrome.storage.local.set({ crawlCTDT: data }, function() {
-        console.log('Data saved to chrome.storage');
-      });
       return data;
     } else{
       console.log("Login failed!");
