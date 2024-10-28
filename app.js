@@ -1,4 +1,3 @@
-
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -11,17 +10,22 @@ app.get("/", async (req, res) => {
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
-        "--disable-dev-shm-usage", // Overcome limited resource problems
-        "--headless", // Ensure Chrome runs in headless mode
-        "--disable-gpu" // Disable GPU hardware acceleration
+        "--disable-dev-shm-usage",
+        "--headless",
+        "--disable-gpu"
       ],
-      headless: true, // Ensure headless mode
+      headless: true,
     });
 
     const page = await browser.newPage();
     await page.goto("https://qldt.ptit.edu.vn/#/home", { waitUntil: 'networkidle2', timeout: 60000 });
-    await login(page);
+    
+    // Optional: Log page content for debugging
+    const content = await page.content();
+    console.log(content); 
 
+    await login(page);
+    
     res.send("ok");
 
     await browser.close();
@@ -30,9 +34,9 @@ app.get("/", async (req, res) => {
     res.status(500).send("An error occurred");
   }
 });
+
 app.use("/api", require("./src/routers/index"));
 
-// Bắt đầu server
 app.listen(process.env.PORT || 3000, () => {
   console.log("starting....");
 });
