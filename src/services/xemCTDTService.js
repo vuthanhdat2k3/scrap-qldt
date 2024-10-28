@@ -9,14 +9,15 @@ const { crawlCTDT } = require("../modules/crawlCTDT"); // Import hàm lấy đi�
 
 // Khởi tạo browser và thực hiện các thao tác
 async function crawlXemCTDT() {
+  let broswer;
   try{
-    const browser = await pt.launch({
+    broswer = await pt.launch({
       headless: true,
       args: minimal_args,
       userDataDir: "./path/to/cache/resource", // cache tài nguyên
     });
   
-    const page = await browser.newPage();
+    const page = await broswer.newPage();
   
     // Chặn các tài nguyên không cần thiết như ảnh, font, media, stylesheet
     await page.setRequestInterception(true);
@@ -45,14 +46,14 @@ async function crawlXemCTDT() {
   
     console.log("Login attempt completed.");
   
-    await crawlCTDT(page);
+    // await crawlCTDT(page);
   
     console.log("Crawl CTDT thành công!");
   }catch (error) {
       console.error("Error during Puppeteer execution:", error);
     } finally {
-      if (browser) {
-        await browser.close();
+      if (broswer) {
+        await broswer.close();
       }
     }
 }
