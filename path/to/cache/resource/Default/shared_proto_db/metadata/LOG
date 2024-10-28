@@ -1,3 +1,3 @@
-2024/10/28-10:12:58.275 a66c Reusing MANIFEST F:\mid-project-680372032\path\to\cache\resource\Default\shared_proto_db\metadata/MANIFEST-000001
-2024/10/28-10:12:58.291 a66c Recovering log #3
-2024/10/28-10:12:58.291 a66c Reusing old log F:\mid-project-680372032\path\to\cache\resource\Default\shared_proto_db\metadata/000003.log 
+2024/10/28-11:58:33.003 1ef0 Reusing MANIFEST F:\mid-project-680372032\path\to\cache\resource\Default\shared_proto_db\metadata/MANIFEST-000001
+2024/10/28-11:58:33.018 1ef0 Recovering log #3
+2024/10/28-11:58:33.018 1ef0 Reusing old log F:\mid-project-680372032\path\to\cache\resource\Default\shared_proto_db\metadata/000003.log 

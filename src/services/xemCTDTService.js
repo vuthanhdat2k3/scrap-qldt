@@ -10,7 +10,7 @@ const {crawlCTDT} = require('../modules/crawlCTDT'); // Import hàm lấy điể
 // Khởi tạo browser và thực hiện các thao tác
 async function crawlXemCTDT() {
   const browser = await pt.launch({
-    headless: false,
+    headless: true,
     args: minimal_args,
     userDataDir: './path/to/cache/resource', // cache tài nguyên
   });
@@ -46,3 +46,5 @@ async function crawlXemCTDT() {
 module.exports = {
   crawlXemCTDT,
 };
+
+

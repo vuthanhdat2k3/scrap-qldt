@@ -10,3 +10,4 @@ router.use("/hoa-don", require("./xemHoaDonRoute"))
 router.use("/mon-tien-quyet", require("./xemMonTienQuyetRoute"))
 router.use("/ctdt", require("./xemCTDTRoute"))
 module.exports = router;
+
