@@ -32,7 +32,7 @@ app.get("/", async (req, res) => {
     });
 
     console.log("Navigating to the page...");
-    await page.goto("https://qldt.ptit.edu.vn/#/home", { waitUntil: 'networkidle2', timeout: 60000 });
+    await page.goto("https://qldt.ptit.edu.vn/#/home", { waitUntil: 'networkidle2', timeout: 100000 });
     
     console.log("Page loaded. Attempting to log in...");
     await login(page);
