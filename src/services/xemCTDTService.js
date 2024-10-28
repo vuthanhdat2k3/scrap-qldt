@@ -8,7 +8,7 @@ const { login } = require("../modules/loginModule"); // Import hàm đăng nhậ
 const { crawlCTDT } = require("../modules/crawlCTDT"); // Import hàm lấy điểm
 
 // Khởi tạo browser và thực hiện các thao tác
-async function crawlXemCTDT(username, password) {
+async function crawlXemCTDT() {
   let broswer;
   try{
     broswer = await pt.launch({
@@ -42,7 +42,7 @@ async function crawlXemCTDT(username, password) {
   
     console.log("Page loaded. Attempting to log in...");
   
-    const isLogin = await login(page,username, password);
+    const isLogin = await login(page);
     if(isLogin) {
       console.log("Login access!");
       const data = await crawlCTDT(page); // Proceed to crawl if login succeeds

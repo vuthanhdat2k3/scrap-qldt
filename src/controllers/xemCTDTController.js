@@ -2,14 +2,9 @@
 const { crawlXemCTDT } = require('../services/xemCTDTService');
 
 const xemCTDTController = {
-  async crawlData(req, res) {
-    const { username, password } = req.body;
-    if (!username || !password) {
-      return res.status(400).json({ message: "Thiếu tài khoản hoặc mật khẩu" });
-    }
+  async crawlData() {
     try {
-      const crawlData = await crawlXemCTDT(username, password);
-
+      const crawlData = await crawlXemCTDT();
       if (crawlData) {
         console.log("Crawl dữ liệu thành công!");
         res.status(200).json({ message: "Crawl dữ liệu thành công!", data: crawlData });
