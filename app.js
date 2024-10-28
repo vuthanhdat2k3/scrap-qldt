@@ -5,7 +5,6 @@ const puppeteer = require('puppeteer');
 const { login } = require('./src/modules/loginModule');
 
 app.get("/", async (req, res) => {
-  res.send("Processing...");
   try {
     const browser = await puppeteer.launch({
       args: [
