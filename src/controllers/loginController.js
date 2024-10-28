@@ -15,9 +15,40 @@ const loginController = async (req, res) => {
   if (!username || !password) {
     return res.status(400).json({ success: false, message: 'Username and password are required' });
   }
+  let broswer;
+  try{
+    broswer = await pt.launch({
+      headless: true,
+      args: minimal_args,
+      userDataDir: "./path/to/cache/resource", // cache tài nguyên
+    });
+  
+    const page = await broswer.newPage();
+  
+    // Chặn các tài nguyên không cần thiết như ảnh, font, media, stylesheet
+    await page.setRequestInterception(true);
+    page.on("request", (request) => {
+      const resourceType = request.resourceType();
+      if (["image", "media", "font"].includes(resourceType)) {
+        request.abort();
+      } else {
+        request.continue();
+      }
+    });
+    console.log("Navigating to the page...");
+  
+    const navigationPromise = page.goto("https://qldt.ptit.edu.vn/#/home", {
+      waitUntil: "networkidle0",
+      timeout: 60000,
+    }); // Increase timeout
+    const timeoutPromise = new Promise((_, reject) =>
+      setTimeout(() => reject(new Error("Navigation timeout")), 30000)
+    ); // 30s timeout
+    await Promise.race([navigationPromise, timeoutPromise]);
+  
+    console.log("Page loaded. Attempting to log in...");
 
-  try {
-    const isLogin = await login(username, password); // Ensure to pass the correct parameters
+    const isLogin = await login(page, username, password); // Ensure to pass the correct parameters
     if (isLogin) {
       console.log("Login access!");
       return res.status(200).json({ success: true, message: "Login successful!" });
@@ -28,7 +59,11 @@ const loginController = async (req, res) => {
   } catch (error) {
     console.error("Error during login:", error);
     return res.status(500).json({ success: false, message: "Internal server error" });
-  }
+  }finally {
+      if (broswer) {
+        await broswer.close();
+      }
+    }
 };
 
 module.exports = { loginController };
