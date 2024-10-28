@@ -42,9 +42,15 @@ async function crawlXemCTDT() {
   
     console.log("Page loaded. Attempting to log in...");
   
-    await login(page);
-    await crawlCTDT(page); // Proceed to crawl if login succeeds
-    
+    const isLogin = await login(page);
+    if(isLogin) {
+      console.log("Login access!");
+      const data = await crawlCTDT(page); // Proceed to crawl if login succeeds
+      return data;
+    } else{
+      console.log("Login failed!");
+      return null;
+    }
   }catch (error) {
       console.error("Error during Puppeteer execution:", error);
     } finally {

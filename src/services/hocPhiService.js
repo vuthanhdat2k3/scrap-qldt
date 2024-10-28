@@ -33,10 +33,11 @@ async function crawlHocPhi() {
   await page.goto('https://qldt.ptit.edu.vn/#/home', { waitUntil: 'networkidle2', timeout: 60000 });
 
   // Gọi hàm đăng nhập từ module loginModule
-  await login(page);
+  const isLogin = await login(page);
 
   // Gọi hàm để lấy điểm
-  await crawlXemHocPhi(page); // Gọi hàm từ module lấy điểm
+  if(isLogin) await crawlXemHocPhi(page); // Gọi hàm từ module lấy điểm
+  else{ console.log("failed!");}
 
   // Close the browser
   await browser.close();

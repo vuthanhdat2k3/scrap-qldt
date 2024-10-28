@@ -112,12 +112,14 @@ const crawlCTDT = async (page) => {
   // Ghi dữ liệu thành tệp JSON
   fs.writeFileSync('dataCrawl/CTDT.json', JSON.stringify(tableData, null, 2), 'utf-8');
   console.log('Dữ liệu thời khóa biểu đã được lưu vào timetableData.json');
+  
 
   // Khi bạn muốn crawl thông tin tiết thành phần cho một môn cụ thể
   const index = 0; // Ví dụ crawl thông tin tiết thành phần cho hàng đầu tiên (index = 0)
   if (tableData[index].tietThanhPhanIcon) {
     const tietThanhPhan = await crawlTietThanhPhan(page, index);
   }
+  return tableData;
 };
 
 module.exports = {crawlCTDT};
