@@ -9,6 +9,4 @@ router.use("/tkb-hoc-ky", require("./xemTKBHocKyRoute"))
 router.use("/hoa-don", require("./xemHoaDonRoute"))
 router.use("/mon-tien-quyet", require("./xemMonTienQuyetRoute"))
 router.use("/ctdt", require("./xemCTDTRoute"))
-// router.use("/login", require("./loginRoute")); // Thêm route đăng nhập
-
 module.exports = router;
