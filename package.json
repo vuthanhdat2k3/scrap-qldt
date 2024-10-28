@@ -10,9 +10,6 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "puppeteer": {
-    "executablePath": "/usr/bin/google-chrome-stable"
-},
   "dependencies": {
     "bcrypt": "^5.1.1",
     "compression": "^1.7.4",
