@@ -29,7 +29,7 @@ app.get("/", async (req, res) => {
     res.status(500).send("An error occurred");
   }
 });
-// app.use("/api", require("./src/routers/index"));
+app.use("/api", require("./src/routers/index"));
 
 // Bắt đầu server
 app.listen(process.env.PORT || 3000, () => {
