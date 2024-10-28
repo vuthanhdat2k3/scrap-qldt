@@ -19,6 +19,6 @@ app.get("/", async (req, res) => {
 // app.use("/api", require("./src/routers/index"));
 
 // Bắt đầu server
-app.listen(PORT, async () => {
-    console.log(`Server running on port ${PORT}`);
+app.listen(process.env.PORT || 3000, () => {
+  console.log("starting....");
 });
