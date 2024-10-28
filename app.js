@@ -5,8 +5,9 @@ const puppeteer = require('puppeteer');
 const { login } = require('./src/modules/loginModule');
 
 app.get("/", async (req, res) => {
+  let browser;
   try {
-    const browser = await puppeteer.launch({
+    browser = await puppeteer.launch({
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
@@ -19,7 +20,7 @@ app.get("/", async (req, res) => {
     });
 
     const page = await browser.newPage();
-    
+
     // Optional: Intercept requests to block unnecessary resources
     await page.setRequestInterception(true);
     page.on('request', request => {
@@ -33,18 +34,27 @@ app.get("/", async (req, res) => {
 
     console.log("Navigating to the page...");
     
-    await page.goto("https://qldt.ptit.edu.vn/#/home", { waitUntil: 'networkidle2', timeout: 60000 });
+    await page.goto("https://qldt.ptit.edu.vn/#/home", { waitUntil: 'networkidle2', timeout: 30000 });
     
     console.log("Page loaded. Attempting to log in...");
     await login(page);
     
     console.log("Login attempt completed.");
+    
+    // Send response only if everything is successful
     res.send("ok");
 
-    await browser.close();
   } catch (error) {
     console.error("Error during Puppeteer execution:", error);
-    res.status(500).send("An error occurred: " + error.message);
+    // Send error response only if headers haven't been sent
+    if (!res.headersSent) {
+      res.status(500).send("An error occurred: " + error.message);
+    }
+  } finally {
+    // Ensure the browser closes in all cases
+    if (browser) {
+      await browser.close();
+    }
   }
 });
 

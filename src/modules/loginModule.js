@@ -17,7 +17,7 @@ async function login(page) {
   await page.click("button[class='btn btn-primary mb-1 ng-star-inserted']"); // Adjust the selector if needed
   
   // Optionally wait for some navigation or element after logging in
-  await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 60000 }); // Tăng timeout lên 60 giây
+  await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 30000 }); // Tăng timeout lên 60 giây
 }
 
 module.exports = { login };
