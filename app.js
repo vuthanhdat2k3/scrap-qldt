@@ -5,6 +5,7 @@ const puppeteer = require('puppeteer');
 const { login } = require('./src/modules/loginModule');
 
 app.get("/", async (req, res) => {
+  res.send("Processing...");
   try {
     const browser = await puppeteer.launch({
       args: [
@@ -32,7 +33,7 @@ app.get("/", async (req, res) => {
     });
 
     console.log("Navigating to the page...");
-    await page.goto("https://qldt.ptit.edu.vn/#/home", { waitUntil: 'networkidle2', timeout: 100000 });
+    await page.goto("https://qldt.ptit.edu.vn/#/home", { waitUntil: 'networkidle2', timeout: 60000 });
     
     console.log("Page loaded. Attempting to log in...");
     await login(page);
