@@ -1,15 +1,23 @@
 // loginModule.js
+
+const dotenv = require('dotenv');
+dotenv.config(); // Load the updated environment variables
+
 async function login(page) {
   try {
+    const USERNAME = process.env.QLDT_USERNAME;
+    const PASSWORD = process.env.QLDT_PASSWORD;
     // Wait for and enter username
     await page.waitForSelector("input[name='username']", { visible: true, timeout: 60000 });
-    await page.type("input[name='username']", process.env.QLDT_USERNAME);
+    await page.type("input[name='username']", USERNAME);
+    console.log(USERNAME)
 
     // Wait for and enter password
     await page.waitForSelector("input[name='password']", { visible: true, timeout: 60000 });
-    await page.type("input[name='password']", process.env.QLDT_PASSWORD);
+    await page.type("input[name='password']", PASSWORD);
+    console.log(PASSWORD)
 
-    // Click the login button
+    // Click the login <button></button>
     await page.click("button[class='btn btn-primary mb-1 ng-star-inserted']");
 
     // Wait for a brief moment to allow for the error message to appear, if any

@@ -2,7 +2,7 @@
 const { crawlXemCTDT } = require('../services/xemCTDTService');
 
 const xemCTDTController = {
-  async crawlData() {
+  async crawlData(req, res) {
     try {
       const crawlData = await crawlXemCTDT();
       if (crawlData) {
