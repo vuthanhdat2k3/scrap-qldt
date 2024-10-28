@@ -9,47 +9,52 @@ const { crawlCTDT } = require("../modules/crawlCTDT"); // Import hàm lấy đi�
 
 // Khởi tạo browser và thực hiện các thao tác
 async function crawlXemCTDT() {
-  const browser = await pt.launch({
-    headless: true,
-    args: minimal_args,
-    userDataDir: "./path/to/cache/resource", // cache tài nguyên
-  });
-
-  const page = await browser.newPage();
-
-  // Chặn các tài nguyên không cần thiết như ảnh, font, media, stylesheet
-  await page.setRequestInterception(true);
-  page.on("request", (request) => {
-    const resourceType = request.resourceType();
-    if (["image", "media", "font"].includes(resourceType)) {
-      request.abort();
-    } else {
-      request.continue();
+  try{
+    const browser = await pt.launch({
+      headless: true,
+      args: minimal_args,
+      userDataDir: "./path/to/cache/resource", // cache tài nguyên
+    });
+  
+    const page = await browser.newPage();
+  
+    // Chặn các tài nguyên không cần thiết như ảnh, font, media, stylesheet
+    await page.setRequestInterception(true);
+    page.on("request", (request) => {
+      const resourceType = request.resourceType();
+      if (["image", "media", "font"].includes(resourceType)) {
+        request.abort();
+      } else {
+        request.continue();
+      }
+    });
+    console.log("Navigating to the page...");
+  
+    const navigationPromise = page.goto("https://qldt.ptit.edu.vn/#/home", {
+      waitUntil: "networkidle0",
+      timeout: 60000,
+    }); // Increase timeout
+    const timeoutPromise = new Promise((_, reject) =>
+      setTimeout(() => reject(new Error("Navigation timeout")), 30000)
+    ); // 30s timeout
+    await Promise.race([navigationPromise, timeoutPromise]);
+  
+    console.log("Page loaded. Attempting to log in...");
+  
+    await login(page);
+  
+    console.log("Login attempt completed.");
+  
+    await crawlCTDT(page);
+  
+    console.log("Crawl CTDT thành công!");
+  }catch (error) {
+      console.error("Error during Puppeteer execution:", error);
+    } finally {
+      if (browser) {
+        await browser.close();
+      }
     }
-  });
-  console.log("Navigating to the page...");
-
-  const navigationPromise = page.goto("https://qldt.ptit.edu.vn/#/home", {
-    waitUntil: "networkidle0",
-    timeout: 60000,
-  }); // Increase timeout
-  const timeoutPromise = new Promise((_, reject) =>
-    setTimeout(() => reject(new Error("Navigation timeout")), 30000)
-  ); // 30s timeout
-  await Promise.race([navigationPromise, timeoutPromise]);
-
-  console.log("Page loaded. Attempting to log in...");
-
-  await login(page);
-
-  console.log("Login attempt completed.");
-
-  await crawlCTDT(page);
-
-  console.log("Crawl CTDT thành công!");
-
-  // Close the browser
-  await browser.close();
 }
 
 // Xuất hàm để sử dụng ở nơi khác
