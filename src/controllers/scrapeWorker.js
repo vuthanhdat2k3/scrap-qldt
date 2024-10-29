@@ -1,5 +1,5 @@
 const Queue = require('bull');
-const { crawlTKBHocKy } = require('./services/xemTKBHocKyService');
+const { crawlTKBHocKy } = require('../services/xemTKBHocKyService');
 const redis = require('ioredis');
 require('dotenv').config();
 
