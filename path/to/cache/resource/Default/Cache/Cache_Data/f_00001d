@@ -1,0 +1,2070 @@
+const a31bD = a31d;
+(function (a, b) {
+    const bA = a31d;
+    const c = a();
+    while (!![]) {
+        try {
+            const d = parseInt(bA(0x1de)) / 0x1 * (parseInt(bA(0x2d3)) / 0x2) + parseInt(bA(0x2ad)) / 0x3 + parseInt(bA(0x2bd)) / 0x4 * (-parseInt(bA(0x208)) / 0x5) + -parseInt(bA(0x2b7)) / 0x6 * (-parseInt(bA(0x2d4)) / 0x7) + parseInt(bA(0x1e9)) / 0x8 * (-parseInt(bA(0x2da)) / 0x9) + -parseInt(bA(0x249)) / 0xa * (-parseInt(bA(0x1a7)) / 0xb) + -parseInt(bA(0x288)) / 0xc * (parseInt(bA(0x24d)) / 0xd);
+            if (d === b) {
+                break;
+            } else {
+                c['push'](c['shift']());
+            }
+        } catch (e) {
+            c['push'](c['shift']());
+        }
+    }
+}(a31c, 0x80071));
+const a31b = (function () {
+    let a = !![];
+    return function (b, c) {
+        const d = a ? function () {
+            const bB = a31d;
+            if (c) {
+                const e = c[bB(0x259)](b, arguments);
+                c = null;
+                return e;
+            }
+        } : function () {
+        };
+        a = ![];
+        return d;
+    };
+}());
+(function () {
+    a31b(this, function () {
+        const bC = a31d;
+        const a = new RegExp(bC(0x1fb));
+        const b = new RegExp(bC(0x246), 'i');
+        const c = a31a('init');
+        if (!a[bC(0x2d2)](c + 'chain') || !b[bC(0x2d2)](c + bC(0x2b4))) {
+            c('0');
+        } else {
+            a31a();
+        }
+    })();
+}());
+function a31d(a, b) {
+    const c = a31c();
+    a31d = function (d, e) {
+        d = d - 0x194;
+        let f = c[d];
+        return f;
+    };
+    return a31d(a, b);
+}
+function a31c() {
+    const dP = [
+        'kiemTraTruocKhiVaoMennu_Ser',
+        'LocationStrategy',
+        'id_du_lieu',
+        'LOP',
+        'TO_THI',
+        '@media\x20(max-width:\x20576px){th[_ngcontent-%COMP%]{white-space:nowrap}th.custenmon[_ngcontent-%COMP%]{min-width:300px}}th[_ngcontent-%COMP%]{padding:4px}',
+        'nhom_thi',
+        'EXPORT',
+        'row',
+        '26631FQmsBR',
+        'items',
+        'THONG_BAO_LUU_DL_KHONG_THANH_CONG',
+        'ɵɵsanitizeHtml',
+        'parse',
+        'modal-dialog-centered',
+        'ml-1',
+        'style',
+        'DHMO',
+        '600',
+        'constructor',
+        '1928tFylEQ',
+        'isInvalidDate',
+        'tiet_bat_dau',
+        'GC\x20dự\x20thi',
+        'align-middle\x20text-left',
+        'table_to_sheet',
+        'fa-atom',
+        'so_thu_tu',
+        'dataServices',
+        'show',
+        'font-weight',
+        'setOrder',
+        'roles',
+        'loadLichThiTheoDoiTuong',
+        'ma_co_so',
+        'table-bordered',
+        'ghep_phong',
+        'bindLabel',
+        'function\x20*\x5c(\x20*\x5c)',
+        'hide',
+        'ngClass',
+        'ɵɵpropertyInterpolate',
+        'ɵɵadvance',
+        'GHEP_THI',
+        'full',
+        'LoadComboDuLieu',
+        'gger',
+        'ten_hoc_ky',
+        'active',
+        'success',
+        'card-header',
+        '47505xerbSB',
+        'app-lichthi',
+        'bg-primary',
+        'so_bao_danh',
+        'Object',
+        'message',
+        'url',
+        'map',
+        'mr-1',
+        'Luu_Dang_Ky_Coi_Thi',
+        'm-0',
+        'ɵɵtextInterpolate1',
+        'NgIf',
+        'item',
+        'NgClass',
+        'ds_du_lieu',
+        'width:\x204%;',
+        'length',
+        'ɵɵdirectiveInject',
+        'ds_field_an',
+        'ɵɵdefineNgModule',
+        'HocKyData',
+        'LichThi.xlsx',
+        'searchable',
+        'width',
+        'is_da_dang_ky',
+        'name',
+        'router',
+        'orderBy',
+        'ngModelChange',
+        'ten_doi_tuong',
+        'ng-select',
+        'DIA_DIEM_THI',
+        'toLowerCase',
+        'sort',
+        'disabled',
+        'xem_dssv',
+        'XEM_LICH_THI',
+        'ngModel',
+        'align-middle',
+        'ɵɵtextInterpolate',
+        'lich_thi_sinh_vien',
+        'ɵɵelementContainerEnd',
+        'mt-1',
+        'orderby',
+        'width:\x207%;',
+        'thong_bao_SV',
+        '{}.constructor(\x22return\x20this\x22)(\x20)',
+        'font-italic',
+        'string',
+        'ɵɵrestoreView',
+        'MA1',
+        'dataComboDuLieu',
+        'datacomboDoiTuong',
+        'date',
+        'is_DHMO',
+        'ngForOf',
+        'customSearchFn',
+        'loadComboxHocKy_SV',
+        'HINH_THUC_THI',
+        '/dangkycoithi',
+        'p-0',
+        '\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)',
+        'dd/MM/yyyy',
+        'ĐĂNG\x20KÝ\x20COI\x20THI\x20',
+        '9546380RTTIWM',
+        'ɵfac',
+        'ngx-spinner',
+        'Checklichthi',
+        '65ieVdBe',
+        'mt-2',
+        'table-responsive-sm',
+        'loadLichThi_SinhVien',
+        'SelectHocKyChange',
+        'exportexcel',
+        'ngFor',
+        'dia_diem_thi',
+        'ds_sinh_vien',
+        'fa-list-ul',
+        'filter',
+        'ngay_thi',
+        'apply',
+        'IsDHMO',
+        'ng-option-tmp',
+        'small',
+        'for',
+        'printerService',
+        'text-center',
+        'placeholder',
+        'datePipe',
+        'ɵɵgetCurrentView',
+        'text-primary',
+        'ten_du_lieu',
+        'subscribe',
+        'sinhvien',
+        'phuhuynh',
+        'ɵɵelementEnd',
+        'gio_bat_dau',
+        'btn',
+        'ten_mon',
+        'spinner',
+        'table-sticky-header',
+        'loadMenuChucNang',
+        'table-primary',
+        'ds_diem_mon_hoc',
+        'alert\x20alert-danger\x20py-1',
+        'card-header\x20text-white\x20bg-primary',
+        'cam_thi',
+        'XEM',
+        'messError',
+        'si_so',
+        'so_tiet',
+        'ghep_thi',
+        'ɵinj',
+        'currentUser',
+        'alert',
+        'fullScreen',
+        'XemDS',
+        '0px',
+        'change',
+        'dataLichThi',
+        'ɵɵproperty',
+        'col-lg-5',
+        'onChangeDate',
+        'lich_coi_thi_can_bo',
+        'target',
+        'margin',
+        'CO_SO',
+        '4649640jLGCmM',
+        'div',
+        'currentUserInfo',
+        'loai_doi_tuong',
+        'reverseOrderby',
+        'text-muted',
+        'fa-file-excel',
+        'ɵɵelement',
+        'NHOM_THI',
+        'dot_thi',
+        'ɵɵpureFunction2',
+        'so_phut',
+        'card',
+        'data',
+        'ng-container',
+        'TenHocKy',
+        'SelectDuLieu',
+        'ten_du_lieu_eg',
+        'py-1',
+        'checkbox',
+        'IsMaTruong',
+        'toString',
+        'msg',
+        'ngForTrackBy',
+        'ɵɵlistener',
+        'Loc_LichThi_TheoDoiTuong',
+        'webpackChunkweb_main',
+        'matruong',
+        'tbody',
+        'shadow-lg',
+        'TENMH',
+        'ShowModelChiTiet',
+        'index',
+        'post',
+        'bsValueChange',
+        'ma_mon',
+        'role',
+        '3111159fkTrCI',
+        'card-body',
+        'Print',
+        'pr-lg-1',
+        'mt-3',
+        'ɵɵdefineComponent',
+        'p-2',
+        'input',
+        'printDiv',
+        'btn-outline-primary',
+        '6JuiXmY',
+        'ngaythi',
+        'bsDatepicker',
+        'class',
+        'table',
+        'clearable',
+        '132yIzzUg',
+        'button',
+        'indexOf',
+        'SO_TIET',
+        'span',
+        'custom-control-label',
+        'ky_thi',
+        'size',
+        '$implicit',
+        'basic-addon',
+        'ɵɵnextContext',
+        'spinner-lt',
+        'to_thi',
+        'NGAY_THI',
+        'id_to_thi',
+        'debu',
+        'checked',
+        'text-white',
+        'ten_field',
+        'clickable',
+        'ml-2',
+        'test',
+        '46wQzQlQ',
+        '6894559LJTyxN',
+        'text-nowrap',
+        'mb-2',
+        'invalid\x20date',
+        'dsFieldAn',
+        'col-sm-12',
+        '30393RnXWAh',
+        'SelectDoiTuong',
+        'ɵɵresetView',
+        'getItem',
+        'colspan',
+        'isPhuHuynh',
+        'width:\x205%;',
+        'ɵɵelementContainerStart',
+        'SelectHocKy',
+        'ghi_chu_sv',
+        'ngOnInit',
+        'virtualScroll',
+        'modalService',
+        'd-print-block',
+        'ɵɵtextInterpolate2',
+        'getElementById',
+        'http',
+        'lichThiGroup',
+        'substring',
+        'forChild',
+        'fas',
+        'HideComboDate',
+        'stateObject',
+        'ds_hoc_ky',
+        'bindValue',
+        'd-inline-block',
+        'click',
+        'trackByFn',
+        'btnprintxem',
+        'ChangeDoiTuong',
+        'forRoot',
+        'width:\x202%;',
+        'text',
+        'width:\x203%;',
+        'col-lg-4',
+        'hinh_thuc_thi',
+        'ɵɵelementStart',
+        'ɵɵpipeBind2',
+        'TIET_BAT_DAU',
+        'width:\x209%;',
+        'GHI_CHU',
+        'SI_SO',
+        'value',
+        'LuuDangKyCoiThi',
+        'KHONG_TIM_THAY_DU_LIEU',
+        'ds_lich_thi',
+        'dtimeServices',
+        'auto',
+        'alert-warning',
+        'HashLocationStrategy',
+        'ma_du_lieu',
+        '10%',
+        'far',
+        'NgForOf',
+        'text-left',
+        'DatePipe',
+        'SO_THU_TU',
+        'HideCombo',
+        'DatePrint',
+        'NgayGioThi',
+        'placement',
+        'MA_MON_HOC',
+        'ds_doi_tuong_tkb',
+        'PHUT',
+        'printArea',
+        'some',
+        'ɵɵpipeBind1',
+        'reduce',
+        'GVDangKyCoiThi',
+        'isShow',
+        'ma_phong',
+        'ɵmod',
+        'ngIf',
+        'action',
+        'langservice',
+        '11xHnvZX',
+        'ɵɵdefineInjector',
+        'return\x20(function()\x20',
+        'langUsingVi',
+        'DOT',
+        'hoc_ky',
+        'toastr',
+        'ball-clip-rotate-multiple',
+        'custom-control',
+        'd-none',
+        'custom-control-input',
+        'thong_bao_no_hoc_phi',
+        'ɵɵtemplate',
+        'XemDS_SV_Theo_HocKy',
+        'ɵɵtext',
+        ':00',
+        'ɵɵpipe',
+        'innerHTML',
+        'CapCoiThi',
+        'col-lg-3',
+        'changeComboDuLieu',
+        'error',
+        'bsConfig',
+        'loadDoiTuong',
+        'Xem_Lich_Thi',
+        'ɵɵclassProp',
+        '100',
+        'selectOnTab',
+        'excel-table',
+        'col-md-12',
+        'aria-describedby',
+        'static',
+        'form-control',
+        'mb-1',
+        'ɵɵpureFunction1',
+        'searchFn',
+        'type',
+        'includes',
+        'uppercase',
+        'isSinhVien',
+        'align-middle\x20clickable',
+        'ng-template',
+        'code',
+        'ghi_chu_du_thi',
+        '1px',
+        'safeHtml'
+    ];
+    a31c = function () {
+        return dP;
+    };
+    return a31c();
+}
+'use strict';
+(self['webpackChunkweb_main'] = self[a31bD(0x2a2)] || [])['push']([
+    [0x1364],
+    {
+        0x14be4: (a, c, e) => {
+            const cX = a31bD;
+            e['r'](c), e['d'](c, { 'LichthiModule': () => bm });
+            var h = e(0x15a74), i = e(0x4e7c), n = e(0x10bb8), o = e(0x162ce), r = e(0x1234), s = e(0x1604b), u = e(0x5f49), S = e(0x1d93), a0 = e(0xfd49), a1 = e(0x5e6a), a2 = e(0x145a5), a3 = e(0x6b48), a4 = e(0xbca4), a5 = e(0x20cc), a6 = e(0x127d0), a7 = e(0x5da3), a8 = e(0x16d38), a9 = e(0x270e), aa = e(0x10c4);
+            function ab(bn, bo) {
+                const bE = a31d;
+                if (0x1 & bn && (a3['ɵɵelementStart'](0x0, bE(0x289), 0x14), a3[bE(0x28f)](0x1, 'i', 0x15), a3[bE(0x1b5)](0x2), a3[bE(0x1b7)](0x3, bE(0x1cd)), a3[bE(0x268)]()), 0x2 & bn) {
+                    const bp = a3[bE(0x2c7)]();
+                    a3[bE(0x1ff)](0x2), a3[bE(0x213)]('', a3[bE(0x19e)](0x3, 0x1, bp[bE(0x29e)][bE(0x22d)]), '\x20');
+                }
+            }
+            function ac(bn, bo) {
+                const bF = a31d;
+                0x1 & bn && (a3[bF(0x2fe)](0x0, 'div', 0x14), a3[bF(0x28f)](0x1, 'i', 0x15), a3[bF(0x1b5)](0x2, bF(0x248)), a3[bF(0x268)]());
+            }
+            function ad(bn, bo) {
+                const bG = a31d;
+                0x1 & bn && a3[bG(0x1b5)](0x0), 0x2 & bn && a3['ɵɵtextInterpolate1']('\x20', bo[bG(0x215)][bG(0x204)], '\x20');
+            }
+            function ae(bn, bo) {
+                const bH = a31d;
+                if (0x1 & bn && a3[bH(0x1b5)](0x0), 0x2 & bn) {
+                    const bp = bo[bH(0x215)];
+                    a3[bH(0x2e8)]('\x20', bp[bH(0x226)], '\x20', bp[bH(0x28b)], '\x20');
+                }
+            }
+            function af(bn, bo) {
+                const bI = a31d;
+                if (0x1 & bn && (a3['ɵɵtext'](0x0), a3[bI(0x28f)](0x1, 'br'), a3[bI(0x2fe)](0x2, bI(0x25c), 0x17), a3[bI(0x1b5)](0x3), a3[bI(0x268)]()), 0x2 & bn) {
+                    const bp = bo[bI(0x215)], bq = a3['ɵɵnextContext'](0x2);
+                    a3[bI(0x213)]('\x20', bp[bI(0x264)], '\x20'), a3[bI(0x1ff)](0x3), a3[bI(0x2e8)]('', bq[bI(0x29e)][bI(0x23b)], ':\x20', bp[bI(0x30c)], '');
+                }
+            }
+            const ag = function (bn) {
+                return { 'd-none': bn };
+            };
+            function ah(bn, bo) {
+                const bJ = a31d;
+                if (0x1 & bn) {
+                    const bp = a3[bJ(0x262)]();
+                    a3[bJ(0x2e1)](0x0), a3['ɵɵelementStart'](0x1, bJ(0x227), 0x16), a3['ɵɵlistener'](bJ(0x225), function (bq) {
+                        const bK = bJ;
+                        a3['ɵɵrestoreView'](bp);
+                        const br = a3[bK(0x2c7)]();
+                        return a3[bK(0x2dc)](br[bK(0x298)] = bq);
+                    })('change', function () {
+                        const bL = bJ;
+                        a3['ɵɵrestoreView'](bp);
+                        const bq = a3['ɵɵnextContext']();
+                        return a3[bL(0x2dc)](bq[bL(0x1bb)]());
+                    }), a3[bJ(0x1b3)](0x2, af, 0x4, 0x3, bJ(0x1d0), 0x7), a3[bJ(0x268)](), a3[bJ(0x232)]();
+                }
+                if (0x2 & bn) {
+                    const bq = a3[bJ(0x2c7)]();
+                    a3['ɵɵadvance'](0x1), a3['ɵɵproperty'](bJ(0x1df), bq['dataComboDuLieu'])(bJ(0x22e), bq[bJ(0x298)])(bJ(0x2bc), !0x0)(bJ(0x1ca), bq[bJ(0x241)])('trackByFn', bq['trackByFn'])(bJ(0x2e5), !0x0)(bJ(0x1fd), a3['ɵɵpureFunction1'](0x7, ag, bq[bJ(0x195)]));
+                }
+            }
+            function ai(bn, bo) {
+                const bM = a31d;
+                if (0x1 & bn && (a3['ɵɵtext'](0x0), a3[bM(0x28f)](0x1, 'br'), a3[bM(0x2fe)](0x2, bM(0x25c), 0x17), a3['ɵɵtext'](0x3), a3['ɵɵelementEnd']()), 0x2 & bn) {
+                    const bp = bo[bM(0x215)], bq = a3['ɵɵnextContext'](0x3);
+                    a3['ɵɵtextInterpolate1']('\x20', bp[bM(0x264)], '\x20'), a3[bM(0x1ff)](0x3), a3[bM(0x2e8)]('', bq[bM(0x29e)]['MA1'], ':\x20', bp[bM(0x30c)], '');
+                }
+            }
+            function aj(bn, bo) {
+                const bN = a31d;
+                if (0x1 & bn) {
+                    const bp = a3[bN(0x262)]();
+                    a3[bN(0x2e1)](0x0), a3['ɵɵelementStart'](0x1, 'ng-select', 0x16), a3[bN(0x2a0)]('ngModelChange', function (bq) {
+                        const bO = bN;
+                        a3[bO(0x23a)](bp);
+                        const br = a3[bO(0x2c7)](0x2);
+                        return a3[bO(0x2dc)](br['SelectDuLieu'] = bq);
+                    })(bN(0x27f), function () {
+                        const bP = bN;
+                        a3['ɵɵrestoreView'](bp);
+                        const bq = a3[bP(0x2c7)](0x2);
+                        return a3[bP(0x2dc)](bq['changeComboDuLieu']());
+                    }), a3[bN(0x1b3)](0x2, ai, 0x4, 0x3, bN(0x1d0), 0x7), a3[bN(0x268)](), a3['ɵɵelementContainerEnd']();
+                }
+                if (0x2 & bn) {
+                    const bq = a3[bN(0x2c7)](0x2);
+                    a3[bN(0x1ff)](0x1), a3[bN(0x281)]('items', bq[bN(0x23c)])(bN(0x22e), bq[bN(0x298)])(bN(0x2bc), !0x0)('searchFn', bq[bN(0x241)])(bN(0x2f5), bq[bN(0x2f5)])(bN(0x2e5), !0x0)('ngClass', a3['ɵɵpureFunction1'](0x7, ag, bq[bN(0x195)]));
+                }
+            }
+            function ak(bn, bo) {
+                const bQ = a31d;
+                if (0x1 & bn && (a3[bQ(0x1b5)](0x0), a3['ɵɵelement'](0x1, 'br'), a3[bQ(0x2fe)](0x2, bQ(0x25c), 0x17), a3[bQ(0x1b5)](0x3), a3[bQ(0x268)]()), 0x2 & bn) {
+                    const bp = bo[bQ(0x215)], bq = a3[bQ(0x2c7)](0x3);
+                    a3[bQ(0x213)]('\x20', bp[bQ(0x299)], '\x20'), a3['ɵɵadvance'](0x3), a3[bQ(0x2e8)]('', bq[bQ(0x29e)][bQ(0x23b)], ':\x20', bp[bQ(0x30c)], '');
+                }
+            }
+            function al(bn, bo) {
+                const bR = a31d;
+                if (0x1 & bn) {
+                    const bp = a3[bR(0x262)]();
+                    a3[bR(0x2e1)](0x0), a3[bR(0x2fe)](0x1, bR(0x227), 0x18), a3[bR(0x2a0)](bR(0x225), function (bq) {
+                        const bS = bR;
+                        a3[bS(0x23a)](bp);
+                        const br = a3[bS(0x2c7)](0x2);
+                        return a3[bS(0x2dc)](br[bS(0x298)] = bq);
+                    })('change', function () {
+                        const bT = bR;
+                        a3[bT(0x23a)](bp);
+                        const bq = a3[bT(0x2c7)](0x2);
+                        return a3['ɵɵresetView'](bq[bT(0x1bb)]());
+                    }), a3[bR(0x1b3)](0x2, ak, 0x4, 0x3, bR(0x1d0), 0x7), a3[bR(0x268)](), a3[bR(0x232)]();
+                }
+                if (0x2 & bn) {
+                    const bq = a3[bR(0x2c7)](0x2);
+                    a3[bR(0x1ff)](0x1), a3['ɵɵproperty']('items', bq[bR(0x23c)])('ngModel', bq['SelectDuLieu'])(bR(0x2bc), !0x0)(bR(0x1ca), bq['customSearchFn'])('trackByFn', bq['trackByFn'])('virtualScroll', !0x0)(bR(0x1fd), a3[bR(0x1c9)](0x7, ag, bq['HideCombo']));
+                }
+            }
+            function am(bn, bo) {
+                const bU = a31d;
+                if (0x1 & bn && (a3[bU(0x2e1)](0x0), a3['ɵɵtemplate'](0x1, aj, 0x3, 0x9, bU(0x296), 0xa), a3[bU(0x1b3)](0x2, al, 0x3, 0x9, bU(0x296), 0xa), a3[bU(0x232)]()), 0x2 & bn) {
+                    const bp = a3[bU(0x2c7)]();
+                    a3[bU(0x1ff)](0x1), a3[bU(0x281)]('ngIf', bp[bU(0x1aa)]), a3[bU(0x1ff)](0x1), a3[bU(0x281)]('ngIf', !bp[bU(0x1aa)]);
+                }
+            }
+            function an(bn, bo) {
+                const bV = a31d;
+                if (0x1 & bn && (a3['ɵɵelementStart'](0x0, bV(0x289), 0x19), a3['ɵɵtext'](0x1), a3[bV(0x268)]()), 0x2 & bn) {
+                    const bp = a3[bV(0x2c7)]();
+                    a3[bV(0x1ff)](0x1), a3[bV(0x230)](bp[bV(0x275)]);
+                }
+            }
+            function ao(bn, bo) {
+                const bW = a31d;
+                if (0x1 & bn && (a3[bW(0x2fe)](0x0, bW(0x289), 0x1a), a3['ɵɵtext'](0x1), a3[bW(0x268)]()), 0x2 & bn) {
+                    const bp = a3[bW(0x2c7)]();
+                    a3[bW(0x1ff)](0x1), a3[bW(0x230)](bp['thong_bao_SV']);
+                }
+            }
+            function ap(bn, bo) {
+                const bX = a31d;
+                if (0x1 & bn && (a3['ɵɵelementContainerStart'](0x0), a3['ɵɵelementStart'](0x1, 'p', 0x32), a3['ɵɵtext'](0x2), a3[bX(0x268)](), a3['ɵɵelementStart'](0x3, 'p', 0x32), a3[bX(0x1b5)](0x4), a3['ɵɵelementEnd'](), a3['ɵɵelementContainerEnd']()), 0x2 & bn) {
+                    const bp = a3[bX(0x2c7)](0x2);
+                    a3[bX(0x1ff)](0x2), a3[bX(0x2e8)]('', bp[bX(0x29e)]['HO_TEN'], ':\x20', null == bp[bX(0x28a)] ? null : bp['currentUserInfo']['ten_day_du'], ''), a3[bX(0x1ff)](0x2), a3[bX(0x2e8)]('', bp[bX(0x29e)][bX(0x1d8)], ':\x20', null == bp[bX(0x28a)] ? null : bp[bX(0x28a)]['lop'], '');
+                }
+            }
+            function aq(bn, bo) {
+                const bY = a31d;
+                0x1 & bn && a3[bY(0x28f)](0x0, 'th', 0x33);
+            }
+            function ar(bn, bo) {
+                const bZ = a31d;
+                if (0x1 & bn && (a3[bZ(0x2fe)](0x0, bZ(0x289)), a3[bZ(0x1b5)](0x1), a3[bZ(0x268)]()), 0x2 & bn) {
+                    const bp = a3[bZ(0x2c7)](0x3);
+                    a3[bZ(0x1ff)](0x1), a3[bZ(0x230)](bp['msg'][bZ(0x290)]);
+                }
+            }
+            function as(bn, bo) {
+                const c0 = a31d;
+                if (0x1 & bn && (a3[c0(0x2fe)](0x0, c0(0x289)), a3[c0(0x1b5)](0x1), a3[c0(0x268)]()), 0x2 & bn) {
+                    const bp = a3['ɵɵnextContext'](0x3);
+                    a3[c0(0x1ff)](0x1), a3['ɵɵtextInterpolate'](bp[c0(0x29e)][c0(0x200)]);
+                }
+            }
+            const au = function (bn, bo) {
+                return {
+                    'icon-down': bn,
+                    'icon-up': bo
+                };
+            };
+            function av(bn, bo) {
+                const c1 = a31d;
+                if (0x1 & bn) {
+                    const bp = a3[c1(0x262)]();
+                    a3[c1(0x2fe)](0x0, 'th', 0x34), a3[c1(0x2a0)](c1(0x2f4), function () {
+                        const c2 = c1;
+                        a3[c2(0x23a)](bp);
+                        const bq = a3['ɵɵnextContext'](0x2);
+                        return a3[c2(0x2dc)](bq['setOrder'](c2(0x278)));
+                    }), a3['ɵɵtemplate'](0x1, ar, 0x2, 0x1, c1(0x289), 0xa), a3[c1(0x1b3)](0x2, as, 0x2, 0x1, c1(0x289), 0xa), a3[c1(0x28f)](0x3, c1(0x2c1), 0x26), a3[c1(0x268)]();
+                }
+                if (0x2 & bn) {
+                    const bq = a3[c1(0x2c7)](0x2);
+                    a3['ɵɵclassProp'](c1(0x205), 'ghep_thi' === bq[c1(0x234)]), a3[c1(0x1ff)](0x1), a3[c1(0x281)](c1(0x1a4), bq[c1(0x25a)]), a3[c1(0x1ff)](0x1), a3[c1(0x281)]('ngIf', !bq[c1(0x25a)]), a3[c1(0x1ff)](0x1), a3[c1(0x281)](c1(0x1fd), a3['ɵɵpureFunction2'](0x5, au, bq['reverseOrderby'], !bq[c1(0x28c)]));
+                }
+            }
+            function aw(bn, bo) {
+                const c3 = a31d;
+                if (0x1 & bn) {
+                    const bp = a3[c3(0x262)]();
+                    a3[c3(0x2fe)](0x0, 'th', 0x35), a3[c3(0x2a0)](c3(0x2f4), function () {
+                        const c4 = c3;
+                        a3[c4(0x23a)](bp);
+                        const bq = a3[c4(0x2c7)](0x2);
+                        return a3['ɵɵresetView'](bq[c4(0x1f4)](c4(0x2c9)));
+                    }), a3['ɵɵtext'](0x1), a3['ɵɵelement'](0x2, c3(0x2c1), 0x26), a3[c3(0x268)]();
+                }
+                if (0x2 & bn) {
+                    const bq = a3['ɵɵnextContext'](0x2);
+                    a3[c3(0x1c0)](c3(0x205), c3(0x2c9) === bq[c3(0x234)]), a3[c3(0x1ff)](0x1), a3[c3(0x213)]('', bq['msg'][c3(0x1d9)], '\x20'), a3[c3(0x1ff)](0x1), a3[c3(0x281)](c3(0x1fd), a3[c3(0x292)](0x4, au, bq[c3(0x28c)], !bq[c3(0x28c)]));
+                }
+            }
+            function ax(bn, bo) {
+                const c5 = a31d;
+                if (0x1 & bn && (a3[c5(0x2fe)](0x0, 'th', 0x36), a3[c5(0x1b5)](0x1), a3[c5(0x268)]()), 0x2 & bn) {
+                    const bp = a3['ɵɵnextContext'](0x2);
+                    a3[c5(0x1ff)](0x1), a3[c5(0x230)](bp[c5(0x29e)][c5(0x303)]);
+                }
+            }
+            function ay(bn, bo) {
+                const c6 = a31d;
+                if (0x1 & bn && (a3[c6(0x2fe)](0x0, 'th', 0x37), a3[c6(0x1b5)](0x1), a3[c6(0x268)]()), 0x2 & bn) {
+                    const bp = a3[c6(0x2c7)](0x2);
+                    a3[c6(0x1ff)](0x1), a3[c6(0x230)](bp[c6(0x29e)][c6(0x2ca)]);
+                }
+            }
+            function az(bn, bo) {
+                const c7 = a31d;
+                if (0x1 & bn) {
+                    const bp = a3[c7(0x262)]();
+                    a3[c7(0x2fe)](0x0, 'th', 0x34), a3[c7(0x2a0)](c7(0x2f4), function () {
+                        const c8 = c7;
+                        a3['ɵɵrestoreView'](bp);
+                        const bq = a3[c8(0x2c7)](0x2);
+                        return a3[c8(0x2dc)](bq[c8(0x1f4)]('gio_bat_dau'));
+                    }), a3[c7(0x1b5)](0x1), a3[c7(0x28f)](0x2, c7(0x2c1), 0x26), a3[c7(0x268)]();
+                }
+                if (0x2 & bn) {
+                    const bq = a3[c7(0x2c7)](0x2);
+                    a3[c7(0x1c0)]('active', c7(0x269) === bq[c7(0x234)]), a3[c7(0x1ff)](0x1), a3[c7(0x213)]('', bq['msg']['GIO_BAT_DAU'], '\x20'), a3[c7(0x1ff)](0x1), a3[c7(0x281)](c7(0x1fd), a3[c7(0x292)](0x4, au, bq[c7(0x28c)], !bq[c7(0x28c)]));
+                }
+            }
+            function aA(bn, bo) {
+                const c9 = a31d;
+                if (0x1 & bn && (a3[c9(0x2fe)](0x0, 'th', 0x38), a3[c9(0x1b5)](0x1), a3[c9(0x268)]()), 0x2 & bn) {
+                    const bp = a3['ɵɵnextContext'](0x2);
+                    a3[c9(0x1ff)](0x1), a3['ɵɵtextInterpolate'](bp[c9(0x29e)][c9(0x19b)]);
+                }
+            }
+            function aB(bn, bo) {
+                const ca = a31d;
+                if (0x1 & bn && (a3['ɵɵelementStart'](0x0, 'th', 0x39), a3['ɵɵtext'](0x1), a3['ɵɵelementEnd']()), 0x2 & bn) {
+                    const bp = a3[ca(0x2c7)](0x2);
+                    a3['ɵɵadvance'](0x1), a3[ca(0x230)](bp[ca(0x29e)]['PHONG_THI']);
+                }
+            }
+            function aC(bn, bo) {
+                const cb = a31d;
+                if (0x1 & bn && (a3[cb(0x2fe)](0x0, 'th', 0x37), a3[cb(0x1b5)](0x1), a3[cb(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cb(0x2c7)](0x2);
+                    a3[cb(0x1ff)](0x1), a3[cb(0x230)](bp[cb(0x29e)][cb(0x228)]);
+                }
+            }
+            function aD(bn, bo) {
+                const cc = a31d;
+                0x1 & bn && (a3[cc(0x2fe)](0x0, 'th', 0x3b), a3[cc(0x1b5)](0x1, cc(0x1ec)), a3[cc(0x268)]());
+            }
+            function aE(bn, bo) {
+                const cd = a31d;
+                0x1 & bn && (a3[cd(0x2fe)](0x0, 'th', 0x37), a3['ɵɵtext'](0x1, 'Cấm\x20thi'), a3[cd(0x268)]());
+            }
+            function aF(bn, bo) {
+                const ce = a31d;
+                if (0x1 & bn && (a3[ce(0x2e1)](0x0), a3[ce(0x1b3)](0x1, aD, 0x2, 0x0, 'th', 0x3a), a3['ɵɵtemplate'](0x2, aE, 0x2, 0x0, 'th', 0x2b), a3[ce(0x232)]()), 0x2 & bn) {
+                    const bp = a3[ce(0x2c7)](0x2);
+                    a3['ɵɵadvance'](0x1), a3[ce(0x281)]('ngIf', !bp['isShow'](ce(0x1d2))), a3[ce(0x1ff)](0x1), a3['ɵɵproperty'](ce(0x1a4), !bp[ce(0x1a1)](ce(0x273)));
+                }
+            }
+            function aG(bn, bo) {
+                const cf = a31d;
+                if (0x1 & bn && (a3['ɵɵelementStart'](0x0, 'th', 0x37), a3[cf(0x1b5)](0x1), a3[cf(0x268)]()), 0x2 & bn) {
+                    const bp = a3['ɵɵnextContext'](0x2);
+                    a3[cf(0x1ff)](0x1), a3[cf(0x230)](bp[cf(0x29e)]['SBD']);
+                }
+            }
+            function aH(bn, bo) {
+                const cg = a31d;
+                if (0x1 & bn && (a3[cg(0x2fe)](0x0, 'th', 0x37), a3[cg(0x1b5)](0x1), a3[cg(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cg(0x2c7)](0x2);
+                    a3['ɵɵadvance'](0x1), a3[cg(0x230)](bp[cg(0x29e)][cg(0x287)]);
+                }
+            }
+            function aI(bn, bo) {
+                const ch = a31d;
+                if (0x1 & bn && (a3[ch(0x2fe)](0x0, 'th', 0x3b), a3['ɵɵtext'](0x1), a3[ch(0x268)]()), 0x2 & bn) {
+                    const bp = a3[ch(0x2c7)](0x2);
+                    a3[ch(0x1ff)](0x1), a3[ch(0x213)]('\x20', bp[ch(0x29e)]['PHONG_THI_LIVE'], '\x20');
+                }
+            }
+            function aJ(bn, bo) {
+                const ci = a31d;
+                if (0x1 & bn && (a3[ci(0x2fe)](0x0, 'th', 0x39), a3[ci(0x1b5)](0x1), a3[ci(0x268)]()), 0x2 & bn) {
+                    const bp = a3[ci(0x2c7)](0x2);
+                    a3[ci(0x1ff)](0x1), a3[ci(0x213)]('\x20', bp['msg'][ci(0x300)], '\x20');
+                }
+            }
+            function aK(bn, bo) {
+                const cj = a31d;
+                if (0x1 & bn && (a3[cj(0x2fe)](0x0, 'th', 0x36), a3[cj(0x1b5)](0x1), a3[cj(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cj(0x2c7)](0x2);
+                    a3[cj(0x1ff)](0x1), a3[cj(0x213)]('\x20', bp['msg'][cj(0x2c0)], '\x20');
+                }
+            }
+            function aL(bn, bo) {
+                const ck = a31d;
+                if (0x1 & bn && (a3[ck(0x2fe)](0x0, 'th', 0x3b), a3[ck(0x1b5)](0x1), a3['ɵɵelementEnd']()), 0x2 & bn) {
+                    const bp = a3[ck(0x2c7)](0x2);
+                    a3[ck(0x1ff)](0x1), a3[ck(0x213)]('\x20', bp[ck(0x29e)][ck(0x243)], '\x20');
+                }
+            }
+            function aM(bn, bo) {
+                const cl = a31d;
+                if (0x1 & bn && (a3[cl(0x2fe)](0x0, 'th', 0x3c), a3[cl(0x1b5)](0x1), a3[cl(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cl(0x2c7)](0x2);
+                    a3[cl(0x1ff)](0x1), a3[cl(0x213)]('\x20', bp[cl(0x29e)][cl(0x302)], '');
+                }
+            }
+            function aN(bn, bo) {
+                const cm = a31d;
+                if (0x1 & bn && (a3[cm(0x2fe)](0x0, 'th', 0x39), a3[cm(0x1b5)](0x1), a3[cm(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cm(0x2c7)](0x2);
+                    a3[cm(0x1ff)](0x1), a3[cm(0x213)]('\x20', bp[cm(0x29e)][cm(0x1ab)], '');
+                }
+            }
+            function aO(bn, bo) {
+                const cn = a31d;
+                if (0x1 & bn && (a3[cn(0x2fe)](0x0, 'th', 0x3d), a3[cn(0x1b5)](0x1), a3[cn(0x268)]()), 0x2 & bn) {
+                    const bp = a3['ɵɵnextContext'](0x2);
+                    a3[cn(0x1ff)](0x1), a3[cn(0x213)]('\x20', bp[cn(0x29e)][cn(0x274)], '');
+                }
+            }
+            function aP(bn, bo) {
+                const co = a31d;
+                if (0x1 & bn && (a3[co(0x2fe)](0x0, 'tr')(0x1, 'td', 0x3e), a3[co(0x1b5)](0x2), a3['ɵɵelementEnd']()()), 0x2 & bn) {
+                    const bp = a3[co(0x2c7)](0x2);
+                    a3[co(0x1ff)](0x2), a3[co(0x213)]('\x20', bp[co(0x29e)][co(0x306)], '');
+                }
+            }
+            function aQ(bn, bo) {
+                const cp = a31d;
+                if (0x1 & bn) {
+                    const bp = a3[cp(0x262)]();
+                    a3[cp(0x2fe)](0x0, 'td', 0x4b)(0x1, cp(0x289), 0x4c)(0x2, 'input', 0x4d), a3[cp(0x2a0)](cp(0x225), function (bq) {
+                        const cq = cp;
+                        a3[cq(0x23a)](bp);
+                        const br = a3['ɵɵnextContext']()[cq(0x2c5)];
+                        return a3[cq(0x2dc)](br[cq(0x221)] = bq);
+                    })(cp(0x27f), function (bq) {
+                        const cr = cp;
+                        a3['ɵɵrestoreView'](bp);
+                        const br = a3[cr(0x2c7)]()[cr(0x2c5)], bs = a3[cr(0x2c7)](0x4);
+                        return a3[cr(0x2dc)](bs['Checklichthi'](bq, br));
+                    }), a3[cp(0x268)](), a3[cp(0x28f)](0x3, 'label', 0x4e), a3['ɵɵelementEnd']()();
+                }
+                if (0x2 & bn) {
+                    const bq = a3[cp(0x2c7)](), br = bq[cp(0x2a8)], bs = bq[cp(0x2c5)];
+                    a3[cp(0x1ff)](0x2), a3[cp(0x1fe)]('id', br), a3[cp(0x281)]('value', bs[cp(0x221)])('ngModel', bs[cp(0x221)]), a3[cp(0x1ff)](0x1), a3['ɵɵpropertyInterpolate'](cp(0x25d), br);
+                }
+            }
+            function aR(bn, bo) {
+                const cs = a31d;
+                if (0x1 & bn && (a3['ɵɵelementStart'](0x0, 'td', 0x45), a3[cs(0x1b5)](0x1), a3[cs(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cs(0x2c7)]()[cs(0x2c5)];
+                    a3[cs(0x1ff)](0x1), a3[cs(0x230)](bp[cs(0x278)]);
+                }
+            }
+            function aS(bn, bo) {
+                const ct = a31d;
+                if (0x1 & bn && (a3[ct(0x2fe)](0x0, 'td', 0x45), a3[ct(0x1b5)](0x1), a3[ct(0x268)]()), 0x2 & bn) {
+                    const bp = a3[ct(0x2c7)]()[ct(0x2c5)];
+                    a3[ct(0x1ff)](0x1), a3[ct(0x230)](bp[ct(0x2c9)]);
+                }
+            }
+            function aT(bn, bo) {
+                const cu = a31d;
+                if (0x1 & bn && (a3[cu(0x2fe)](0x0, 'td', 0x45), a3[cu(0x1b5)](0x1), a3[cu(0x268)]()), 0x2 & bn) {
+                    const bp = a3['ɵɵnextContext']()[cu(0x2c5)];
+                    a3[cu(0x1ff)](0x1), a3[cu(0x230)](bp[cu(0x276)]);
+                }
+            }
+            function aU(bn, bo) {
+                const cv = a31d;
+                if (0x1 & bn && (a3['ɵɵelementStart'](0x0, 'td', 0x45), a3[cv(0x1b5)](0x1), a3[cv(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cv(0x2c7)]()['$implicit'];
+                    a3[cv(0x1ff)](0x1), a3[cv(0x230)](bp[cv(0x258)]);
+                }
+            }
+            function aV(bn, bo) {
+                const cw = a31d;
+                if (0x1 & bn && (a3['ɵɵelementStart'](0x0, 'td', 0x45), a3[cw(0x1b5)](0x1), a3['ɵɵelementEnd']()), 0x2 & bn) {
+                    const bp = a3[cw(0x2c7)]()[cw(0x2c5)];
+                    a3[cw(0x1ff)](0x1), a3['ɵɵtextInterpolate'](bp[cw(0x269)]);
+                }
+            }
+            function aW(bn, bo) {
+                const cx = a31d;
+                if (0x1 & bn && (a3[cx(0x2fe)](0x0, 'td', 0x45), a3['ɵɵtext'](0x1), a3[cx(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cx(0x2c7)]()['$implicit'];
+                    a3[cx(0x1ff)](0x1), a3[cx(0x230)](bp['so_phut']);
+                }
+            }
+            function aX(bn, bo) {
+                const cy = a31d;
+                if (0x1 & bn && (a3[cy(0x2fe)](0x0, 'td', 0x45), a3[cy(0x1b5)](0x1), a3['ɵɵelementEnd']()), 0x2 & bn) {
+                    const bp = a3[cy(0x2c7)]()['$implicit'];
+                    a3['ɵɵadvance'](0x1), a3[cy(0x230)](bp['ma_phong']);
+                }
+            }
+            function aY(bn, bo) {
+                const cz = a31d;
+                if (0x1 & bn && (a3[cz(0x28f)](0x0, 'td', 0x4f), a3['ɵɵpipe'](0x1, cz(0x1d4))), 0x2 & bn) {
+                    const bp = a3[cz(0x2c7)]()[cz(0x2c5)];
+                    a3[cz(0x281)](cz(0x1b8), a3[cz(0x19e)](0x1, 0x1, bp['dia_diem_thi']), a3[cz(0x1e1)]);
+                }
+            }
+            function aZ(bn, bo) {
+                const cA = a31d;
+                if (0x1 & bn && (a3[cA(0x2fe)](0x0, 'td', 0x50), a3['ɵɵtext'](0x1), a3[cA(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cA(0x2c7)](0x2)[cA(0x2c5)];
+                    a3[cA(0x1ff)](0x1), a3[cA(0x213)]('', bp[cA(0x1d2)], '\x20');
+                }
+            }
+            function b0(bn, bo) {
+                const cB = a31d;
+                if (0x1 & bn && (a3[cB(0x2fe)](0x0, 'td', 0x50), a3['ɵɵtext'](0x1), a3['ɵɵelementEnd']()), 0x2 & bn) {
+                    const bp = a3[cB(0x2c7)](0x2)['$implicit'];
+                    a3[cB(0x1ff)](0x1), a3[cB(0x230)](bp['cam_thi']);
+                }
+            }
+            function b1(bn, bo) {
+                const cC = a31d;
+                if (0x1 & bn && (a3[cC(0x2e1)](0x0), a3[cC(0x1b3)](0x1, aZ, 0x2, 0x1, 'td', 0x49), a3[cC(0x1b3)](0x2, b0, 0x2, 0x1, 'td', 0x49), a3[cC(0x232)]()), 0x2 & bn) {
+                    const bp = a3[cC(0x2c7)](0x5);
+                    a3[cC(0x1ff)](0x1), a3['ɵɵproperty'](cC(0x1a4), !bp[cC(0x1a1)](cC(0x1d2))), a3['ɵɵadvance'](0x1), a3[cC(0x281)](cC(0x1a4), !bp[cC(0x1a1)]('cam_thi'));
+                }
+            }
+            function b2(bn, bo) {
+                const cD = a31d;
+                if (0x1 & bn && (a3[cD(0x2fe)](0x0, 'td', 0x45), a3['ɵɵtext'](0x1), a3[cD(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cD(0x2c7)]()[cD(0x2c5)];
+                    a3['ɵɵadvance'](0x1), a3['ɵɵtextInterpolate'](bp[cD(0x20b)]);
+                }
+            }
+            function b3(bn, bo) {
+                const cE = a31d;
+                if (0x1 & bn && (a3[cE(0x2fe)](0x0, 'td', 0x45), a3[cE(0x1b5)](0x1), a3['ɵɵelementEnd']()), 0x2 & bn) {
+                    const bp = a3[cE(0x2c7)]()['$implicit'];
+                    a3['ɵɵadvance'](0x1), a3['ɵɵtextInterpolate'](bp[cE(0x1f7)]);
+                }
+            }
+            function b4(bn, bo) {
+                const cF = a31d;
+                if (0x1 & bn && (a3[cF(0x2fe)](0x0, 'td', 0x45), a3['ɵɵtext'](0x1), a3['ɵɵelementEnd']()), 0x2 & bn) {
+                    const bp = a3[cF(0x2c7)]()[cF(0x2c5)];
+                    a3[cF(0x1ff)](0x1), a3[cF(0x230)](bp[cF(0x1f9)]);
+                }
+            }
+            function b5(bn, bo) {
+                const cG = a31d;
+                if (0x1 & bn && (a3[cG(0x2fe)](0x0, 'td', 0x45), a3[cG(0x1b5)](0x1), a3[cG(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cG(0x2c7)]()[cG(0x2c5)];
+                    a3[cG(0x1ff)](0x1), a3[cG(0x230)](bp['tiet_bat_dau']);
+                }
+            }
+            function b6(bn, bo) {
+                const cH = a31d;
+                if (0x1 & bn && (a3[cH(0x2fe)](0x0, 'td', 0x45), a3[cH(0x1b5)](0x1), a3[cH(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cH(0x2c7)]()['$implicit'];
+                    a3[cH(0x1ff)](0x1), a3['ɵɵtextInterpolate'](bp['so_tiet']);
+                }
+            }
+            function b7(bn, bo) {
+                const cI = a31d;
+                if (0x1 & bn && (a3[cI(0x2fe)](0x0, 'td', 0x45), a3[cI(0x1b5)](0x1), a3['ɵɵelementEnd']()), 0x2 & bn) {
+                    const bp = a3['ɵɵnextContext']()[cI(0x2c5)];
+                    a3[cI(0x1ff)](0x1), a3[cI(0x230)](bp[cI(0x2fd)]);
+                }
+            }
+            function b8(bn, bo) {
+                const cJ = a31d;
+                if (0x1 & bn && (a3[cJ(0x2e1)](0x0), a3['ɵɵelementStart'](0x1, cJ(0x2c1)), a3[cJ(0x1b5)](0x2), a3[cJ(0x268)](), a3['ɵɵelementContainerEnd']()), 0x2 & bn) {
+                    const bp = a3[cJ(0x2c7)](0x3)[cJ(0x2c5)];
+                    a3[cJ(0x1ff)](0x2), a3[cJ(0x230)](bp['ghi_chu_sv']);
+                }
+            }
+            function b9(bn, bo) {
+                const cK = a31d;
+                if (0x1 & bn) {
+                    const bp = a3[cK(0x262)]();
+                    a3[cK(0x2e1)](0x0), a3['ɵɵelementStart'](0x1, cK(0x2c1), 0x51), a3[cK(0x2a0)]('click', function () {
+                        const cL = cK;
+                        a3[cL(0x23a)](bp);
+                        const bq = a3[cL(0x2c7)](0x3)['$implicit'], br = a3[cL(0x2c7)](0x4);
+                        return a3[cL(0x2dc)](br[cL(0x2a7)](null == bq ? null : bq['ds_diem_mon_hoc'][0x0]));
+                    }), a3[cK(0x1b5)](0x2), a3[cK(0x268)](), a3[cK(0x232)]();
+                }
+                if (0x2 & bn) {
+                    const bq = a3[cK(0x2c7)](0x3)[cK(0x2c5)];
+                    a3['ɵɵadvance'](0x2), a3[cK(0x213)]('\x20', bq[cK(0x2e3)], '\x20');
+                }
+            }
+            function ba(bn, bo) {
+                const cM = a31d;
+                if (0x1 & bn && (a3['ɵɵelementContainerStart'](0x0), a3[cM(0x1b3)](0x1, b8, 0x3, 0x1, 'ng-container', 0xa), a3[cM(0x1b3)](0x2, b9, 0x3, 0x1, cM(0x296), 0xa), a3['ɵɵelementContainerEnd']()), 0x2 & bn) {
+                    const bp = a3[cM(0x2c7)](0x2)[cM(0x2c5)];
+                    a3[cM(0x1ff)](0x1), a3[cM(0x281)](cM(0x1a4), !(null != bp && null != bp[cM(0x270)][0x0] && bp[cM(0x270)][0x0][cM(0x26b)])), a3[cM(0x1ff)](0x1), a3['ɵɵproperty'](cM(0x1a4), null == bp || null == bp[cM(0x270)][0x0] ? null : bp[cM(0x270)][0x0][cM(0x26b)]);
+                }
+            }
+            function bb(bn, bo) {
+                const cN = a31d;
+                if (0x1 & bn && (a3[cN(0x2fe)](0x0, 'td', 0x50), a3['ɵɵtemplate'](0x1, ba, 0x3, 0x2, cN(0x296), 0xa), a3[cN(0x268)]()), 0x2 & bn) {
+                    const bp = a3['ɵɵnextContext']()['$implicit'];
+                    a3[cN(0x1ff)](0x1), a3[cN(0x281)](cN(0x1a4), (null == bp ? null : bp[cN(0x270)]) && (null == bp ? null : bp['ds_diem_mon_hoc'][cN(0x219)]) > 0x0);
+                }
+            }
+            function bc(bn, bo) {
+                const cO = a31d;
+                if (0x1 & bn && (a3[cO(0x2fe)](0x0, 'td', 0x45), a3['ɵɵtext'](0x1), a3[cO(0x268)]()), 0x2 & bn) {
+                    const bp = a3[cO(0x2c7)]()['$implicit'];
+                    a3[cO(0x1ff)](0x1), a3['ɵɵtextInterpolate'](bp[cO(0x291)]);
+                }
+            }
+            function bd(bn, bo) {
+                const cP = a31d;
+                if (0x1 & bn) {
+                    const bp = a3[cP(0x262)]();
+                    a3['ɵɵelementStart'](0x0, 'td', 0x52), a3['ɵɵlistener'](cP(0x2f4), function () {
+                        const cQ = cP;
+                        a3[cQ(0x23a)](bp);
+                        const bq = a3[cQ(0x2c7)]()[cQ(0x2c5)], br = a3['ɵɵnextContext'](0x4);
+                        return a3[cQ(0x2dc)](br[cQ(0x27d)](bq));
+                    }), a3[cP(0x28f)](0x1, 'i', 0x53), a3['ɵɵelementEnd']();
+                }
+            }
+            function be(bn, bo) {
+                const cR = a31d;
+                if (0x1 & bn && (a3['ɵɵelementStart'](0x0, 'tr', 0x43), a3[cR(0x1b3)](0x1, aQ, 0x4, 0x4, 'td', 0x44), a3[cR(0x2fe)](0x2, 'td', 0x45), a3['ɵɵtext'](0x3), a3['ɵɵelementEnd'](), a3[cR(0x2fe)](0x4, 'td', 0x45), a3[cR(0x1b5)](0x5), a3[cR(0x268)](), a3['ɵɵelementStart'](0x6, 'td', 0x46), a3[cR(0x1b5)](0x7), a3[cR(0x268)](), a3['ɵɵtemplate'](0x8, aR, 0x2, 0x1, 'td', 0x47), a3[cR(0x1b3)](0x9, aS, 0x2, 0x1, 'td', 0x47), a3[cR(0x1b3)](0xa, aT, 0x2, 0x1, 'td', 0x47), a3[cR(0x1b3)](0xb, aU, 0x2, 0x1, 'td', 0x47), a3[cR(0x1b3)](0xc, aV, 0x2, 0x1, 'td', 0x47), a3['ɵɵtemplate'](0xd, aW, 0x2, 0x1, 'td', 0x47), a3[cR(0x1b3)](0xe, aX, 0x2, 0x1, 'td', 0x47), a3[cR(0x1b3)](0xf, aY, 0x2, 0x3, 'td', 0x48), a3[cR(0x1b3)](0x10, b1, 0x3, 0x2, cR(0x296), 0xa), a3[cR(0x1b3)](0x11, b2, 0x2, 0x1, 'td', 0x47), a3[cR(0x1b3)](0x12, b3, 0x2, 0x1, 'td', 0x47), a3[cR(0x1b3)](0x13, b4, 0x2, 0x1, 'td', 0x47), a3[cR(0x1b3)](0x14, b5, 0x2, 0x1, 'td', 0x47), a3[cR(0x1b3)](0x15, b6, 0x2, 0x1, 'td', 0x47), a3[cR(0x1b3)](0x16, b7, 0x2, 0x1, 'td', 0x47), a3['ɵɵtemplate'](0x17, bb, 0x2, 0x1, 'td', 0x49), a3['ɵɵtemplate'](0x18, bc, 0x2, 0x1, 'td', 0x47), a3['ɵɵtemplate'](0x19, bd, 0x2, 0x0, 'td', 0x4a), a3[cR(0x268)]()), 0x2 & bn) {
+                    const bp = bo[cR(0x2c5)], bq = a3[cR(0x2c7)](0x4);
+                    a3[cR(0x1ff)](0x1), a3[cR(0x281)](cR(0x1a4), bq[cR(0x1a0)]), a3[cR(0x1ff)](0x2), a3['ɵɵtextInterpolate'](bp[cR(0x1f0)]), a3[cR(0x1ff)](0x2), a3[cR(0x230)](bp['ma_mon']), a3[cR(0x1ff)](0x2), a3[cR(0x213)]('', bq['langUsingVi'] ? bp[cR(0x26b)] : bp['ten_mon_eg'], '\x20'), a3['ɵɵadvance'](0x1), a3[cR(0x281)](cR(0x1a4), !bq[cR(0x1a1)](cR(0x278))), a3[cR(0x1ff)](0x1), a3[cR(0x281)](cR(0x1a4), !bq['isShow'](cR(0x2c9))), a3['ɵɵadvance'](0x1), a3['ɵɵproperty']('ngIf', !bq[cR(0x1a1)](cR(0x276))), a3[cR(0x1ff)](0x1), a3['ɵɵproperty'](cR(0x1a4), !bq['isShow']('ngay_thi')), a3[cR(0x1ff)](0x1), a3['ɵɵproperty'](cR(0x1a4), !bq[cR(0x1a1)](cR(0x269))), a3[cR(0x1ff)](0x1), a3[cR(0x281)](cR(0x1a4), !bq[cR(0x1a1)](cR(0x293))), a3[cR(0x1ff)](0x1), a3[cR(0x281)](cR(0x1a4), !bq['isShow'](cR(0x1a2))), a3[cR(0x1ff)](0x1), a3[cR(0x281)]('ngIf', !bq['isShow'](cR(0x254))), a3[cR(0x1ff)](0x1), a3[cR(0x281)](cR(0x1a4), cR(0x1e6) === bq[cR(0x29c)]), a3[cR(0x1ff)](0x1), a3[cR(0x281)](cR(0x1a4), !bq[cR(0x1a1)](cR(0x20b))), a3[cR(0x1ff)](0x1), a3[cR(0x281)](cR(0x1a4), !bq['isShow'](cR(0x1f7))), a3[cR(0x1ff)](0x1), a3[cR(0x281)]('ngIf', !bq[cR(0x1a1)](cR(0x1f9))), a3[cR(0x1ff)](0x1), a3[cR(0x281)](cR(0x1a4), !bq['isShow'](cR(0x1eb))), a3[cR(0x1ff)](0x1), a3['ɵɵproperty'](cR(0x1a4), !bq['isShow'](cR(0x277))), a3[cR(0x1ff)](0x1), a3[cR(0x281)](cR(0x1a4), !bq['isShow'](cR(0x2fd))), a3[cR(0x1ff)](0x1), a3[cR(0x281)](cR(0x1a4), !bq[cR(0x1a1)](cR(0x2e3))), a3['ɵɵadvance'](0x1), a3[cR(0x281)]('ngIf', !bq['isShow']('dot_thi')), a3[cR(0x1ff)](0x1), a3[cR(0x281)]('ngIf', !bq['isShow'](cR(0x22c)) && !bq[cR(0x1ce)] && !bq['isPhuHuynh']);
+                }
+            }
+            function bf(bn, bo) {
+                const cS = a31d;
+                if (0x1 & bn && (a3[cS(0x2e1)](0x0), a3[cS(0x2fe)](0x1, 'tr', 0x40)(0x2, 'td', 0x41), a3['ɵɵtext'](0x3), a3[cS(0x268)]()(), a3['ɵɵtemplate'](0x4, be, 0x1a, 0x16, 'tr', 0x42), a3[cS(0x1b7)](0x5, cS(0x224)), a3[cS(0x232)]()), 0x2 & bn) {
+                    const bp = bo['$implicit'], bq = a3['ɵɵnextContext'](0x3);
+                    a3[cS(0x1ff)](0x3), a3[cS(0x2e8)]('', bq[cS(0x29e)]['KY_THI'], ':\x20', bp, ''), a3[cS(0x1ff)](0x1), a3['ɵɵproperty'](cS(0x240), a3['ɵɵpipeBind4'](0x5, 0x4, bq[cS(0x2eb)][bp], bq[cS(0x234)], bq[cS(0x28c)], !0x1))(cS(0x29f), bq[cS(0x2f5)]);
+                }
+            }
+            function bg(bn, bo) {
+                const cT = a31d;
+                if (0x1 & bn && (a3[cT(0x2e1)](0x0), a3[cT(0x1b3)](0x1, bf, 0x6, 0x9, cT(0x296), 0x3f), a3[cT(0x232)]()), 0x2 & bn) {
+                    const bp = a3[cT(0x2c7)](0x2);
+                    a3[cT(0x1ff)](0x1), a3['ɵɵproperty'](cT(0x240), bp[cT(0x20c)]['keys'](bp[cT(0x2eb)]))(cT(0x29f), bp[cT(0x2f5)]);
+                }
+            }
+            function bh(bn, bo) {
+                const cU = a31d;
+                if (0x1 & bn) {
+                    const bp = a3[cU(0x262)]();
+                    a3[cU(0x2e1)](0x0), a3[cU(0x2fe)](0x1, cU(0x289), 0x1b)(0x2, cU(0x289), 0x1c)(0x3, cU(0x289), 0x1d), a3['ɵɵtext'](0x4), a3['ɵɵpipe'](0x5, cU(0x23e)), a3['ɵɵelementEnd'](), a3[cU(0x2fe)](0x6, 'div', 0x1e), a3[cU(0x1b5)](0x7, 'Lịch\x20thi\x20học\x20kỳ\x20sinh\x20viên'), a3[cU(0x268)](), a3['ɵɵelementStart'](0x8, cU(0x289), 0x1f), a3[cU(0x1b5)](0x9), a3['ɵɵelementEnd'](), a3['ɵɵtemplate'](0xa, ap, 0x5, 0x4, 'ng-container', 0xa), a3[cU(0x268)](), a3[cU(0x2fe)](0xb, cU(0x289), 0x20)(0xc, cU(0x2bb), 0x21)(0xd, 'thead')(0xe, 'tr', 0x22), a3[cU(0x1b3)](0xf, aq, 0x1, 0x0, 'th', 0x23), a3[cU(0x2fe)](0x10, 'th', 0x24), a3[cU(0x1b5)](0x11), a3[cU(0x268)](), a3[cU(0x2fe)](0x12, 'th', 0x25), a3[cU(0x2a0)](cU(0x2f4), function () {
+                        const cV = cU;
+                        a3[cV(0x23a)](bp);
+                        const bq = a3['ɵɵnextContext']();
+                        return a3['ɵɵresetView'](bq['setOrder'](cV(0x2ab)));
+                    }), a3['ɵɵtext'](0x13), a3['ɵɵelement'](0x14, cU(0x2c1), 0x26), a3[cU(0x268)](), a3[cU(0x2fe)](0x15, 'th', 0x27), a3[cU(0x2a0)]('click', function () {
+                        const cW = cU;
+                        a3['ɵɵrestoreView'](bp);
+                        const bq = a3[cW(0x2c7)]();
+                        return a3[cW(0x2dc)](bq[cW(0x1f4)](cW(0x26b)));
+                    }), a3[cU(0x1b5)](0x16), a3[cU(0x28f)](0x17, cU(0x2c1), 0x26), a3[cU(0x268)](), a3['ɵɵtemplate'](0x18, av, 0x4, 0x8, 'th', 0x28), a3[cU(0x1b3)](0x19, aw, 0x3, 0x7, 'th', 0x29), a3[cU(0x1b3)](0x1a, ax, 0x2, 0x1, 'th', 0x2a), a3[cU(0x1b3)](0x1b, ay, 0x2, 0x1, 'th', 0x2b), a3[cU(0x1b3)](0x1c, az, 0x3, 0x7, 'th', 0x28), a3[cU(0x1b3)](0x1d, aA, 0x2, 0x1, 'th', 0x2c), a3[cU(0x1b3)](0x1e, aB, 0x2, 0x1, 'th', 0x2d), a3[cU(0x1b3)](0x1f, aC, 0x2, 0x1, 'th', 0x2b), a3[cU(0x1b3)](0x20, aF, 0x3, 0x2, 'ng-container', 0xa), a3[cU(0x1b3)](0x21, aG, 0x2, 0x1, 'th', 0x2b), a3['ɵɵtemplate'](0x22, aH, 0x2, 0x1, 'th', 0x2b), a3['ɵɵtemplate'](0x23, aI, 0x2, 0x1, 'th', 0x2e), a3[cU(0x1b3)](0x24, aJ, 0x2, 0x1, 'th', 0x2f), a3[cU(0x1b3)](0x25, aK, 0x2, 0x1, 'th', 0x2a), a3['ɵɵtemplate'](0x26, aL, 0x2, 0x1, 'th', 0x2e), a3[cU(0x1b3)](0x27, aM, 0x2, 0x1, 'th', 0x30), a3[cU(0x1b3)](0x28, aN, 0x2, 0x1, 'th', 0x2f), a3[cU(0x1b3)](0x29, aO, 0x2, 0x1, 'th', 0x31), a3[cU(0x268)]()(), a3[cU(0x2fe)](0x2a, cU(0x2a4)), a3[cU(0x1b3)](0x2b, aP, 0x3, 0x1, 'tr', 0xa), a3[cU(0x1b3)](0x2c, bg, 0x2, 0x2, 'ng-container', 0xa), a3[cU(0x268)]()()()(), a3[cU(0x232)]();
+                }
+                if (0x2 & bn) {
+                    const bq = a3[cU(0x2c7)]();
+                    a3[cU(0x1ff)](0x4), a3['ɵɵtextInterpolate2']('', bq[cU(0x29e)]['NGAY_IN'], ':\x20', a3[cU(0x2ff)](0x5, 0x22, bq[cU(0x196)], cU(0x247)), ''), a3[cU(0x1ff)](0x5), a3[cU(0x230)](bq['TenHocKy']), a3['ɵɵadvance'](0x1), a3[cU(0x281)](cU(0x1a4), bq[cU(0x28a)]), a3[cU(0x1ff)](0x5), a3['ɵɵproperty'](cU(0x1a4), bq[cU(0x1a0)]), a3['ɵɵadvance'](0x2), a3[cU(0x230)](bq[cU(0x29e)][cU(0x194)]), a3[cU(0x1ff)](0x1), a3[cU(0x1c0)](cU(0x205), cU(0x2ab) === bq['orderby']), a3['ɵɵadvance'](0x1), a3['ɵɵtextInterpolate1']('', bq['msg'][cU(0x199)], '\x20'), a3[cU(0x1ff)](0x1), a3['ɵɵproperty']('ngClass', a3[cU(0x292)](0x25, au, bq[cU(0x28c)], !bq[cU(0x28c)])), a3[cU(0x1ff)](0x1), a3['ɵɵclassProp'](cU(0x205), cU(0x26b) === bq[cU(0x234)]), a3[cU(0x1ff)](0x1), a3['ɵɵtextInterpolate1']('', bq['msg'][cU(0x2a6)], '\x20'), a3[cU(0x1ff)](0x1), a3[cU(0x281)](cU(0x1fd), a3['ɵɵpureFunction2'](0x28, au, bq[cU(0x28c)], !bq[cU(0x28c)])), a3[cU(0x1ff)](0x1), a3[cU(0x281)](cU(0x1a4), !bq[cU(0x1a1)](cU(0x278))), a3['ɵɵadvance'](0x1), a3[cU(0x281)](cU(0x1a4), !bq[cU(0x1a1)](cU(0x2c9))), a3['ɵɵadvance'](0x1), a3[cU(0x281)]('ngIf', !bq['isShow'](cU(0x276))), a3['ɵɵadvance'](0x1), a3['ɵɵproperty'](cU(0x1a4), !bq[cU(0x1a1)](cU(0x258))), a3[cU(0x1ff)](0x1), a3[cU(0x281)](cU(0x1a4), !bq[cU(0x1a1)]('gio_bat_dau')), a3[cU(0x1ff)](0x1), a3['ɵɵproperty'](cU(0x1a4), !bq[cU(0x1a1)]('so_phut')), a3['ɵɵadvance'](0x1), a3[cU(0x281)]('ngIf', !bq[cU(0x1a1)](cU(0x1a2))), a3[cU(0x1ff)](0x1), a3['ɵɵproperty'](cU(0x1a4), !bq[cU(0x1a1)](cU(0x254))), a3[cU(0x1ff)](0x1), a3[cU(0x281)]('ngIf', 'DHMO' === bq['IsMaTruong']), a3[cU(0x1ff)](0x1), a3[cU(0x281)]('ngIf', !bq[cU(0x1a1)](cU(0x20b))), a3[cU(0x1ff)](0x1), a3['ɵɵproperty']('ngIf', !bq[cU(0x1a1)]('ma_co_so')), a3[cU(0x1ff)](0x1), a3[cU(0x281)](cU(0x1a4), !bq[cU(0x1a1)](cU(0x1f9))), a3[cU(0x1ff)](0x1), a3[cU(0x281)](cU(0x1a4), !bq[cU(0x1a1)](cU(0x1eb))), a3['ɵɵadvance'](0x1), a3[cU(0x281)](cU(0x1a4), !bq[cU(0x1a1)](cU(0x277))), a3[cU(0x1ff)](0x1), a3[cU(0x281)](cU(0x1a4), !bq[cU(0x1a1)](cU(0x2fd))), a3['ɵɵadvance'](0x1), a3[cU(0x281)](cU(0x1a4), !bq['isShow'](cU(0x2e3))), a3[cU(0x1ff)](0x1), a3[cU(0x281)]('ngIf', !bq['isShow'](cU(0x291))), a3[cU(0x1ff)](0x1), a3[cU(0x281)]('ngIf', !bq[cU(0x1a1)](cU(0x22c)) && !bq[cU(0x1ce)] && !bq[cU(0x2df)]), a3[cU(0x1ff)](0x2), a3[cU(0x281)]('ngIf', bq[cU(0x280)]['length'] <= 0x0), a3['ɵɵadvance'](0x1), a3[cU(0x281)](cU(0x1a4), bq['dataLichThi'][cU(0x219)] > 0x0);
+                }
+            }
+            const bi = [{
+                    'path': '',
+                    'pathMatch': cX(0x201),
+                    'component': ((() => {
+                        const cZ = cX;
+                        class bn {
+                            constructor(bo, bp, bq, br, bs, bu, bv, bw, bx, by, bz) {
+                                const cY = a31d;
+                                this[cY(0x2ea)] = bo, this[cY(0x26c)] = bp, this[cY(0x1ad)] = bq, this[cY(0x25e)] = br, this['datePipe'] = bs, this['modalService'] = bu, this['router'] = bv, this[cY(0x29e)] = bw, this[cY(0x1f1)] = bx, this[cY(0x308)] = by, this['langservice'] = bz, this[cY(0x1bd)] = {}, this[cY(0x280)] = [], this[cY(0x20c)] = Object, this['lichThiGroup'] = {}, this[cY(0x275)] = '', this[cY(0x297)] = '', this[cY(0x234)] = cY(0x1f0), this[cY(0x29c)] = '', this['thong_bao_SV'] = '', this[cY(0x28c)] = !0x1, this[cY(0x22b)] = !0x0, this[cY(0x2ef)] = !0x0, this[cY(0x298)] = '', this[cY(0x25a)] = !0x1, this[cY(0x1aa)] = !0x0, this[cY(0x1a0)] = !0x1, this[cY(0x27a)] = JSON[cY(0x1e2)](sessionStorage['getItem']('CURRENT_USER')), this[cY(0x28a)] = JSON[cY(0x1e2)](sessionStorage['getItem']('CURRENT_USER_INFO')), this[cY(0x2eb)] = null, this['DatePrint'] = new Date(), this[cY(0x1bd)] = this[cY(0x308)][cY(0x1bd)];
+                            }
+                            [cZ(0x2e4)]() {
+                                const d0 = cZ;
+                                this[d0(0x26c)][d0(0x1f2)](d0(0x2c8)), this['dataServices'][d0(0x26e)](!0x0)[d0(0x265)](bo => {
+                                    const d1 = d0;
+                                    bo && bo['length'] > 0x0 && this[d1(0x1f1)][d1(0x1d5)](bo)[d1(0x265)](bp => {
+                                        const d2 = d1;
+                                        !bp && bp[d2(0x219)] <= 0x0 && this[d2(0x242)]();
+                                    });
+                                }), this[d0(0x1a6)]['LanguageUsing'][d0(0x265)](bo => {
+                                    const d3 = d0;
+                                    this[d3(0x1aa)] = 'vi' === bo;
+                                }), this[d0(0x1a0)] = d0(0x244) === this[d0(0x223)]?.[d0(0x20e)]?.[d0(0x229)](), this[d0(0x27a)] && this[d0(0x27a)]?.[d0(0x1f5)]?.['toLowerCase']()['includes'](d0(0x266)) && (this[d0(0x1ce)] = !0x0), this[d0(0x27a)] && this[d0(0x27a)]?.['roles']?.[d0(0x229)]()[d0(0x1cc)](d0(0x267)) && (this['isPhuHuynh'] = !0x0), sessionStorage[d0(0x2dd)](d0(0x2a3)) && (this['IsMaTruong'] = sessionStorage[d0(0x2dd)]('matruong'));
+                            }
+                            ['loadComboxHocKy_SV']() {
+                                const d4 = cZ;
+                                this[d4(0x26c)][d4(0x1f2)]('spinner-lt'), this[d4(0x2ea)][d4(0x2a9)](a2['L1']['Loc_NHHK_LICHTHI_SV_GV'], {
+                                    'filter': { 'is_tieng_anh': null },
+                                    'additional': {
+                                        'paging': {
+                                            'limit': 0x64,
+                                            'page': 0x1
+                                        },
+                                        'ordering': [{
+                                                'name': null,
+                                                'order_type': 0x1
+                                            }]
+                                    }
+                                })[d4(0x265)](bo => {
+                                    const d5 = d4;
+                                    bo && 0xc8 === bo[d5(0x1d1)] && bo[d5(0x295)] && bo[d5(0x295)]['ds_hoc_ky'] ? (this[d5(0x21d)] = bo[d5(0x295)][d5(0x2f1)], this['SelectHocKy'] = this[d5(0x21d)][0x0]?.[d5(0x1ac)], this['TenHocKy'] = this[d5(0x21d)][0x0]?.['ten_hoc_ky'], this[d5(0x1be)]()) : (this['spinner'][d5(0x1fc)](d5(0x2c8)), this[d5(0x275)] = this[d5(0x29e)]['KHONG_TIM_THAY_DU_LIEU']);
+                                }, bo => {
+                                    const d6 = d4;
+                                    this['spinner'][d6(0x1fc)](d6(0x2c8)), this[d6(0x275)] = this[d6(0x29e)]['KHONG_TIM_THAY_DU_LIEU'];
+                                });
+                            }
+                            [cZ(0x1be)]() {
+                                const d7 = cZ;
+                                this[d7(0x26c)]['show']('spinner-lt'), this['http']['post'](a2['L1']['Loc_DS_DT_XemLichThi'], '')[d7(0x265)](bo => {
+                                    const d8 = d7;
+                                    bo && bo[d8(0x295)] && bo[d8(0x295)][d8(0x19a)] ? (this[d8(0x23d)] = bo[d8(0x295)][d8(0x19a)], this[d8(0x2db)] = this[d8(0x23d)][0x0]?.[d8(0x28b)], 0x1 === this[d8(0x2db)] && (this['HideCombo'] = this[d8(0x2ef)] = !0x0, this['SelectHocKy'] && this[d8(0x250)]()), 0x2 === this[d8(0x2db)] && (this[d8(0x195)] = this[d8(0x2ef)] = !0x0, this[d8(0x2e2)] && this[d8(0x1f6)](this[d8(0x2e2)], this[d8(0x2db)], this['SelectDuLieu'], this[d8(0x2b8)]))) : (this[d8(0x26c)][d8(0x1fc)]('spinner-lt'), this[d8(0x275)] = this[d8(0x29e)][d8(0x306)]);
+                                }, bo => {
+                                    const d9 = d7;
+                                    this[d9(0x26c)][d9(0x1fc)](d9(0x2c8)), this[d9(0x275)] = this[d9(0x29e)][d9(0x306)];
+                                });
+                            }
+                            [cZ(0x202)](bo) {
+                                const da = cZ;
+                                this[da(0x26c)][da(0x1f2)](da(0x2c8)), this[da(0x2ea)][da(0x2a9)](a2['L1'][da(0x2a1)], {
+                                    'hoc_ky': this['SelectHocKy'],
+                                    'loai_doi_tuong': bo
+                                })[da(0x265)](bp => {
+                                    const db = da;
+                                    bp && 0xc8 === bp[db(0x1d1)] && bp[db(0x295)] && bp[db(0x295)][db(0x217)] ? (this[db(0x23c)] = bp[db(0x295)][db(0x217)], this[db(0x26c)][db(0x1fc)](db(0x2c8))) : (this['spinner'][db(0x1fc)]('spinner-lt'), this[db(0x275)] = this[db(0x29e)][db(0x306)]);
+                                }, bp => {
+                                    const dc = da;
+                                    this['spinner'][dc(0x1fc)](dc(0x2c8)), this[dc(0x275)] = this[dc(0x29e)][dc(0x306)];
+                                });
+                            }
+                            [cZ(0x2f7)]() {
+                                const dd = cZ;
+                                this[dd(0x23c)] = null, this[dd(0x298)] = null, this[dd(0x2eb)] = {}, this['dataLichThi'] = [], 0x1 === this['SelectDoiTuong'] && (this['isSinhVien'] || this[dd(0x2df)]) ? (this[dd(0x195)] = this[dd(0x2ef)] = !0x0, this[dd(0x250)]()) : 0x2 !== this[dd(0x2db)] || this['isSinhVien'] || this[dd(0x2df)] ? 0x3 === this[dd(0x2db)] || 0x4 === this[dd(0x2db)] ? (this['HideCombo'] = !0x1, this[dd(0x2ef)] = !0x0, this['LoadComboDuLieu'](this['SelectDoiTuong'])) : 0x5 === this[dd(0x2db)] && (this[dd(0x195)] = !0x0, this[dd(0x2ef)] = !0x1) : (this[dd(0x195)] = this[dd(0x2ef)] = !0x0, this['loadLichThiTheoDoiTuong'](this[dd(0x2e2)], this[dd(0x2db)], this['SelectDuLieu'], ''));
+                            }
+                            ['loadLichThi_SinhVien']() {
+                                const de = cZ;
+                                this[de(0x26c)][de(0x1f2)](de(0x2c8)), this[de(0x275)] = '', this[de(0x2eb)] = {}, this[de(0x280)] = [], this[de(0x2ea)][de(0x2a9)](a2['L1'][de(0x1bf)], {
+                                    'filter': { 'hoc_ky': this[de(0x2e2)] },
+                                    'additional': {
+                                        'paging': {
+                                            'limit': 0x64,
+                                            'page': 0x1
+                                        },
+                                        'ordering': [{
+                                                'name': null,
+                                                'order_type': null
+                                            }]
+                                    }
+                                })[de(0x265)](bo => {
+                                    const df = de;
+                                    if (bo && 0xc8 === bo[df(0x1d1)]) {
+                                        if (this[df(0x2d8)] = bo?.[df(0x21b)], this[df(0x25a)] = bo['data']?.[df(0x23f)], this[df(0x236)] = bo['data']?.[df(0x1b2)], bo[df(0x295)] && bo['data'][df(0x307)]) {
+                                            this[df(0x280)] = bo['data']['ds_lich_thi'], this[df(0x280)][df(0x20f)](bq => bq[df(0x197)] = new Date(bq[df(0x258)][df(0x2ec)](0x6) + '-' + bq[df(0x258)]['substring'](0x3, 0x5) + '-' + bq['ngay_thi'][df(0x2ec)](0x0, 0x2) + 'T' + bq[df(0x269)]['substring'](0x0, 0x5) + ':00'));
+                                            const bp = this[df(0x280)][df(0x22a)]((bq, br) => bq[df(0x291)] > br[df(0x291)] ? 0x1 : bq[df(0x291)] < br['dot_thi'] || bq['NgayGioThi'] > br['NgayGioThi'] ? -0x1 : bq[df(0x197)] < br[df(0x197)] ? 0x1 : 0x0)[df(0x19f)]((bq, br) => (bq[br[df(0x2c3)]] = [
+                                                ...bq[br[df(0x2c3)]] || [],
+                                                br
+                                            ], bq), {});
+                                            this['lichThiGroup'] = bp;
+                                        } else
+                                            this[df(0x2eb)] = {};
+                                        this[df(0x26c)]['hide'](df(0x2c8));
+                                    } else
+                                        this[df(0x26c)][df(0x1fc)](df(0x2c8)), this[df(0x2eb)] = {}, this['messError'] = this[df(0x29e)][df(0x306)];
+                                }, bo => {
+                                    const dg = de;
+                                    this['spinner']['hide'](dg(0x2c8)), this[dg(0x2eb)] = {}, this[dg(0x275)] = this['msg'][dg(0x306)];
+                                });
+                            }
+                            [cZ(0x1f6)](bo, bp, bq, br) {
+                                const dh = cZ;
+                                this[dh(0x26c)][dh(0x1f2)](dh(0x2c8)), this[dh(0x275)] = '', this['lichThiGroup'] = {}, this['dataLichThi'] = [], this['http'][dh(0x2a9)](a2['L1']['Loc_LichThi_TongHop_TheoDoiTuong'], {
+                                    'hoc_ky': bo,
+                                    'loai_doi_tuong': bp,
+                                    'id_du_lieu': bq ?? '',
+                                    'ngay_thi': br,
+                                    'is_dk_coi_thi': this['GVDangKyCoiThi'],
+                                    'additional': {
+                                        'paging': {
+                                            'limit': 0x64,
+                                            'page': 0x1
+                                        },
+                                        'ordering': [{
+                                                'name': null,
+                                                'order_type': null
+                                            }]
+                                    }
+                                })[dh(0x265)](bs => {
+                                    const di = dh;
+                                    if (bs && 0xc8 === bs[di(0x1d1)])
+                                        if (bs[di(0x231)])
+                                            if (this['thong_bao_SV'] = bs[di(0x231)]?.[di(0x295)]?.[di(0x1b2)], this[di(0x2d8)] = bs[di(0x231)][di(0x21b)], bs[di(0x231)][di(0x295)] && bs[di(0x231)][di(0x295)][di(0x307)]) {
+                                                this[di(0x280)] = bs[di(0x231)][di(0x295)][di(0x307)], this[di(0x280)][di(0x20f)](bv => bv[di(0x197)] = new Date(bv[di(0x258)]['substring'](0x6) + '-' + bv[di(0x258)][di(0x2ec)](0x3, 0x5) + '-' + bv[di(0x258)]['substring'](0x0, 0x2) + 'T' + bv['gio_bat_dau'][di(0x2ec)](0x0, 0x5) + di(0x1b6)));
+                                                const bu = this['dataLichThi'][di(0x22a)]((bv, bw) => bv[di(0x291)] > bw[di(0x291)] ? 0x1 : bv[di(0x291)] < bw[di(0x291)] || bv[di(0x197)] > bw[di(0x197)] ? -0x1 : bv[di(0x197)] < bw[di(0x197)] ? 0x1 : 0x0)[di(0x19f)]((bv, bw) => (bv[bw['ky_thi']] = [
+                                                    ...bv[bw[di(0x2c3)]] || [],
+                                                    bw
+                                                ], bv), {});
+                                                this['lichThiGroup'] = bu, this[di(0x26c)][di(0x1fc)]('spinner-lt');
+                                            } else
+                                                this[di(0x26c)][di(0x1fc)](di(0x2c8)), this['lichThiGroup'] = {};
+                                        else if (bs['lich_coi_thi_can_bo'][di(0x295)] && bs[di(0x284)][di(0x295)][di(0x307)]) {
+                                            this['dataLichThi'] = bs[di(0x284)][di(0x295)][di(0x307)], this[di(0x1b9)] = bs[di(0x284)][di(0x295)]['cap_dk_coi_thi'], this[di(0x2d8)] = bs[di(0x284)]['ds_field_an'], this[di(0x280)][di(0x20f)](bw => bw[di(0x197)] = new Date(bw[di(0x258)]['substring'](0x6) + '-' + bw['ngay_thi'][di(0x2ec)](0x3, 0x5) + '-' + bw[di(0x258)]['substring'](0x0, 0x2) + 'T' + bw['gio_bat_dau'][di(0x2ec)](0x0, 0x5) + di(0x1b6)));
+                                            const bv = this['dataLichThi'][di(0x22a)]((bw, bx) => bw[di(0x291)] > bx[di(0x291)] ? 0x1 : bw[di(0x291)] < bx[di(0x291)] || bw['NgayGioThi'] > bx[di(0x197)] ? -0x1 : bw[di(0x197)] < bx['NgayGioThi'] ? 0x1 : 0x0)['reduce']((bw, bx) => (bw[bx[di(0x2c3)]] = [
+                                                ...bw[bx[di(0x2c3)]] || [],
+                                                bx
+                                            ], bw), {});
+                                            this[di(0x2eb)] = bv, this[di(0x26c)][di(0x1fc)](di(0x2c8));
+                                        } else
+                                            this[di(0x26c)][di(0x1fc)]('spinner-lt'), this[di(0x2eb)] = {};
+                                    else
+                                        this[di(0x26c)]['hide'](di(0x2c8)), this[di(0x2eb)] = {}, this[di(0x275)] = this[di(0x1a0)] && bs && 0x190 === bs[di(0x1d1)] ? bs[di(0x20d)] : this[di(0x29e)][di(0x306)];
+                                }, bs => {
+                                    const dj = dh;
+                                    this[dj(0x26c)]['hide'](dj(0x2c8)), this['lichThiGroup'] = {}, this['messError'] = this[dj(0x29e)]['KHONG_TIM_THAY_DU_LIEU'];
+                                });
+                            }
+                            [cZ(0x251)](bo) {
+                                const dk = cZ;
+                                this[dk(0x275)] = '', this['TenHocKy'] = bo['ten_hoc_ky'], this[dk(0x1ce)] || this[dk(0x2df)] ? this[dk(0x250)]() : this[dk(0x1f6)](this[dk(0x2e2)], this[dk(0x2db)], this[dk(0x298)], '');
+                            }
+                            [cZ(0x1bb)]() {
+                                const dl = cZ;
+                                this['loadLichThiTheoDoiTuong'](this['SelectHocKy'], this[dl(0x2db)], this[dl(0x298)], '');
+                            }
+                            [cZ(0x1f4)](bo) {
+                                const dm = cZ;
+                                this[dm(0x234)] === bo && (this[dm(0x28c)] = !this[dm(0x28c)]), this[dm(0x234)] = bo;
+                            }
+                            [cZ(0x252)]() {
+                                const dn = cZ;
+                                const bo = document[dn(0x2e9)]('excel-table'), bp = a0['P6'][dn(0x1ee)](bo), bq = a0['P6']['book_new']();
+                                a0['P6']['book_append_sheet'](bq, bp, 'Sheet1'), a0['NC'](bq, this[dn(0x1ce)] || this[dn(0x2df)] ? dn(0x21e) : 'LichCoiThi.xlsx');
+                            }
+                            ['Print']() {
+                                const dp = cZ;
+                                this[dp(0x25e)][dp(0x2b5)](dp(0x19c));
+                            }
+                            [cZ(0x241)](bo, bp) {
+                                const dq = cZ;
+                                return bo = bo?.[dq(0x229)](), 'vi' !== sessionStorage['getItem']('lang') && bp?.[dq(0x299)] ? bp?.[dq(0x30c)]?.[dq(0x229)]()[dq(0x2bf)](bo) > -0x1 || bp?.[dq(0x299)]?.[dq(0x229)]()['indexOf'](bo) > -0x1 || bp?.['ten_du_lieu_eg']?.[dq(0x229)]() === bo : bp?.[dq(0x30c)]?.['toLowerCase']()[dq(0x2bf)](bo) > -0x1 || bp?.[dq(0x264)]?.[dq(0x229)]()[dq(0x2bf)](bo) > -0x1 || bp?.[dq(0x264)]?.['toLowerCase']() === bo;
+                            }
+                            [cZ(0x1ea)](bo) {
+                                const dr = cZ;
+                                bo && dr(0x2d7) === bo?.[dr(0x29d)]()[dr(0x229)]() && (bo = null);
+                            }
+                            [cZ(0x283)](bo) {
+                                const ds = cZ;
+                                bo && ds(0x2d7) === bo?.[ds(0x29d)]()[ds(0x229)]() || (this[ds(0x2b8)] = this[ds(0x261)]['transform'](bo, 'dd/MM/yyyy'), this[ds(0x1f6)](this['SelectHocKy'], this[ds(0x2db)], '', this[ds(0x2b8)]));
+                            }
+                            [cZ(0x1a1)](bo) {
+                                const dt = cZ;
+                                if (this[dt(0x2d8)])
+                                    return this[dt(0x2d8)][dt(0x19d)](bp => !bp['enable'] && bp?.[dt(0x2cf)]?.[dt(0x229)]() === bo?.[dt(0x229)]());
+                            }
+                            [cZ(0x2a7)](bo = {}) {
+                                const du = cZ;
+                                this[du(0x2e6)][du(0x1f2)](S['o'], {
+                                    'initialState': { 'DiemMonHoc': bo },
+                                    'backdrop': du(0x1c6),
+                                    'keyboard': !0x1,
+                                    'ignoreBackdropClick': !0x0,
+                                    'animated': !0x1,
+                                    'class': du(0x1e3)
+                                });
+                            }
+                            ['XemDS'](bo) {
+                                const dv = cZ;
+                                this['isSinhVien'] || this['isPhuHuynh'] || (this[dv(0x26c)][dv(0x1f2)](dv(0x2c8)), this[dv(0x2ea)][dv(0x2a9)](a2['L1'][dv(0x1b4)], {
+                                    'hoc_ky': this['SelectHocKy'],
+                                    'nhom_thi': bo[dv(0x1db)],
+                                    'to_thi': bo[dv(0x2c9)],
+                                    'ma_mon': bo[dv(0x2ab)],
+                                    'ma_phong': bo['ma_phong'],
+                                    'ngay_thi': bo[dv(0x258)],
+                                    'tiet_bat_dau': bo['tiet_bat_dau']
+                                })['subscribe'](bp => {
+                                    const dw = dv;
+                                    if (bp && 0xc8 === bp[dw(0x1d1)]) {
+                                        if (!bp[dw(0x295)] || !bp[dw(0x295)][dw(0x255)])
+                                            return this['messError'] = this[dw(0x29e)][dw(0x306)], void this[dw(0x26c)]['hide'](dw(0x2c8));
+                                        this[dw(0x26c)][dw(0x1fc)]('spinner-lt'), this[dw(0x2e6)]['show'](a1['g'], {
+                                            'initialState': { 'dssinhvien': bp[dw(0x295)][dw(0x255)] },
+                                            'backdrop': dw(0x1c6),
+                                            'keyboard': !0x1,
+                                            'ignoreBackdropClick': !0x0,
+                                            'animated': !0x1,
+                                            'class': 'modal-xl\x20modal-dialog-centered'
+                                        });
+                                    }
+                                }, bp => {
+                                    const dx = dv;
+                                    this[dx(0x26c)][dx(0x1fc)](dx(0x2c8)), this['messError'] = this[dx(0x29e)][dx(0x306)];
+                                }));
+                            }
+                            [cZ(0x24c)](bo, bp) {
+                                const dy = cZ;
+                                bo && bp && this[dy(0x1a0)] && (this[dy(0x280)][dy(0x257)](bq => bq[dy(0x2cb)] === bp['id_to_thi'] && bq?.[dy(0x2ab)]?.[dy(0x229)]() === bp?.['ma_mon']?.[dy(0x229)]())[dy(0x20f)](bq => bq[dy(0x221)] = bp[dy(0x221)] = bo[dy(0x285)][dy(0x2cd)]), this[dy(0x305)](bo, bp));
+                            }
+                            [cZ(0x305)](bo, bp) {
+                                const dz = cZ;
+                                this[dz(0x275)] = '', this[dz(0x26c)]['show'](dz(0x2c8)), this[dz(0x2ea)][dz(0x2a9)](a2['L1'][dz(0x211)], {
+                                    'is_them': bo[dz(0x285)][dz(0x2cd)],
+                                    'cap_coi_thi': this[dz(0x1b9)],
+                                    'lich_thi': bp
+                                })[dz(0x265)](bq => {
+                                    const dA = dz;
+                                    bq && 0xc8 === bq[dA(0x1d1)] ? (this[dA(0x26c)][dA(0x1fc)](dA(0x2c8)), this[dA(0x1ad)][dA(0x206)](this['msg']['LUU_DU_LIEU_THANH_CONG'])) : bq && 0x190 === bq[dA(0x1d1)] ? (this[dA(0x26c)]['hide'](dA(0x2c8)), this[dA(0x275)] = bq[dA(0x20d)] || '', bo[dA(0x285)][dA(0x2cd)] = !0x1, this[dA(0x1ad)][dA(0x1bc)](bq?.['message'] ? bq?.[dA(0x20d)] : this[dA(0x29e)][dA(0x1e0)])) : (this[dA(0x26c)][dA(0x1fc)](dA(0x2c8)), this['toastr']['error'](bq?.[dA(0x20d)] ? bq?.['message'] : this[dA(0x29e)][dA(0x1e0)]));
+                                }, bq => {
+                                    const dB = dz;
+                                    this[dB(0x26c)][dB(0x1fc)](dB(0x2c8)), this['toastr'][dB(0x1bc)](this[dB(0x29e)][dB(0x1e0)]);
+                                });
+                            }
+                            ['trackByFn'](bo) {
+                                return bo;
+                            }
+                        }
+                        return bn[cZ(0x24a)] = function (bo) {
+                            const dC = cZ;
+                            return new (bo || bn)(a3[dC(0x21a)](a2['Nq']), a3[dC(0x21a)](o['t2']), a3['ɵɵdirectiveInject'](a4['_W']), a3[dC(0x21a)](a5['Al']), a3[dC(0x21a)](h[dC(0x311)]), a3['ɵɵdirectiveInject'](a6['tT']), a3[dC(0x21a)](u['F0']), a3[dC(0x21a)](a2['q2']), a3[dC(0x21a)](a7['Or']), a3[dC(0x21a)](a8['A']), a3[dC(0x21a)](a9['H']));
+                        }, bn['ɵcmp'] = a3[cZ(0x2b2)]({
+                            'type': bn,
+                            'selectors': [[cZ(0x209)]],
+                            'decls': 0x1c,
+                            'vars': 0x1e,
+                            'consts': [
+                                [
+                                    0x1,
+                                    cZ(0x294),
+                                    cZ(0x2a5),
+                                    cZ(0x2d6)
+                                ],
+                                [
+                                    cZ(0x222),
+                                    cZ(0x2c8),
+                                    cZ(0x1cb),
+                                    cZ(0x1ae),
+                                    cZ(0x2c4),
+                                    'medium',
+                                    0x3,
+                                    cZ(0x27c)
+                                ],
+                                [
+                                    cZ(0x2ba),
+                                    cZ(0x272),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x2ae),
+                                    cZ(0x2b3)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x1dd)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x2f3),
+                                    cZ(0x2fc),
+                                    cZ(0x1c4),
+                                    cZ(0x2d9),
+                                    cZ(0x1c8),
+                                    cZ(0x2b0)
+                                ],
+                                [
+                                    'bindLabel',
+                                    'ten_hoc_ky',
+                                    cZ(0x2f2),
+                                    cZ(0x1ac),
+                                    0x3,
+                                    cZ(0x1df),
+                                    cZ(0x2f5),
+                                    'selectOnTab',
+                                    cZ(0x21f),
+                                    'clearable',
+                                    cZ(0x22e),
+                                    cZ(0x2e5),
+                                    'ngModelChange',
+                                    cZ(0x27f)
+                                ],
+                                [
+                                    cZ(0x25b),
+                                    ''
+                                ],
+                                [
+                                    cZ(0x1fa),
+                                    cZ(0x226),
+                                    cZ(0x2f2),
+                                    cZ(0x28b),
+                                    0x3,
+                                    'items',
+                                    cZ(0x2f5),
+                                    cZ(0x1c2),
+                                    cZ(0x21f),
+                                    cZ(0x2bc),
+                                    cZ(0x2e5),
+                                    cZ(0x22e),
+                                    cZ(0x225),
+                                    cZ(0x27f)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x2f3),
+                                    cZ(0x282),
+                                    cZ(0x1c4),
+                                    cZ(0x2d9),
+                                    cZ(0x1c8),
+                                    'pr-lg-1'
+                                ],
+                                [
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    cZ(0x1cb),
+                                    cZ(0x2fa),
+                                    cZ(0x198),
+                                    cZ(0x309),
+                                    cZ(0x2b9),
+                                    '',
+                                    cZ(0x1c5),
+                                    cZ(0x2c6),
+                                    cZ(0x260),
+                                    cZ(0x247),
+                                    0x1,
+                                    cZ(0x1c7),
+                                    0x3,
+                                    cZ(0x1bd),
+                                    cZ(0x1fd),
+                                    cZ(0x2aa)
+                                ],
+                                [
+                                    'dp',
+                                    cZ(0x2b9)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x2f3),
+                                    cZ(0x1ba),
+                                    cZ(0x1c4),
+                                    cZ(0x2d9),
+                                    cZ(0x1c8),
+                                    cZ(0x25f),
+                                    cZ(0x2d5)
+                                ],
+                                [
+                                    0x1,
+                                    'btn',
+                                    cZ(0x2b6),
+                                    cZ(0x2f6),
+                                    0x3,
+                                    cZ(0x22b),
+                                    cZ(0x2f4)
+                                ],
+                                [
+                                    0x1,
+                                    'fa',
+                                    'fa-print',
+                                    'mr-1'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x26a),
+                                    'btn-outline-primary',
+                                    'btnprintxem',
+                                    cZ(0x2d1),
+                                    0x3,
+                                    cZ(0x22b),
+                                    cZ(0x2f4)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x30e),
+                                    cZ(0x28e),
+                                    cZ(0x210)
+                                ],
+                                [
+                                    cZ(0x2ba),
+                                    cZ(0x271),
+                                    cZ(0x2ac),
+                                    cZ(0x27b),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    cZ(0x2ba),
+                                    'alert\x20alert-warning\x20py-1',
+                                    'role',
+                                    'alert',
+                                    0x4,
+                                    'ngIf'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x207),
+                                    cZ(0x2ce),
+                                    cZ(0x20a)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x2ee),
+                                    cZ(0x1ef),
+                                    'pr-2'
+                                ],
+                                [
+                                    cZ(0x1fa),
+                                    cZ(0x264),
+                                    'bindValue',
+                                    cZ(0x1d7),
+                                    0x3,
+                                    cZ(0x1df),
+                                    cZ(0x22e),
+                                    cZ(0x2bc),
+                                    cZ(0x1ca),
+                                    cZ(0x2f5),
+                                    cZ(0x2e5),
+                                    cZ(0x1fd),
+                                    cZ(0x225),
+                                    cZ(0x27f)
+                                ],
+                                [
+                                    0x2,
+                                    cZ(0x1f3),
+                                    cZ(0x1e7)
+                                ],
+                                [
+                                    cZ(0x1fa),
+                                    'ten_du_lieu_eg',
+                                    cZ(0x2f2),
+                                    cZ(0x1d7),
+                                    0x3,
+                                    cZ(0x1df),
+                                    cZ(0x22e),
+                                    'clearable',
+                                    cZ(0x1ca),
+                                    'trackByFn',
+                                    'virtualScroll',
+                                    cZ(0x1fd),
+                                    cZ(0x225),
+                                    'change'
+                                ],
+                                [
+                                    'role',
+                                    cZ(0x27b),
+                                    0x1,
+                                    cZ(0x27b),
+                                    'alert-danger',
+                                    cZ(0x29a)
+                                ],
+                                [
+                                    cZ(0x2ac),
+                                    'alert',
+                                    0x1,
+                                    cZ(0x27b),
+                                    cZ(0x30a),
+                                    cZ(0x29a)
+                                ],
+                                [
+                                    'id',
+                                    cZ(0x19c)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x1b0),
+                                    cZ(0x2e7),
+                                    cZ(0x25f),
+                                    cZ(0x2d6)
+                                ],
+                                [
+                                    0x1,
+                                    'text-right',
+                                    0x2,
+                                    cZ(0x286),
+                                    cZ(0x27e)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x25f),
+                                    cZ(0x2b1),
+                                    0x2,
+                                    cZ(0x286),
+                                    cZ(0x1d3)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x25f),
+                                    cZ(0x233),
+                                    0x2,
+                                    cZ(0x286),
+                                    cZ(0x1d3)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x24f),
+                                    cZ(0x24e)
+                                ],
+                                [
+                                    'id',
+                                    cZ(0x1c3),
+                                    0x1,
+                                    cZ(0x2bb),
+                                    'table-sm',
+                                    'table-hover',
+                                    cZ(0x1f8),
+                                    cZ(0x26d),
+                                    'm-0'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x20a),
+                                    'text-center',
+                                    cZ(0x22f)
+                                ],
+                                [
+                                    'style',
+                                    cZ(0x2f9),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x25f),
+                                    cZ(0x22f),
+                                    0x2,
+                                    cZ(0x220),
+                                    '3%'
+                                ],
+                                [
+                                    0x1,
+                                    'text-center',
+                                    cZ(0x22f),
+                                    cZ(0x2d0),
+                                    0x2,
+                                    cZ(0x220),
+                                    '5%',
+                                    0x3,
+                                    cZ(0x2f4)
+                                ],
+                                [
+                                    0x3,
+                                    'ngClass'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x22f),
+                                    'custenmon',
+                                    'clickable',
+                                    0x2,
+                                    cZ(0x220),
+                                    cZ(0x30d),
+                                    0x3,
+                                    cZ(0x2f4)
+                                ],
+                                [
+                                    cZ(0x1e5),
+                                    cZ(0x2e0),
+                                    cZ(0x2ba),
+                                    cZ(0x1cf),
+                                    0x3,
+                                    cZ(0x205),
+                                    cZ(0x2f4),
+                                    0x4,
+                                    'ngIf'
+                                ],
+                                [
+                                    cZ(0x1e5),
+                                    cZ(0x218),
+                                    cZ(0x2ba),
+                                    cZ(0x1cf),
+                                    0x3,
+                                    cZ(0x205),
+                                    cZ(0x2f4),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    cZ(0x1e5),
+                                    cZ(0x218),
+                                    cZ(0x2ba),
+                                    cZ(0x22f),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    cZ(0x2ba),
+                                    cZ(0x22f),
+                                    cZ(0x1e5),
+                                    'width:\x206%;',
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    cZ(0x2ba),
+                                    cZ(0x22f),
+                                    cZ(0x1e5),
+                                    cZ(0x2fb),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    'class',
+                                    cZ(0x22f),
+                                    cZ(0x1e5),
+                                    cZ(0x2e0),
+                                    0x4,
+                                    'ngIf'
+                                ],
+                                [
+                                    cZ(0x1e5),
+                                    cZ(0x235),
+                                    'class',
+                                    cZ(0x22f),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    'style',
+                                    'width:\x205%;',
+                                    'class',
+                                    cZ(0x22f),
+                                    0x4,
+                                    'ngIf'
+                                ],
+                                [
+                                    cZ(0x1e5),
+                                    cZ(0x301),
+                                    cZ(0x2ba),
+                                    cZ(0x22f),
+                                    0x4,
+                                    'ngIf'
+                                ],
+                                [
+                                    'style',
+                                    'width:\x201%;',
+                                    cZ(0x2ba),
+                                    cZ(0x22f),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    0x2,
+                                    cZ(0x286),
+                                    cZ(0x1d3)
+                                ],
+                                [
+                                    0x2,
+                                    cZ(0x220),
+                                    '2%'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x22f),
+                                    'clickable',
+                                    0x2,
+                                    cZ(0x220),
+                                    '5%',
+                                    0x3,
+                                    cZ(0x2f4)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x22f),
+                                    cZ(0x2d0),
+                                    0x2,
+                                    'width',
+                                    '4%',
+                                    0x3,
+                                    cZ(0x2f4)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x22f),
+                                    0x2,
+                                    cZ(0x220),
+                                    '4%'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x22f),
+                                    0x2,
+                                    cZ(0x220),
+                                    '6%'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x22f),
+                                    0x2,
+                                    cZ(0x220),
+                                    '3%'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x22f),
+                                    0x2,
+                                    cZ(0x220),
+                                    '5%'
+                                ],
+                                [
+                                    cZ(0x2ba),
+                                    'align-middle',
+                                    cZ(0x1e5),
+                                    cZ(0x235),
+                                    0x4,
+                                    'ngIf'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x22f),
+                                    0x2,
+                                    cZ(0x220),
+                                    '7%'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x22f),
+                                    0x2,
+                                    cZ(0x220),
+                                    '9%'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x22f),
+                                    0x2,
+                                    cZ(0x220),
+                                    '1%'
+                                ],
+                                [
+                                    cZ(0x2de),
+                                    cZ(0x1c1),
+                                    0x1,
+                                    'table-secondary',
+                                    cZ(0x238),
+                                    cZ(0x28d),
+                                    cZ(0x25f),
+                                    cZ(0x22f)
+                                ],
+                                [
+                                    0x4,
+                                    cZ(0x253),
+                                    'ngForOf',
+                                    cZ(0x29f)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x26f)
+                                ],
+                                [
+                                    cZ(0x2de),
+                                    cZ(0x1c1),
+                                    0x2,
+                                    cZ(0x1f3),
+                                    cZ(0x1e7)
+                                ],
+                                [
+                                    cZ(0x2ba),
+                                    'text-center\x20align-middle',
+                                    0x4,
+                                    'ngFor',
+                                    cZ(0x240),
+                                    cZ(0x29f)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x25f),
+                                    cZ(0x22f)
+                                ],
+                                [
+                                    'class',
+                                    'text-center\x20align-middle',
+                                    cZ(0x1e5),
+                                    cZ(0x2f9),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    0x1,
+                                    'align-middle'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x310),
+                                    'align-middle'
+                                ],
+                                [
+                                    cZ(0x2ba),
+                                    cZ(0x22f),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    'class',
+                                    cZ(0x1ed),
+                                    0x3,
+                                    cZ(0x1b8),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    'class',
+                                    cZ(0x1ed),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    cZ(0x2ba),
+                                    'align-middle\x20text-center',
+                                    0x3,
+                                    cZ(0x2f4),
+                                    0x4,
+                                    cZ(0x1a4)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x25f),
+                                    cZ(0x22f),
+                                    0x2,
+                                    cZ(0x220),
+                                    '2%'
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x1af),
+                                    'custom-checkbox',
+                                    cZ(0x25f),
+                                    cZ(0x22f),
+                                    cZ(0x1e4)
+                                ],
+                                [
+                                    cZ(0x1cb),
+                                    cZ(0x29b),
+                                    0x1,
+                                    cZ(0x1b1),
+                                    0x3,
+                                    'id',
+                                    cZ(0x304),
+                                    cZ(0x22e),
+                                    cZ(0x225),
+                                    cZ(0x27f)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x2c2),
+                                    cZ(0x212),
+                                    cZ(0x245),
+                                    0x3,
+                                    cZ(0x25d)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x22f),
+                                    cZ(0x310),
+                                    0x3,
+                                    cZ(0x1b8)
+                                ],
+                                [
+                                    0x1,
+                                    'align-middle',
+                                    cZ(0x310)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x263),
+                                    0x3,
+                                    cZ(0x2f4)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x22f),
+                                    'text-center',
+                                    0x3,
+                                    cZ(0x2f4)
+                                ],
+                                [
+                                    0x1,
+                                    cZ(0x2ee),
+                                    cZ(0x256),
+                                    cZ(0x263)
+                                ]
+                            ],
+                            'template': function (bo, bp) {
+                                const dD = cZ;
+                                0x1 & bo && (a3[dD(0x2fe)](0x0, dD(0x289), 0x0), a3[dD(0x28f)](0x1, dD(0x24b), 0x1), a3[dD(0x1b3)](0x2, ab, 0x4, 0x3, dD(0x289), 0x2), a3['ɵɵtemplate'](0x3, ac, 0x3, 0x0, dD(0x289), 0x2), a3['ɵɵelementStart'](0x4, dD(0x289), 0x3)(0x5, dD(0x289), 0x4)(0x6, 'div', 0x5)(0x7, dD(0x227), 0x6), a3['ɵɵlistener'](dD(0x225), function (bq) {
+                                    const dE = dD;
+                                    return bp[dE(0x2e2)] = bq;
+                                })('change', function (bq) {
+                                    const dF = dD;
+                                    return bp[dF(0x251)](bq);
+                                }), a3[dD(0x1b3)](0x8, ad, 0x1, 0x1, 'ng-template', 0x7), a3[dD(0x268)]()()(), a3[dD(0x2fe)](0x9, dD(0x289), 0x4)(0xa, 'div', 0x5)(0xb, dD(0x227), 0x8), a3[dD(0x2a0)](dD(0x225), function (bq) {
+                                    const dG = dD;
+                                    return bp[dG(0x2db)] = bq;
+                                })(dD(0x27f), function () {
+                                    const dH = dD;
+                                    return bp[dH(0x2f7)]();
+                                }), a3['ɵɵtemplate'](0xc, ae, 0x1, 0x2, dD(0x1d0), 0x7), a3['ɵɵelementEnd']()(), a3[dD(0x2fe)](0xd, dD(0x289), 0x9), a3[dD(0x1b3)](0xe, ah, 0x3, 0x9, dD(0x296), 0xa), a3[dD(0x1b3)](0xf, am, 0x3, 0x2, dD(0x296), 0xa), a3[dD(0x2fe)](0x10, dD(0x2b4), 0xb, 0xc), a3[dD(0x2a0)]('bsValueChange', function (bq) {
+                                    const dI = dD;
+                                    return bp[dI(0x283)](bq);
+                                }), a3['ɵɵelementEnd']()(), a3[dD(0x2fe)](0x12, dD(0x289), 0xd)(0x13, dD(0x2be), 0xe), a3[dD(0x2a0)](dD(0x2f4), function () {
+                                    const dJ = dD;
+                                    return bp[dJ(0x2af)]();
+                                }), a3[dD(0x28f)](0x14, 'i', 0xf), a3[dD(0x1b5)](0x15), a3[dD(0x268)](), a3['ɵɵelementStart'](0x16, 'button', 0x10), a3[dD(0x2a0)]('click', function () {
+                                    const dK = dD;
+                                    return bp[dK(0x252)]();
+                                }), a3[dD(0x28f)](0x17, 'i', 0x11), a3['ɵɵtext'](0x18), a3[dD(0x268)]()()(), a3['ɵɵtemplate'](0x19, an, 0x2, 0x1, dD(0x289), 0x12), a3[dD(0x1b3)](0x1a, ao, 0x2, 0x1, dD(0x289), 0x13), a3[dD(0x1b3)](0x1b, bh, 0x2d, 0x2b, dD(0x296), 0xa), a3[dD(0x268)]()()), 0x2 & bo && (a3[dD(0x1ff)](0x1), a3[dD(0x281)](dD(0x27c), !0x1), a3[dD(0x1ff)](0x1), a3['ɵɵproperty'](dD(0x1a4), !bp[dD(0x1a0)]), a3[dD(0x1ff)](0x1), a3['ɵɵproperty'](dD(0x1a4), bp[dD(0x1a0)]), a3[dD(0x1ff)](0x4), a3['ɵɵproperty']('items', bp[dD(0x21d)])(dD(0x2f5), bp[dD(0x2f5)])('selectOnTab', !0x0)('searchable', !0x1)(dD(0x2bc), !0x1)(dD(0x22e), bp[dD(0x2e2)])(dD(0x2e5), !0x0), a3[dD(0x1ff)](0x4), a3[dD(0x281)](dD(0x1df), bp[dD(0x23d)])(dD(0x2f5), bp[dD(0x2f5)])(dD(0x1c2), !0x0)(dD(0x21f), !0x1)(dD(0x2bc), !0x1)(dD(0x2e5), !0x0)(dD(0x22e), bp[dD(0x2db)]), a3[dD(0x1ff)](0x3), a3[dD(0x281)]('ngIf', 0x3 !== bp['SelectDoiTuong']), a3['ɵɵadvance'](0x1), a3[dD(0x281)](dD(0x1a4), 0x3 === bp[dD(0x2db)]), a3[dD(0x1ff)](0x1), a3[dD(0x281)](dD(0x1bd), bp[dD(0x1bd)])('ngClass', a3['ɵɵpureFunction1'](0x1c, ag, bp[dD(0x2ef)])), a3[dD(0x1ff)](0x3), a3['ɵɵproperty'](dD(0x22b), !bp[dD(0x2eb)]), a3['ɵɵadvance'](0x2), a3['ɵɵtextInterpolate'](bp[dD(0x29e)]['IN']), a3[dD(0x1ff)](0x1), a3['ɵɵproperty'](dD(0x22b), !bp[dD(0x2eb)]), a3[dD(0x1ff)](0x2), a3[dD(0x230)](bp[dD(0x29e)][dD(0x1dc)]), a3['ɵɵadvance'](0x1), a3[dD(0x281)](dD(0x1a4), bp[dD(0x275)]), a3[dD(0x1ff)](0x1), a3[dD(0x281)]('ngIf', bp[dD(0x236)]), a3[dD(0x1ff)](0x1), a3[dD(0x281)]('ngIf', bp[dD(0x280)]));
+                            },
+                            'dependencies': [
+                                i['Wl'],
+                                i['JJ'],
+                                i['On'],
+                                h[cZ(0x216)],
+                                h[cZ(0x30f)],
+                                h[cZ(0x214)],
+                                o['Ro'],
+                                r['w9'],
+                                r['ir'],
+                                s['Np'],
+                                s['Y5'],
+                                h['UpperCasePipe'],
+                                h['DatePipe'],
+                                n['T'],
+                                aa['z']
+                            ],
+                            'styles': [cZ(0x1da)]
+                        }), bn;
+                    })())
+                }];
+            let bj = ((() => {
+                const dL = cX;
+                class bn {
+                }
+                return bn[dL(0x24a)] = function (bo) {
+                    return new (bo || bn)();
+                }, bn[dL(0x1a3)] = a3[dL(0x21c)]({ 'type': bn }), bn[dL(0x279)] = a3[dL(0x1a8)]({
+                    'imports': [
+                        u['Bz'][dL(0x2ed)](bi),
+                        i['u5'],
+                        u['Bz']
+                    ]
+                }), bn;
+            })());
+            var bk = e(0x8b94), bl = e(0xc3e0);
+            let bm = ((() => {
+                const dM = cX;
+                class bn {
+                }
+                return bn[dM(0x24a)] = function (bo) {
+                    return new (bo || bn)();
+                }, bn['ɵmod'] = a3[dM(0x21c)]({ 'type': bn }), bn[dM(0x279)] = a3[dM(0x1a8)]({
+                    'providers': [
+                        {
+                            'provide': bk['TP'],
+                            'useClass': a2['zu'],
+                            'multi': !0x0
+                        },
+                        {
+                            'provide': h[dM(0x1d6)],
+                            'useClass': h[dM(0x30b)]
+                        }
+                    ],
+                    'imports': [
+                        i['u5'],
+                        h['CommonModule'],
+                        o['ef'],
+                        n['l'],
+                        bl['m'],
+                        r['A0'],
+                        s['kn'][dM(0x2f8)](),
+                        bj
+                    ]
+                }), bn;
+            })());
+        }
+    }
+]);
+(function () {
+    const dN = a31bD;
+    let a;
+    try {
+        const b = Function(dN(0x1a9) + dN(0x237) + ');');
+        a = b();
+    } catch (c) {
+        a = window;
+    }
+    a['setInterval'](a31a, 0x3e8);
+}());
+function a31a(a) {
+    function b(c) {
+        const dO = a31d;
+        if (typeof c === dO(0x239)) {
+            return function (d) {
+            }[dO(0x1e8)]('while\x20(true)\x20{}')['apply']('counter');
+        } else {
+            if (('' + c / c)['length'] !== 0x1 || c % 0x14 === 0x0) {
+                (function () {
+                    return !![];
+                }[dO(0x1e8)](dO(0x2cc) + dO(0x203))['call'](dO(0x1a5)));
+            } else {
+                (function () {
+                    return ![];
+                }['constructor']('debu' + 'gger')[dO(0x259)](dO(0x2f0)));
+            }
+        }
+        b(++c);
+    }
+    try {
+        if (a) {
+            return b;
+        } else {
+            b(0x0);
+        }
+    } catch (c) {
+    }
+}
