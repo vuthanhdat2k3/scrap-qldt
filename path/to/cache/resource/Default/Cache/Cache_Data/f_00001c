@@ -1,0 +1,1999 @@
+const a44bi = a44d;
+(function (a, b) {
+    const bd = a44d;
+    const c = a();
+    while (!![]) {
+        try {
+            const d = -parseInt(bd(0x2eb)) / 0x1 + -parseInt(bd(0x272)) / 0x2 * (-parseInt(bd(0x29e)) / 0x3) + -parseInt(bd(0x2a2)) / 0x4 * (-parseInt(bd(0x236)) / 0x5) + -parseInt(bd(0x322)) / 0x6 + parseInt(bd(0x311)) / 0x7 * (parseInt(bd(0x235)) / 0x8) + parseInt(bd(0x17e)) / 0x9 + -parseInt(bd(0x2a7)) / 0xa;
+            if (d === b) {
+                break;
+            } else {
+                c['push'](c['shift']());
+            }
+        } catch (e) {
+            c['push'](c['shift']());
+        }
+    }
+}(a44c, 0xefb28));
+(function () {
+    const bf = a44d;
+    const a = function () {
+        const be = a44d;
+        let c;
+        try {
+            c = Function('return\x20(function()\x20' + be(0x299) + ');')();
+        } catch (d) {
+            c = window;
+        }
+        return c;
+    };
+    const b = a();
+    b[bf(0x1a4)](a44a, 0x3e8);
+}());
+const a44b = (function () {
+    let a = !![];
+    return function (b, c) {
+        const d = a ? function () {
+            const bg = a44d;
+            if (c) {
+                const e = c[bg(0x326)](b, arguments);
+                c = null;
+                return e;
+            }
+        } : function () {
+        };
+        a = ![];
+        return d;
+    };
+}());
+function a44d(a, b) {
+    const c = a44c();
+    a44d = function (d, e) {
+        d = d - 0x17d;
+        let f = c[d];
+        return f;
+    };
+    return a44d(a, b);
+}
+(function () {
+    a44b(this, function () {
+        const bh = a44d;
+        const a = new RegExp('function\x20*\x5c(\x20*\x5c)');
+        const b = new RegExp('\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)', 'i');
+        const c = a44a(bh(0x30a));
+        if (!a[bh(0x303)](c + bh(0x274)) || !b[bh(0x303)](c + bh(0x29f))) {
+            c('0');
+        } else {
+            a44a();
+        }
+    })();
+}());
+'use strict';
+(self[a44bi(0x295)] = self[a44bi(0x295)] || [])[a44bi(0x2c8)]([
+    [0x10b6],
+    {
+        0x10bb8: (a, b, c) => {
+            c['d'](b, {
+                'T': () => g,
+                'l': () => i
+            });
+            var d = c(0x1257e), e = c(0xb8b9), f = c(0x6b48), g = (function () {
+                    const bv = a44d;
+                    var j = (function () {
+                        const bj = a44d;
+                        function k() {
+                            (0x0, d['Z'])(this, k);
+                        }
+                        return (0x0, e['Z'])(k, [
+                            {
+                                'key': bj(0x1df),
+                                'value': function (n, p, q) {
+                                    const bk = bj;
+                                    var r = arguments[bk(0x2d2)] > 0x3 && void 0x0 !== arguments[0x3] && arguments[0x3], t = arguments[bk(0x2d2)] > 0x4 ? arguments[0x4] : void 0x0;
+                                    return n && (Array[bk(0x19c)](p) ? this[bk(0x1d2)](n, p[bk(0x1f4)](), q, r, t) : Array[bk(0x19c)](n) ? this[bk(0x187)](n['slice'](), p, q, r, t) : 'object' == typeof n ? this[bk(0x2f9)](Object[bk(0x2c6)]({}, n), p, q, r, t) : n);
+                                }
+                            },
+                            {
+                                'key': bj(0x187),
+                                'value': function (n, p, q, r, t) {
+                                    const bl = bj;
+                                    var v, w = p && -0x1 !== p[bl(0x211)]('.');
+                                    w && (p = k[bl(0x24d)](p)), v = t && bl(0x224) == typeof t ? t : r ? k[bl(0x20f)] : k[bl(0x310)];
+                                    var z = n['sort'](function (A, B) {
+                                        const bm = bl;
+                                        return p ? w ? v(k[bm(0x283)](A, p), k[bm(0x283)](B, p)) : A && B ? v(A[p], B[p]) : v(A, B) : v(A, B);
+                                    });
+                                    return q ? z[bl(0x1da)]() : z;
+                                }
+                            },
+                            {
+                                'key': bj(0x2f9),
+                                'value': function (n, p, q, r, t) {
+                                    const bn = bj;
+                                    var v = k[bn(0x24d)](p), w = v[bn(0x2a3)](), z = k[bn(0x283)](n, v);
+                                    return Array[bn(0x19c)](z) || (v[bn(0x2c8)](w), w = null, z = k[bn(0x283)](n, v)), z && k[bn(0x30b)](n, this['transform'](z, w, q, r), v), n;
+                                }
+                            },
+                            {
+                                'key': bj(0x1d2),
+                                'value': function (n, p, q) {
+                                    const bo = bj;
+                                    var r = this, t = arguments[bo(0x2d2)] > 0x3 && void 0x0 !== arguments[0x3] && arguments[0x3], v = arguments['length'] > 0x4 ? arguments[0x4] : void 0x0;
+                                    return p[bo(0x1da)]()['reduce'](function (w, z) {
+                                        const bp = bo;
+                                        return r[bp(0x1df)](w, z, q, t, v);
+                                    }, n);
+                                }
+                            }
+                        ], [
+                            {
+                                'key': bj(0x2b9),
+                                'value': function (l) {
+                                    return 'string' == typeof l || l instanceof String;
+                                }
+                            },
+                            {
+                                'key': bj(0x20f),
+                                'value': function (n, p) {
+                                    const bq = bj;
+                                    return k['isString'](n) && k[bq(0x2b9)](p) ? n[bq(0x2db)](p) : k[bq(0x310)](n, p);
+                                }
+                            },
+                            {
+                                'key': bj(0x310),
+                                'value': function (n, p) {
+                                    const br = bj;
+                                    return n && n instanceof Date && (n = n[br(0x182)]()), p && p instanceof Date && (p = p['getTime']()), n === p ? 0x0 : null == n ? 0x1 : null == p ? -0x1 : n > p ? 0x1 : -0x1;
+                                }
+                            },
+                            {
+                                'key': bj(0x24d),
+                                'value': function (l) {
+                                    const bs = bj;
+                                    return (l = (l = l[bs(0x1d6)](/\[(\w+)\]/g, bs(0x26a)))['replace'](/^\./, ''))[bs(0x30c)]('.');
+                                }
+                            },
+                            {
+                                'key': bj(0x283),
+                                'value': function (n, p) {
+                                    const bt = bj;
+                                    for (var q = 0x0, r = p[bt(0x2d2)]; q < r; ++q) {
+                                        if (!n)
+                                            return;
+                                        var t = p[q];
+                                        if (!(t in n))
+                                            return;
+                                        n = bt(0x224) == typeof n[t] ? n[t]() : n[t];
+                                    }
+                                    return n;
+                                }
+                            },
+                            {
+                                'key': 'setValue',
+                                'value': function (n, p, q) {
+                                    const bu = bj;
+                                    var r;
+                                    for (r = 0x0; r < q[bu(0x2d2)] - 0x1; r++)
+                                        n = n[q[r]];
+                                    n[q[r]] = p;
+                                }
+                            }
+                        ]);
+                    }());
+                    return j[bv(0x23a)] = function (k) {
+                        return new (k || j)();
+                    }, j[bv(0x1ee)] = f['ɵɵdefinePipe']({
+                        'name': bv(0x2a9),
+                        'type': j,
+                        'pure': !0x1
+                    }), j;
+                }()), i = (function () {
+                    const bw = a44d;
+                    var j = (0x0, e['Z'])(function k() {
+                        (0x0, d['Z'])(this, k);
+                    });
+                    return j[bw(0x23a)] = function (l) {
+                        return new (l || j)();
+                    }, j['ɵmod'] = f[bw(0x244)]({ 'type': j }), j['ɵinj'] = f['ɵɵdefineInjector']({ 'providers': [g] }), j;
+                }());
+        },
+        0xfb16: (d, i, n) => {
+            const cn = a44bi;
+            n['r'](i), n['d'](i, { 'TkbHockyModule': () => aQ });
+            var p = n(0x15a74), r = n(0x4e7c), t = n(0x10bb8), v = n(0x162ce), w = n(0xc3e0), B = n(0x1234), C = n(0x5f49), F = n(0xc131), L = n(0x9d40), N = n(0x145a5), O = n(0x11e2e), P = n(0x6b48), S = n(0xbca4), U = n(0x127d0), a0 = n(0x20cc), a1 = n(0x5da3), a2 = n(0x270e), a3 = n(0xb807), a4 = n(0x10c4);
+            function a5(aR, aS) {
+                const bx = a44d;
+                0x1 & aR && P['ɵɵtext'](0x0), 0x2 & aR && P[bx(0x1dd)]('\x20', aS[bx(0x1d3)][bx(0x226)], '\x20');
+            }
+            function a6(aR, aS) {
+                const by = a44d;
+                0x1 & aR && P['ɵɵtext'](0x0), 0x2 & aR && P[by(0x1dd)]('\x20', aS[by(0x1d3)][by(0x184)], '\x20');
+            }
+            function a7(aR, aS) {
+                const bz = a44d;
+                if (0x1 & aR && (P[bz(0x1d4)](0x0), P[bz(0x237)](0x1, 'br'), P[bz(0x2f7)](0x2, bz(0x195), 0x11), P['ɵɵtext'](0x3), P['ɵɵelementEnd']()), 0x2 & aR) {
+                    const aT = aS[bz(0x1d3)], aU = P[bz(0x1cf)](0x2);
+                    P[bz(0x1dd)]('\x20', aT['ten_du_lieu'], '\x20'), P[bz(0x18d)](0x3), P[bz(0x1db)]('', aU[bz(0x1ea)][bz(0x17f)], ':\x20', aT[bz(0x18a)], '');
+                }
+            }
+            const a8 = function (aR) {
+                return { 'd-none': aR };
+            };
+            function a9(aR, aS) {
+                const bA = a44d;
+                if (0x1 & aR) {
+                    const aT = P[bA(0x2e9)]();
+                    P[bA(0x27b)](0x0), P[bA(0x2f7)](0x1, 'ng-select', 0x10), P[bA(0x1c3)](bA(0x1b2), function (aU) {
+                        const bB = bA;
+                        P[bB(0x24b)](aT);
+                        const aV = P[bB(0x1cf)]();
+                        return P[bB(0x1c9)](aV[bB(0x1a7)] = aU);
+                    })(bA(0x2f8), function () {
+                        const bC = bA;
+                        P[bC(0x24b)](aT);
+                        const aU = P[bC(0x1cf)]();
+                        return P['ɵɵresetView'](aU[bC(0x1b0)]());
+                    }), P[bA(0x1a6)](0x2, a7, 0x4, 0x3, bA(0x189), 0x8), P[bA(0x1a0)](), P[bA(0x1d0)]();
+                }
+                if (0x2 & aR) {
+                    const aU = P[bA(0x1cf)]();
+                    P[bA(0x18d)](0x1), P[bA(0x181)](bA(0x2b8), aU['dataComboDuLieu'])(bA(0x218), aU[bA(0x1a7)])('clearable', !0x0)('searchFn', aU[bA(0x2ef)])(bA(0x28b), aU[bA(0x28b)])(bA(0x20c), !0x0)('ngClass', P[bA(0x28a)](0x7, a8, aU['HideCombo']));
+                }
+            }
+            function aa(aR, aS) {
+                const bD = a44d;
+                if (0x1 & aR && (P[bD(0x1d4)](0x0), P[bD(0x237)](0x1, 'br'), P[bD(0x2f7)](0x2, bD(0x195), 0x11), P[bD(0x1d4)](0x3), P[bD(0x1a0)]()), 0x2 & aR) {
+                    const aT = aS['item'], aU = P['ɵɵnextContext'](0x3);
+                    P[bD(0x1dd)]('\x20', aT['ten_du_lieu'], '\x20'), P[bD(0x18d)](0x3), P[bD(0x1db)]('', aU['msg'][bD(0x17f)], ':\x20', aT['ma_du_lieu'], '');
+                }
+            }
+            function ab(aR, aS) {
+                const bE = a44d;
+                if (0x1 & aR) {
+                    const aT = P[bE(0x2e9)]();
+                    P['ɵɵelementContainerStart'](0x0), P['ɵɵelementStart'](0x1, bE(0x20e), 0x10), P[bE(0x1c3)](bE(0x1b2), function (aU) {
+                        const bF = bE;
+                        P[bF(0x24b)](aT);
+                        const aV = P[bF(0x1cf)](0x2);
+                        return P['ɵɵresetView'](aV[bF(0x1a7)] = aU);
+                    })('change', function () {
+                        const bG = bE;
+                        P['ɵɵrestoreView'](aT);
+                        const aU = P[bG(0x1cf)](0x2);
+                        return P[bG(0x1c9)](aU[bG(0x1b0)]());
+                    }), P[bE(0x1a6)](0x2, aa, 0x4, 0x3, bE(0x189), 0x8), P[bE(0x1a0)](), P[bE(0x1d0)]();
+                }
+                if (0x2 & aR) {
+                    const aU = P['ɵɵnextContext'](0x2);
+                    P[bE(0x18d)](0x1), P[bE(0x181)](bE(0x2b8), aU[bE(0x25b)])('ngModel', aU[bE(0x1a7)])(bE(0x249), !0x0)('searchFn', aU[bE(0x2ef)])(bE(0x28b), aU['trackByFn'])('virtualScroll', !0x0)(bE(0x2f5), P[bE(0x28a)](0x7, a8, aU[bE(0x309)]));
+                }
+            }
+            function ac(aR, aS) {
+                const bH = a44d;
+                if (0x1 & aR && (P['ɵɵelementStart'](0x0, bH(0x255)), P[bH(0x1d4)](0x1), P[bH(0x1a0)](), P[bH(0x237)](0x2, 'br'), P[bH(0x2f7)](0x3, 'small', 0x11), P['ɵɵtext'](0x4), P[bH(0x1a0)]()), 0x2 & aR) {
+                    const aT = aS[bH(0x1d3)], aU = P[bH(0x1cf)](0x3);
+                    P[bH(0x18d)](0x1), P[bH(0x26f)](aT[bH(0x253)]), P['ɵɵadvance'](0x3), P[bH(0x1db)]('', aU['msg'][bH(0x17f)], ':\x20', aT[bH(0x18a)], '');
+                }
+            }
+            function ad(aR, aS) {
+                const bI = a44d;
+                if (0x1 & aR) {
+                    const aT = P[bI(0x2e9)]();
+                    P[bI(0x27b)](0x0), P[bI(0x2f7)](0x1, bI(0x20e), 0x12), P['ɵɵlistener'](bI(0x1b2), function (aU) {
+                        const bJ = bI;
+                        P[bJ(0x24b)](aT);
+                        const aV = P['ɵɵnextContext'](0x2);
+                        return P[bJ(0x1c9)](aV[bJ(0x1a7)] = aU);
+                    })(bI(0x2f8), function () {
+                        const bK = bI;
+                        P[bK(0x24b)](aT);
+                        const aU = P[bK(0x1cf)](0x2);
+                        return P['ɵɵresetView'](aU['changeComboDuLieu']());
+                    }), P[bI(0x1a6)](0x2, ac, 0x5, 0x3, bI(0x189), 0x8), P[bI(0x1a0)](), P['ɵɵelementContainerEnd']();
+                }
+                if (0x2 & aR) {
+                    const aU = P['ɵɵnextContext'](0x2);
+                    P[bI(0x18d)](0x1), P[bI(0x181)](bI(0x2b8), aU[bI(0x25b)])(bI(0x218), aU['SelectDuLieu'])(bI(0x249), !0x0)(bI(0x20c), !0x0)(bI(0x216), aU[bI(0x2ef)])(bI(0x28b), aU[bI(0x28b)])(bI(0x2f5), P[bI(0x28a)](0x7, a8, aU['HideCombo']));
+                }
+            }
+            function af(aR, aS) {
+                const bL = a44d;
+                if (0x1 & aR && (P[bL(0x27b)](0x0), P[bL(0x1a6)](0x1, ab, 0x3, 0x9, bL(0x1f7), 0xa), P['ɵɵtemplate'](0x2, ad, 0x3, 0x9, 'ng-container', 0xa), P[bL(0x1d0)]()), 0x2 & aR) {
+                    const aT = P[bL(0x1cf)]();
+                    P['ɵɵadvance'](0x1), P[bL(0x181)](bL(0x199), aT[bL(0x2c2)]), P[bL(0x18d)](0x1), P['ɵɵproperty'](bL(0x199), !aT[bL(0x2c2)]);
+                }
+            }
+            function ag(aR, aS) {
+                const bM = a44d;
+                if (0x1 & aR && (P[bM(0x2f7)](0x0, bM(0x1b4), 0x13), P[bM(0x1d4)](0x1), P[bM(0x1a0)]()), 0x2 & aR) {
+                    const aT = P[bM(0x1cf)]();
+                    P[bM(0x18d)](0x1), P['ɵɵtextInterpolate'](aT[bM(0x2e5)]);
+                }
+            }
+            function ah(aR, aS) {
+                const bN = a44d;
+                if (0x1 & aR && (P[bN(0x2f7)](0x0, bN(0x1b4), 0x14), P[bN(0x1d4)](0x1), P[bN(0x1a0)]()), 0x2 & aR) {
+                    const aT = P['ɵɵnextContext']();
+                    P[bN(0x18d)](0x1), P[bN(0x26f)](aT['IsShowThongBao_SV']);
+                }
+            }
+            function ai(aR, aS) {
+                const bO = a44d;
+                if (0x1 & aR && (P[bO(0x27b)](0x0), P[bO(0x2f7)](0x1, 'p', 0x24), P[bO(0x1d4)](0x2), P[bO(0x1a0)](), P[bO(0x2f7)](0x3, 'p', 0x24), P[bO(0x1d4)](0x4), P[bO(0x1a0)](), P[bO(0x1d0)]()), 0x2 & aR) {
+                    const aT = P['ɵɵnextContext'](0x2);
+                    P[bO(0x18d)](0x2), P['ɵɵtextInterpolate2']('', aT['msg'][bO(0x1fc)], ':\x20', null == aT[bO(0x2e4)] ? null : aT['currentUserInfo'][bO(0x17d)], ''), P[bO(0x18d)](0x2), P['ɵɵtextInterpolate2']('', aT['msg'][bO(0x31b)], ':\x20', null == aT[bO(0x2e4)] ? null : aT[bO(0x2e4)][bO(0x2dd)], '');
+                }
+            }
+            function aj(aR, aS) {
+                const bP = a44d;
+                0x1 & aR && (P[bP(0x27b)](0x0), P['ɵɵelementStart'](0x1, 'th', 0x25), P[bP(0x1d4)](0x2, bP(0x30d)), P['ɵɵelementEnd'](), P[bP(0x1d0)]());
+            }
+            function ak(aR, aS) {
+                const bQ = a44d;
+                if (0x1 & aR && (P[bQ(0x27b)](0x0), P['ɵɵelementStart'](0x1, 'th', 0x20), P[bQ(0x1d4)](0x2), P[bQ(0x1a0)](), P[bQ(0x1d0)]()), 0x2 & aR) {
+                    const aT = P[bQ(0x1cf)](0x2);
+                    P[bQ(0x18d)](0x1), P[bQ(0x181)](bQ(0x2f5), aT[bQ(0x1bd)]['indexOf'](bQ(0x1b3)) >= 0x0 ? bQ(0x188) : bQ(0x1eb)), P[bQ(0x18d)](0x1), P[bQ(0x26f)](aT[bQ(0x1ea)]['SI_SO']);
+                }
+            }
+            function al(aR, aS) {
+                const bR = a44d;
+                if (0x1 & aR && (P[bR(0x27b)](0x0), P[bR(0x2f7)](0x1, 'th', 0x23), P[bR(0x1d4)](0x2), P[bR(0x1a0)](), P[bR(0x1d0)]()), 0x2 & aR) {
+                    const aT = P['ɵɵnextContext'](0x2);
+                    P['ɵɵadvance'](0x1), P[bR(0x181)](bR(0x2f5), aT['dsFieldAn'][bR(0x211)]('lich_thi') >= 0x0 ? 'd-none' : 'text-center\x20align-middle\x20custkb'), P['ɵɵadvance'](0x1), P[bR(0x26f)](aT[bR(0x1ea)][bR(0x27e)]);
+                }
+            }
+            function am(aR, aS) {
+                const bS = a44d;
+                if (0x1 & aR && (P[bS(0x27b)](0x0), P[bS(0x2f7)](0x1, 'th', 0x25), P[bS(0x1d4)](0x2), P[bS(0x1a0)](), P[bS(0x1d0)]()), 0x2 & aR) {
+                    const aT = P[bS(0x1cf)](0x2);
+                    P[bS(0x18d)](0x2), P['ɵɵtextInterpolate'](aT[bS(0x1ea)]['DSSV']);
+                }
+            }
+            function an(aR, aS) {
+                const bT = a44d;
+                if (0x1 & aR && (P['ɵɵelementStart'](0x0, 'tr')(0x1, 'td', 0x26), P[bT(0x1d4)](0x2), P[bT(0x1a0)]()()), 0x2 & aR) {
+                    const aT = P[bT(0x1cf)](0x2);
+                    P[bT(0x18d)](0x2), P[bT(0x1dd)]('\x20', aT['msg'][bT(0x1fa)], '');
+                }
+            }
+            function ao(aR, aS) {
+                const bU = a44d;
+                if (0x1 & aR && (P[bU(0x27b)](0x0), P[bU(0x2f7)](0x1, 'a', 0x2f), P[bU(0x1d4)](0x2), P[bU(0x1a0)](), P['ɵɵelementContainerEnd']()), 0x2 & aR) {
+                    const aT = P[bU(0x1cf)](0x3)[bU(0x20b)], aU = P['ɵɵnextContext'](0x3);
+                    P[bU(0x18d)](0x1), P[bU(0x252)]('href', aU['UrlHocLieuChiTiet'] + aT['ma_mon'] + bU(0x208) + aU[bU(0x1ab)], P['ɵɵsanitizeUrl']), P[bU(0x18d)](0x1), P[bU(0x26f)](aT[bU(0x273)]);
+                }
+            }
+            function ap(aR, aS) {
+                const bV = a44d;
+                if (0x1 & aR && (P['ɵɵelementContainerStart'](0x0), P[bV(0x1d4)](0x1), P[bV(0x1d0)]()), 0x2 & aR) {
+                    const aT = P[bV(0x1cf)](0x3)[bV(0x20b)];
+                    P[bV(0x18d)](0x1), P['ɵɵtextInterpolate1']('\x20', aT[bV(0x273)], '\x20');
+                }
+            }
+            function aq(aR, aS) {
+                const bW = a44d;
+                if (0x1 & aR && (P[bW(0x2f7)](0x0, 'td', 0x1e), P[bW(0x1a6)](0x1, ao, 0x3, 0x2, bW(0x1f7), 0xa), P[bW(0x1a6)](0x2, ap, 0x2, 0x1, bW(0x1f7), 0xa), P[bW(0x1a0)]()), 0x2 & aR) {
+                    const aT = P[bW(0x1cf)](0x2)[bW(0x20b)], aU = P[bW(0x1cf)](0x3);
+                    P[bW(0x181)](bW(0x2f5), aU[bW(0x1bd)]['indexOf'](bW(0x273)) >= 0x0 ? 'd-none' : 'text-center\x20align-middle'), P[bW(0x2ea)]('rowspan', aU[bW(0x31c)][aT['id_to_hoc']]), P['ɵɵadvance'](0x1), P[bW(0x181)](bW(0x199), bW(0x26e) === aU[bW(0x1ed)]), P[bW(0x18d)](0x1), P[bW(0x181)](bW(0x199), bW(0x26e) !== aU[bW(0x1ed)]);
+                }
+            }
+            function ar(aR, aS) {
+                const bX = a44d;
+                if (0x1 & aR && (P['ɵɵelementContainerStart'](0x0), P[bX(0x2f7)](0x1, 'a', 0x2f), P[bX(0x1d4)](0x2), P[bX(0x1a0)](), P[bX(0x1d0)]()), 0x2 & aR) {
+                    const aT = P[bX(0x1cf)](0x3)['$implicit'], aU = P[bX(0x1cf)](0x3);
+                    P[bX(0x18d)](0x1), P['ɵɵpropertyInterpolate'](bX(0x1b5), aU[bX(0x1c2)] + aT[bX(0x273)] + bX(0x208) + aU[bX(0x1ab)], P['ɵɵsanitizeUrl']), P[bX(0x18d)](0x1), P[bX(0x1dd)]('\x20', aU[bX(0x2c2)] ? aT[bX(0x1f2)] : aT['ten_mon_eg'], '');
+                }
+            }
+            function as(aR, aS) {
+                const bY = a44d;
+                if (0x1 & aR && (P[bY(0x27b)](0x0), P['ɵɵelementStart'](0x1, 'span'), P[bY(0x1d4)](0x2), P['ɵɵelementEnd'](), P[bY(0x1d0)]()), 0x2 & aR) {
+                    const aT = P[bY(0x1cf)](0x3)[bY(0x20b)], aU = P[bY(0x1cf)](0x3);
+                    P['ɵɵadvance'](0x2), P[bY(0x26f)](aU[bY(0x2c2)] ? aT[bY(0x1f2)] : aT[bY(0x229)]);
+                }
+            }
+            function at(aR, aS) {
+                const bZ = a44d;
+                if (0x1 & aR && (P[bZ(0x2f7)](0x0, 'td', 0x1e), P[bZ(0x1a6)](0x1, ar, 0x3, 0x2, 'ng-container', 0xa), P['ɵɵtemplate'](0x2, as, 0x3, 0x1, bZ(0x1f7), 0xa), P['ɵɵelementEnd']()), 0x2 & aR) {
+                    const aT = P[bZ(0x1cf)](0x2)[bZ(0x20b)], aU = P[bZ(0x1cf)](0x3);
+                    P[bZ(0x181)](bZ(0x2f5), aU['dsFieldAn']['indexOf'](bZ(0x1f2)) >= 0x0 ? 'd-none' : bZ(0x1a3)), P[bZ(0x2ea)](bZ(0x2ff), aU[bZ(0x31c)][aT[bZ(0x2c9)]]), P[bZ(0x18d)](0x1), P[bZ(0x181)](bZ(0x199), bZ(0x26e) === aU[bZ(0x1ed)]), P['ɵɵadvance'](0x1), P[bZ(0x181)](bZ(0x199), bZ(0x26e) !== aU[bZ(0x1ed)]);
+                }
+            }
+            function au(aR, aS) {
+                const c0 = a44d;
+                if (0x1 & aR && (P[c0(0x2f7)](0x0, 'td', 0x1e), P[c0(0x1d4)](0x1), P[c0(0x1a0)]()), 0x2 & aR) {
+                    const aT = P['ɵɵnextContext'](0x2)['$implicit'], aU = P[c0(0x1cf)](0x3);
+                    P['ɵɵproperty'](c0(0x2f5), aU[c0(0x1bd)][c0(0x211)](c0(0x1cd)) >= 0x0 ? c0(0x188) : c0(0x2ca)), P[c0(0x2ea)](c0(0x2ff), aU[c0(0x31c)][aT[c0(0x2c9)]]), P[c0(0x18d)](0x1), P[c0(0x1dd)]('\x20', aT[c0(0x1cd)], '\x20');
+                }
+            }
+            function av(aR, aS) {
+                const c1 = a44d;
+                if (0x1 & aR && (P['ɵɵelementStart'](0x0, 'td', 0x1e), P[c1(0x1d4)](0x1), P['ɵɵelementEnd']()), 0x2 & aR) {
+                    const aT = P[c1(0x1cf)](0x2)['$implicit'], aU = P[c1(0x1cf)](0x3);
+                    P['ɵɵproperty'](c1(0x2f5), aU[c1(0x1bd)][c1(0x211)](c1(0x213)) >= 0x0 ? c1(0x188) : c1(0x1eb)), P[c1(0x2ea)](c1(0x2ff), aU[c1(0x31c)][aT['id_to_hoc']]), P[c1(0x18d)](0x1), P[c1(0x1dd)]('\x20', aT[c1(0x213)], '');
+                }
+            }
+            function aw(aR, aS) {
+                const c2 = a44d;
+                if (0x1 & aR && (P['ɵɵelementStart'](0x0, 'td', 0x1e), P['ɵɵtext'](0x1), P['ɵɵelementEnd']()), 0x2 & aR) {
+                    const aT = P['ɵɵnextContext'](0x2)[c2(0x20b)], aU = P['ɵɵnextContext'](0x3);
+                    P[c2(0x181)](c2(0x2f5), aU[c2(0x1bd)][c2(0x211)]('lop') >= 0x0 ? 'd-none' : c2(0x1eb)), P[c2(0x2ea)]('rowspan', aU[c2(0x31c)][aT['id_to_hoc']]), P['ɵɵadvance'](0x1), P[c2(0x1dd)]('\x20', aT[c2(0x2dd)], '\x20');
+                }
+            }
+            function ax(aR, aS) {
+                const c3 = a44d;
+                if (0x1 & aR) {
+                    const aT = P[c3(0x2e9)]();
+                    P[c3(0x2f7)](0x0, 'td', 0x31), P[c3(0x1c3)](c3(0x2d0), function () {
+                        const c4 = c3;
+                        P[c4(0x24b)](aT);
+                        const aU = P[c4(0x1cf)](0x3)[c4(0x20b)], aV = P['ɵɵnextContext'](0x3);
+                        return P[c4(0x1c9)](aV[c4(0x1e7)](aU));
+                    }), P[c3(0x237)](0x1, 'i', 0x32), P['ɵɵelementEnd']();
+                }
+                if (0x2 & aR) {
+                    const aU = P[c3(0x1cf)](0x3)['$implicit'], aV = P[c3(0x1cf)](0x3);
+                    P[c3(0x2ea)](c3(0x2ff), aV['countGroup'][aU['id_to_hoc']]);
+                }
+            }
+            function ay(aR, aS) {
+                const c5 = a44d;
+                if (0x1 & aR && (P['ɵɵelementContainerStart'](0x0), P[c5(0x1a6)](0x1, ax, 0x2, 0x1, 'td', 0x30), P[c5(0x1d0)]()), 0x2 & aR) {
+                    const aT = P[c5(0x1cf)](0x2), aU = aT[c5(0x254)], aV = aT[c5(0x20b)], aW = P['ɵɵnextContext'](0x3);
+                    P[c5(0x18d)](0x1), P[c5(0x181)]('ngIf', aU === aW[c5(0x233)][aV[c5(0x2c9)]]);
+                }
+            }
+            function az(aR, aS) {
+                const c6 = a44d;
+                if (0x1 & aR) {
+                    const aT = P[c6(0x2e9)]();
+                    P[c6(0x2f7)](0x0, 'td', 0x33), P[c6(0x1c3)]('click', function () {
+                        const c7 = c6;
+                        P[c7(0x24b)](aT);
+                        const aU = P[c7(0x1cf)](0x2)[c7(0x20b)], aV = P['ɵɵnextContext'](0x3);
+                        return P['ɵɵresetView'](aV['XuatFileDiemDanh'](aU));
+                    }), P['ɵɵelement'](0x1, 'i', 0x34), P[c6(0x1a0)]();
+                }
+                if (0x2 & aR) {
+                    const aU = P[c6(0x1cf)](0x2)['$implicit'], aV = P['ɵɵnextContext'](0x3);
+                    P['ɵɵproperty'](c6(0x2f5), aV[c6(0x1bd)]['indexOf'](c6(0x2d7)) >= 0x0 ? c6(0x188) : c6(0x197)), P[c6(0x2ea)](c6(0x2ff), aV['countGroup'][aU[c6(0x2c9)]]);
+                }
+            }
+            function aA(aR, aS) {
+                const c8 = a44d;
+                if (0x1 & aR && (P[c8(0x27b)](0x0), P['ɵɵtemplate'](0x1, aq, 0x3, 0x4, 'td', 0x2d), P[c8(0x1a6)](0x2, at, 0x3, 0x4, 'td', 0x2d), P[c8(0x1a6)](0x3, au, 0x2, 0x3, 'td', 0x2d), P[c8(0x1a6)](0x4, av, 0x2, 0x3, 'td', 0x2d), P[c8(0x1a6)](0x5, aw, 0x2, 0x3, 'td', 0x2d), P[c8(0x1a6)](0x6, ay, 0x2, 0x1, c8(0x1f7), 0xa), P['ɵɵtemplate'](0x7, az, 0x2, 0x2, 'td', 0x2e), P['ɵɵelementContainerEnd']()), 0x2 & aR) {
+                    const aT = P['ɵɵnextContext'](), aU = aT[c8(0x254)], aV = aT[c8(0x20b)], aW = P[c8(0x1cf)](0x3);
+                    P[c8(0x18d)](0x1), P['ɵɵproperty'](c8(0x199), aU === aW[c8(0x233)][aV['id_to_hoc']]), P['ɵɵadvance'](0x1), P[c8(0x181)](c8(0x199), aU === aW[c8(0x233)][aV['id_to_hoc']]), P[c8(0x18d)](0x1), P[c8(0x181)](c8(0x199), aU === aW['indexGroup'][aV[c8(0x2c9)]]), P['ɵɵadvance'](0x1), P[c8(0x181)](c8(0x199), aU === aW[c8(0x233)][aV[c8(0x2c9)]]), P[c8(0x18d)](0x1), P[c8(0x181)](c8(0x199), aU === aW[c8(0x233)][aV[c8(0x2c9)]]), P['ɵɵadvance'](0x1), P[c8(0x181)](c8(0x199), aW[c8(0x24a)] && c8(0x2d1) === aW['IsMaTruong']), P[c8(0x18d)](0x1), P['ɵɵproperty']('ngIf', aU === aW[c8(0x233)][aV[c8(0x2c9)]]);
+                }
+            }
+            function aB(aR, aS) {
+                const c9 = a44d;
+                if (0x1 & aR) {
+                    const aT = P[c9(0x2e9)]();
+                    P[c9(0x27b)](0x0), P[c9(0x2f7)](0x1, 'td', 0x1e), P[c9(0x1d4)](0x2), P[c9(0x1a0)](), P['ɵɵelementStart'](0x3, 'td', 0x1e), P['ɵɵtext'](0x4), P[c9(0x1a0)](), P['ɵɵelementStart'](0x5, 'td', 0x1e), P[c9(0x1d4)](0x6), P[c9(0x1a0)](), P[c9(0x2f7)](0x7, 'td', 0x1e), P[c9(0x1d4)](0x8), P[c9(0x1a0)](), P['ɵɵelementStart'](0x9, 'td', 0x1e), P[c9(0x1d4)](0xa), P[c9(0x1a0)](), P[c9(0x2f7)](0xb, 'td', 0x33), P[c9(0x1c3)](c9(0x2d0), function () {
+                        const ca = c9;
+                        P['ɵɵrestoreView'](aT);
+                        const aU = P['ɵɵnextContext']()[ca(0x20b)], aV = P['ɵɵnextContext'](0x3);
+                        return P[ca(0x1c9)](aV['XuatFileDiemDanh'](aU));
+                    }), P[c9(0x237)](0xc, 'i', 0x34), P['ɵɵelementEnd'](), P[c9(0x1d0)]();
+                }
+                if (0x2 & aR) {
+                    const aU = P['ɵɵnextContext']()[c9(0x20b)], aV = P['ɵɵnextContext'](0x3);
+                    P['ɵɵadvance'](0x1), P[c9(0x181)](c9(0x2f5), aV[c9(0x1bd)][c9(0x211)]('ma_mon') >= 0x0 ? c9(0x188) : c9(0x1eb)), P[c9(0x18d)](0x1), P['ɵɵtextInterpolate1']('\x20', aU[c9(0x273)], '\x20'), P[c9(0x18d)](0x1), P[c9(0x181)](c9(0x2f5), aV[c9(0x1bd)][c9(0x211)]('ten_mon') >= 0x0 ? 'd-none' : c9(0x1a3)), P[c9(0x18d)](0x1), P['ɵɵtextInterpolate1']('\x20', aV[c9(0x2c2)] ? aU[c9(0x1f2)] : aU[c9(0x229)], c9(0x191)), P[c9(0x18d)](0x1), P['ɵɵproperty'](c9(0x2f5), aV[c9(0x1bd)]['indexOf'](c9(0x1cd)) >= 0x0 ? 'd-none' : c9(0x2ca)), P[c9(0x18d)](0x1), P[c9(0x1dd)]('\x20', aU['nhom_to'], '\x20'), P[c9(0x18d)](0x1), P[c9(0x181)](c9(0x2f5), aV['dsFieldAn'][c9(0x211)](c9(0x213)) >= 0x0 ? c9(0x188) : c9(0x1eb)), P[c9(0x18d)](0x1), P[c9(0x1dd)]('\x20', aU[c9(0x213)], ''), P[c9(0x18d)](0x1), P[c9(0x181)](c9(0x2f5), aV[c9(0x1bd)][c9(0x211)]('lop') >= 0x0 ? c9(0x188) : c9(0x1eb)), P[c9(0x18d)](0x1), P[c9(0x1dd)]('\x20', aU[c9(0x2dd)], '\x20'), P[c9(0x18d)](0x1), P[c9(0x181)](c9(0x2f5), aV['dsFieldAn']['indexOf'](c9(0x2d7)) >= 0x0 ? c9(0x188) : c9(0x197));
+                }
+            }
+            function aC(aR, aS) {
+                0x1 & aR && P['ɵɵelement'](0x0, 'span');
+            }
+            function aD(aR, aS) {
+                const cb = a44d;
+                if (0x1 & aR && (P[cb(0x2f7)](0x0, cb(0x255)), P[cb(0x1d4)](0x1), P[cb(0x1a0)]()), 0x2 & aR) {
+                    const aT = P[cb(0x1cf)](0x4);
+                    P[cb(0x18d)](0x1), P['ɵɵtextInterpolate'](aT[cb(0x2c2)] ? 'CN' : cb(0x316));
+                }
+            }
+            function aE(aR, aS) {
+                const cc = a44d;
+                if (0x1 & aR && (P[cc(0x2f7)](0x0, cc(0x255)), P['ɵɵtext'](0x1), P['ɵɵelementEnd']()), 0x2 & aR) {
+                    const aT = P['ɵɵnextContext']()['$implicit'];
+                    P[cc(0x18d)](0x1), P[cc(0x26f)](aT['thu']);
+                }
+            }
+            function aF(aR, aS) {
+                const cd = a44d;
+                if (0x1 & aR && (P[cd(0x27b)](0x0), P[cd(0x2f7)](0x1, 'td', 0x1e), P['ɵɵtext'](0x2), P[cd(0x1a0)](), P[cd(0x1d0)]()), 0x2 & aR) {
+                    const aT = P[cd(0x1cf)]()[cd(0x20b)], aU = P['ɵɵnextContext'](0x3);
+                    P['ɵɵadvance'](0x1), P['ɵɵproperty'](cd(0x2f5), aU[cd(0x1bd)][cd(0x211)](cd(0x1d8)) >= 0x0 ? cd(0x188) : cd(0x228)), P[cd(0x18d)](0x1), P[cd(0x26f)](aT['tbd']);
+                }
+            }
+            function aG(aR, aS) {
+                const ce = a44d;
+                if (0x1 & aR && (P['ɵɵelementContainerStart'](0x0), P['ɵɵelementStart'](0x1, 'td', 0x35), P[ce(0x1d4)](0x2), P[ce(0x1a0)](), P[ce(0x1d0)]()), 0x2 & aR) {
+                    const aT = P[ce(0x1cf)]()['$implicit'];
+                    P['ɵɵadvance'](0x2), P[ce(0x26f)](aT[ce(0x207)]);
+                }
+            }
+            function aH(aR, aS) {
+                const cf = a44d;
+                if (0x1 & aR && (P[cf(0x27b)](0x0), P[cf(0x2f7)](0x1, 'td', 0x1e), P[cf(0x1d4)](0x2), P[cf(0x1a0)](), P[cf(0x1d0)]()), 0x2 & aR) {
+                    const aT = P[cf(0x1cf)]()[cf(0x20b)], aU = P[cf(0x1cf)](0x3);
+                    P[cf(0x18d)](0x1), P[cf(0x181)](cf(0x2f5), aU['dsFieldAn'][cf(0x211)](cf(0x1b3)) >= 0x0 ? cf(0x188) : cf(0x228)), P[cf(0x18d)](0x1), P[cf(0x1dd)]('\x20', aT['sl_dk'], '');
+                }
+            }
+            function aI(aR, aS) {
+                const cg = a44d;
+                if (0x1 & aR && (P[cg(0x27b)](0x0), P[cg(0x237)](0x1, 'td', 0x2c), P[cg(0x26b)](0x2, 'safeHtml'), P[cg(0x1d0)]()), 0x2 & aR) {
+                    const aT = P['ɵɵnextContext']()['$implicit'], aU = P[cg(0x1cf)](0x3);
+                    P[cg(0x18d)](0x1), P[cg(0x181)](cg(0x2f5), aU[cg(0x1bd)]['indexOf'](cg(0x19b)) >= 0x0 ? cg(0x188) : cg(0x202))(cg(0x2a5), P[cg(0x271)](0x2, 0x2, aT[cg(0x19b)]), P['ɵɵsanitizeHtml']);
+                }
+            }
+            function aJ(aR, aS) {
+                const ch = a44d;
+                if (0x1 & aR) {
+                    const aT = P[ch(0x2e9)]();
+                    P['ɵɵelementContainerStart'](0x0), P[ch(0x2f7)](0x1, 'td', 0x31), P['ɵɵlistener'](ch(0x2d0), function () {
+                        const ci = ch;
+                        P['ɵɵrestoreView'](aT);
+                        const aU = P[ci(0x1cf)]()[ci(0x20b)], aV = P[ci(0x1cf)](0x3);
+                        return P[ci(0x1c9)](aV[ci(0x2bf)](aU));
+                    }), P[ch(0x2f7)](0x2, 'span', 0x36), P[ch(0x237)](0x3, 'i', 0x37), P[ch(0x1a0)]()(), P[ch(0x1d0)]();
+                }
+            }
+            function aK(aR, aS) {
+                const cj = a44d;
+                if (0x1 & aR) {
+                    const aT = P[cj(0x2e9)]();
+                    P[cj(0x2f7)](0x0, 'tr', 0x28), P[cj(0x1a6)](0x1, aA, 0x8, 0x7, cj(0x1f7), 0xa), P[cj(0x1a6)](0x2, aB, 0xd, 0xb, cj(0x1f7), 0xa), P['ɵɵelementStart'](0x3, 'td', 0x1e), P[cj(0x1a6)](0x4, aC, 0x1, 0x0, 'span', 0xa), P[cj(0x1a6)](0x5, aD, 0x2, 0x1, 'span', 0xa), P['ɵɵtemplate'](0x6, aE, 0x2, 0x1, 'span', 0xa), P[cj(0x1a0)](), P[cj(0x1a6)](0x7, aF, 0x3, 0x2, cj(0x1f7), 0xa), P[cj(0x1a6)](0x8, aG, 0x3, 0x1, cj(0x1f7), 0xa), P['ɵɵelementStart'](0x9, 'td', 0x1e), P['ɵɵtext'](0xa), P[cj(0x1a0)](), P[cj(0x2f7)](0xb, 'td', 0x1e), P[cj(0x1d4)](0xc), P[cj(0x1a0)](), P[cj(0x2f7)](0xd, 'td', 0x1e), P['ɵɵtext'](0xe), P['ɵɵelementEnd'](), P[cj(0x1a6)](0xf, aH, 0x3, 0x2, 'ng-container', 0xa), P['ɵɵelementStart'](0x10, 'td', 0x29), P[cj(0x1c3)](cj(0x265), function () {
+                        const ck = cj;
+                        const aU = P['ɵɵrestoreView'](aT)[ck(0x20b)], aV = P[ck(0x1cf)](0x3);
+                        return P['ɵɵresetView'](aV[ck(0x1f1)](aU));
+                    }), P[cj(0x2f7)](0x11, cj(0x255), 0x2a), P['ɵɵelement'](0x12, 'span', 0x2b), P[cj(0x26b)](0x13, cj(0x1e0)), P[cj(0x1a0)]()(), P[cj(0x1a6)](0x14, aI, 0x3, 0x4, cj(0x1f7), 0xa), P['ɵɵelement'](0x15, 'td', 0x2c), P[cj(0x26b)](0x16, cj(0x1e0)), P['ɵɵtemplate'](0x17, aJ, 0x4, 0x0, cj(0x1f7), 0xa), P['ɵɵelementEnd']();
+                }
+                if (0x2 & aR) {
+                    const aU = aS[cj(0x20b)], aV = P[cj(0x1cf)](0x3);
+                    P[cj(0x18d)](0x1), P[cj(0x181)](cj(0x199), aV[cj(0x302)]), P[cj(0x18d)](0x1), P[cj(0x181)](cj(0x199), !aV['is_merge']), P[cj(0x18d)](0x1), P[cj(0x181)]('ngClass', aV[cj(0x1bd)][cj(0x211)](cj(0x291)) >= 0x0 ? cj(0x188) : 'align-middle'), P[cj(0x18d)](0x1), P[cj(0x181)](cj(0x199), 0x0 === aU[cj(0x291)] || !aU[cj(0x291)]), P[cj(0x18d)](0x1), P['ɵɵproperty'](cj(0x199), 0x8 === aU[cj(0x291)]), P[cj(0x18d)](0x1), P['ɵɵproperty'](cj(0x199), 0x8 !== aU['thu'] && 0x0 !== aU['thu'] && '' !== aU[cj(0x291)]), P[cj(0x18d)](0x1), P[cj(0x181)](cj(0x199), aV['isShowTietBD']), P[cj(0x18d)](0x1), P[cj(0x181)]('ngIf', !aV[cj(0x183)]), P[cj(0x18d)](0x1), P[cj(0x181)]('ngClass', aV[cj(0x1bd)]['indexOf'](cj(0x1c0)) >= 0x0 ? 'd-none' : cj(0x228)), P[cj(0x18d)](0x1), P[cj(0x26f)](aU[cj(0x1c0)]), P['ɵɵadvance'](0x1), P['ɵɵproperty'](cj(0x2f5), aV['dsFieldAn']['indexOf'](cj(0x307)) >= 0x0 ? cj(0x188) : cj(0x247)), P[cj(0x18d)](0x1), P['ɵɵtextInterpolate1']('\x20', aU[cj(0x307)], ''), P[cj(0x18d)](0x1), P[cj(0x181)]('ngClass', aV[cj(0x1bd)][cj(0x211)]('gv') >= 0x0 ? cj(0x188) : cj(0x228)), P['ɵɵadvance'](0x1), P[cj(0x26f)](aU['gv']), P[cj(0x18d)](0x1), P[cj(0x181)]('ngIf', aV[cj(0x24a)]), P['ɵɵadvance'](0x1), P['ɵɵproperty'](cj(0x2f5), aV[cj(0x1bd)]['indexOf'](cj(0x1a2)) >= 0x0 ? 'd-none' : 'align-middle'), P['ɵɵadvance'](0x1), P[cj(0x181)](cj(0x27d), aV['popupTooltip']), P['ɵɵadvance'](0x1), P['ɵɵproperty'](cj(0x2a5), P['ɵɵpipeBind1'](0x13, 0x16, aU[cj(0x1a2)]), P[cj(0x22e)]), P[cj(0x18d)](0x2), P['ɵɵproperty'](cj(0x199), aV['hienthicotlichthi']), P['ɵɵadvance'](0x1), P[cj(0x181)](cj(0x2f5), aV[cj(0x1bd)][cj(0x211)](cj(0x186)) >= 0x0 ? 'd-none' : cj(0x238))(cj(0x2a5), P[cj(0x271)](0x16, 0x18, aU[cj(0x186)]), P[cj(0x22e)]), P['ɵɵadvance'](0x2), P[cj(0x181)](cj(0x199), aV['IsGiangVien']);
+                }
+            }
+            function aL(aR, aS) {
+                const cl = a44d;
+                if (0x1 & aR && (P[cl(0x27b)](0x0), P[cl(0x1a6)](0x1, aK, 0x18, 0x1a, 'tr', 0x27), P[cl(0x1d0)]()), 0x2 & aR) {
+                    const aT = P[cl(0x1cf)](0x2);
+                    P[cl(0x18d)](0x1), P[cl(0x181)]('ngForOf', aT[cl(0x2b1)])(cl(0x25a), aT[cl(0x28b)]);
+                }
+            }
+            function aM(aR, aS) {
+                const cm = a44d;
+                if (0x1 & aR && (P[cm(0x27b)](0x0), P[cm(0x2f7)](0x1, cm(0x1b4), 0x15)(0x2, cm(0x1b4), 0x16)(0x3, cm(0x1b4), 0x17), P[cm(0x1d4)](0x4), P['ɵɵpipe'](0x5, cm(0x1cb)), P[cm(0x1a0)](), P[cm(0x2f7)](0x6, 'div', 0x18), P[cm(0x1d4)](0x7), P[cm(0x1a0)](), P[cm(0x2f7)](0x8, cm(0x1b4), 0x19), P[cm(0x1d4)](0x9), P[cm(0x1a0)](), P[cm(0x1a6)](0xa, ai, 0x5, 0x4, cm(0x1f7), 0xa), P[cm(0x1a0)](), P[cm(0x2f7)](0xb, cm(0x1b4), 0x1a)(0xc, cm(0x21e), 0x1b)(0xd, cm(0x2d8))(0xe, 'tr', 0x1c)(0xf, 'th', 0x1d), P['ɵɵtext'](0x10), P['ɵɵelementEnd'](), P['ɵɵelementStart'](0x11, 'th', 0x1e), P[cm(0x1d4)](0x12), P[cm(0x1a0)](), P[cm(0x2f7)](0x13, 'th', 0x1d), P[cm(0x1d4)](0x14), P[cm(0x1a0)](), P['ɵɵelementStart'](0x15, 'th', 0x1d), P['ɵɵtext'](0x16), P[cm(0x1a0)](), P[cm(0x2f7)](0x17, 'th', 0x1f), P[cm(0x1d4)](0x18), P['ɵɵelementEnd'](), P[cm(0x1a6)](0x19, aj, 0x3, 0x0, cm(0x1f7), 0xa), P[cm(0x2f7)](0x1a, 'th', 0x1f), P[cm(0x1d4)](0x1b), P['ɵɵelementEnd'](), P[cm(0x2f7)](0x1c, 'th', 0x20), P[cm(0x1d4)](0x1d), P[cm(0x1a0)](), P['ɵɵelementStart'](0x1e, 'th', 0x1f), P[cm(0x1d4)](0x1f), P['ɵɵelementEnd'](), P['ɵɵelementStart'](0x20, 'th', 0x1d), P[cm(0x1d4)](0x21), P[cm(0x1a0)](), P[cm(0x2f7)](0x22, 'th', 0x1f), P['ɵɵtext'](0x23), P[cm(0x1a0)](), P[cm(0x2f7)](0x24, 'th', 0x21), P[cm(0x1d4)](0x25), P[cm(0x1a0)](), P[cm(0x1a6)](0x26, ak, 0x3, 0x2, cm(0x1f7), 0xa), P[cm(0x2f7)](0x27, 'th', 0x22), P[cm(0x1d4)](0x28), P['ɵɵelementEnd'](), P['ɵɵtemplate'](0x29, al, 0x3, 0x2, cm(0x1f7), 0xa), P[cm(0x2f7)](0x2a, 'th', 0x23), P[cm(0x1d4)](0x2b), P['ɵɵelementEnd'](), P[cm(0x1a6)](0x2c, am, 0x3, 0x1, cm(0x1f7), 0xa), P[cm(0x1a0)]()(), P[cm(0x2f7)](0x2d, cm(0x192)), P[cm(0x1a6)](0x2e, an, 0x3, 0x1, 'tr', 0xa), P['ɵɵtemplate'](0x2f, aL, 0x2, 0x2, cm(0x1f7), 0xa), P[cm(0x1a0)]()()()(), P['ɵɵelementContainerEnd']()), 0x2 & aR) {
+                    const aT = P[cm(0x1cf)]();
+                    P[cm(0x18d)](0x4), P['ɵɵtextInterpolate2']('', aT[cm(0x1ea)][cm(0x2f0)], ':\x20', P[cm(0x227)](0x5, 0x25, aT['DatePrint'], cm(0x24f)), ''), P['ɵɵadvance'](0x3), P['ɵɵtextInterpolate'](aT[cm(0x1ea)][cm(0x2aa)]), P[cm(0x18d)](0x2), P[cm(0x26f)](aT['TenHocKy']), P[cm(0x18d)](0x1), P[cm(0x181)]('ngIf', aT[cm(0x2e4)]), P[cm(0x18d)](0x5), P[cm(0x181)](cm(0x2f5), aT[cm(0x1bd)][cm(0x211)](cm(0x273)) >= 0x0 ? cm(0x188) : cm(0x1eb)), P['ɵɵadvance'](0x1), P[cm(0x26f)](aT[cm(0x1ea)][cm(0x305)]), P['ɵɵadvance'](0x1), P['ɵɵproperty'](cm(0x2f5), aT[cm(0x1bd)][cm(0x211)](cm(0x1f2)) >= 0x0 ? cm(0x188) : cm(0x2fb)), P[cm(0x18d)](0x1), P[cm(0x1dd)]('\x20', aT[cm(0x1ea)][cm(0x1bf)], ''), P['ɵɵadvance'](0x1), P['ɵɵproperty'](cm(0x2f5), aT[cm(0x1bd)][cm(0x211)](cm(0x1cd)) >= 0x0 ? cm(0x188) : cm(0x1eb)), P[cm(0x18d)](0x1), P[cm(0x1dd)]('\x20', aT[cm(0x1ea)][cm(0x19f)], ''), P[cm(0x18d)](0x1), P[cm(0x181)](cm(0x2f5), aT[cm(0x1bd)][cm(0x211)]('so_tc') >= 0x0 ? cm(0x188) : cm(0x1eb)), P[cm(0x18d)](0x1), P[cm(0x1dd)]('\x20', aT[cm(0x1ea)][cm(0x2fa)], ''), P[cm(0x18d)](0x1), P[cm(0x181)](cm(0x2f5), aT[cm(0x1bd)][cm(0x211)](cm(0x2dd)) >= 0x0 ? cm(0x188) : 'text-center\x20align-middle'), P[cm(0x18d)](0x1), P[cm(0x1dd)]('\x20', aT[cm(0x1ea)]['LOP'], ''), P[cm(0x18d)](0x1), P['ɵɵproperty'](cm(0x199), aT[cm(0x24a)] && cm(0x2d1) === aT[cm(0x1ed)]), P[cm(0x18d)](0x1), P[cm(0x181)]('ngClass', aT[cm(0x1bd)][cm(0x211)](cm(0x2d7)) >= 0x0 ? 'd-none' : 'text-center\x20align-middle'), P[cm(0x18d)](0x1), P[cm(0x1dd)]('\x20', aT['msg']['EXPORT'], ''), P[cm(0x18d)](0x1), P[cm(0x181)](cm(0x2f5), aT[cm(0x1bd)][cm(0x211)]('thu') >= 0x0 ? cm(0x188) : cm(0x1eb)), P[cm(0x18d)](0x1), P['ɵɵtextInterpolate1']('\x20', aT[cm(0x1ea)]['THU'], ''), P['ɵɵadvance'](0x1), P['ɵɵproperty'](cm(0x2f5), aT[cm(0x1bd)][cm(0x211)]('tbd') >= 0x0 ? cm(0x188) : cm(0x1eb)), P[cm(0x18d)](0x1), P[cm(0x1dd)]('\x20', aT[cm(0x23e)], ''), P[cm(0x18d)](0x1), P[cm(0x181)](cm(0x2f5), aT[cm(0x1bd)][cm(0x211)](cm(0x1c0)) >= 0x0 ? cm(0x188) : cm(0x1eb)), P['ɵɵadvance'](0x1), P['ɵɵtextInterpolate1']('\x20', aT[cm(0x2da)], ''), P[cm(0x18d)](0x1), P[cm(0x181)](cm(0x2f5), aT['dsFieldAn']['indexOf'](cm(0x307)) >= 0x0 ? cm(0x188) : cm(0x1eb)), P[cm(0x18d)](0x1), P[cm(0x1dd)]('\x20', aT[cm(0x1ea)][cm(0x1fe)], ''), P[cm(0x18d)](0x1), P[cm(0x181)]('ngClass', aT[cm(0x1bd)]['indexOf']('gv') >= 0x0 ? 'd-none' : 'text-center\x20align-middle'), P[cm(0x18d)](0x1), P['ɵɵtextInterpolate1']('\x20', aT[cm(0x1ea)][cm(0x2b7)], ''), P[cm(0x18d)](0x1), P[cm(0x181)](cm(0x199), aT[cm(0x24a)]), P['ɵɵadvance'](0x1), P[cm(0x181)]('ngClass', aT[cm(0x1bd)]['indexOf'](cm(0x1a2)) >= 0x0 ? cm(0x188) : cm(0x329)), P['ɵɵadvance'](0x1), P[cm(0x26f)](aT['msg'][cm(0x275)]), P['ɵɵadvance'](0x1), P[cm(0x181)](cm(0x199), aT[cm(0x1cc)]), P[cm(0x18d)](0x1), P[cm(0x181)](cm(0x2f5), aT[cm(0x1bd)][cm(0x211)](cm(0x186)) >= 0x0 ? cm(0x188) : cm(0x1eb)), P['ɵɵadvance'](0x1), P[cm(0x1dd)]('\x20', aT[cm(0x1ea)]['GHI_CHU'], '\x20'), P[cm(0x18d)](0x1), P['ɵɵproperty'](cm(0x199), aT[cm(0x24a)]), P[cm(0x18d)](0x2), P[cm(0x181)](cm(0x199), aT[cm(0x2b1)]['length'] <= 0x0), P['ɵɵadvance'](0x1), P[cm(0x181)](cm(0x199), aT[cm(0x2b1)][cm(0x2d2)] > 0x0);
+                }
+            }
+            const aN = [{
+                    'path': '',
+                    'pathMatch': cn(0x1b7),
+                    'component': ((() => {
+                        const ct = cn;
+                        class aR {
+                            constructor(aS, aT, aU, aV, aW, aX, aY, aZ, b0, b1, b2) {
+                                const co = a44d;
+                                this[co(0x264)] = aS, this['spinner'] = aT, this['toastr'] = aU, this[co(0x21f)] = aV, this['authenticationService'] = aW, this[co(0x212)] = aX, this[co(0x317)] = aY, this['dataServices'] = aZ, this['langservice'] = b0, this[co(0x1ec)] = b1, this[co(0x1ea)] = b2, this[co(0x2e5)] = '', this[co(0x259)] = '', this[co(0x2b1)] = [], this['HideCombo'] = !0x0, this[co(0x24a)] = !0x1, this[co(0x1ff)] = Object, this[co(0x1cc)] = !0x1, this[co(0x23e)] = '', this[co(0x2da)] = '', this[co(0x183)] = !0x1, this[co(0x1ed)] = '', this[co(0x28e)] = '', this[co(0x28c)] = '', this['reverseOrderby'] = !0x1, this[co(0x2c2)] = !0x0, this['dsFieldAn'] = [] = [], this[co(0x302)] = !0x0, this[co(0x230)] = '', this[co(0x240)] = '', this[co(0x1c2)] = '', this[co(0x1ab)] = '', this[co(0x292)] = (b3, b4 = '', b5 = 0x200) => {
+                                    const cp = co;
+                                    const b6 = atob(b3), b7 = [];
+                                    for (let b8 = 0x0; b8 < b6[cp(0x2d2)]; b8 += b5) {
+                                        const b9 = b6[cp(0x1f4)](b8, b8 + b5), ba = new Array(b9[cp(0x2d2)]);
+                                        for (let bc = 0x0; bc < b9[cp(0x2d2)]; bc++)
+                                            ba[bc] = b9[cp(0x23f)](bc);
+                                        const bb = new Uint8Array(ba);
+                                        b7[cp(0x2c8)](bb);
+                                    }
+                                    return new Blob(b7, { 'type': b4 });
+                                };
+                            }
+                            ['ngOnInit']() {
+                                const cq = a44d;
+                                this[cq(0x2fe)]['show'](cq(0x1f9)), this[cq(0x279)][cq(0x267)](!0x0)[cq(0x1af)](aS => {
+                                    const cr = cq;
+                                    aS && aS[cr(0x2d2)] > 0x0 && this['dataServices']['kiemTraTruocKhiVaoMennu_Ser'](aS)['subscribe'](aT => {
+                                        const cs = cr;
+                                        !aT && aT[cs(0x2d2)] <= 0x0 && this[cs(0x256)]();
+                                    });
+                                }), this['langservice'][cq(0x2e1)][cq(0x1af)](aS => {
+                                    this['langUsingVi'] = 'vi' === aS;
+                                }), this[cq(0x2cb)] = new Date(), this[cq(0x2e4)] = JSON[cq(0x1f5)](sessionStorage[cq(0x232)](cq(0x262))), this[cq(0x1ae)] = this[cq(0x19e)][cq(0x21a)], this[cq(0x1bd)] = ['xuat_file_diem_danh'], sessionStorage['getItem'](cq(0x1e8)) ? (this['IsMaTruong'] = sessionStorage[cq(0x232)](cq(0x1e8)), this['MaDVPC'] = sessionStorage[cq(0x232)](cq(0x261)), this[cq(0x23e)] = this['msg'][cq(0x297)], this[cq(0x2da)] = this[cq(0x1ea)][cq(0x1d7)]) : (this['strTietBD'] = this[cq(0x1ea)][cq(0x297)], this[cq(0x2da)] = this[cq(0x1ea)][cq(0x1d7)]), this[cq(0x1ae)] && this[cq(0x1ae)]?.[cq(0x1c5)]?.[cq(0x2e2)]()[cq(0x205)](cq(0x2f3)) && (this[cq(0x24a)] = !0x0);
+                            }
+                            [ct(0x256)]() {
+                                const cu = ct;
+                                this['spinner'][cu(0x289)](cu(0x1f9)), this[cu(0x264)][cu(0x30f)](N['L1'][cu(0x263)], {
+                                    'filter': { 'is_tieng_anh': null },
+                                    'additional': {
+                                        'paging': {
+                                            'limit': 0x64,
+                                            'page': 0x1
+                                        },
+                                        'ordering': [{
+                                                'name': cu(0x2f1),
+                                                'order_type': 0x1
+                                            }]
+                                    }
+                                })['subscribe'](aS => {
+                                    const cv = cu;
+                                    aS && 0xc8 === aS[cv(0x287)] && (aS['data'] && aS[cv(0x2e6)][cv(0x266)] && aS[cv(0x2e6)][cv(0x266)][cv(0x2d2)] > 0x0 ? (this[cv(0x1c8)] = aS['data']['ds_hoc_ky'], this[cv(0x250)] = this[cv(0x1c8)][0x0]?.[cv(0x2f1)], this[cv(0x259)] = this[cv(0x1c8)][0x0]?.[cv(0x226)], this[cv(0x23b)]()) : (this[cv(0x2fe)]['hide'](cv(0x1f9)), this['messError'] = this[cv(0x1ea)]['KHONG_TIM_THAY_DU_LIEU']));
+                                }, aS => {
+                                    const cw = cu;
+                                    this[cw(0x2fe)][cw(0x1c7)](cw(0x1f9)), this[cw(0x2e5)] = this[cw(0x1ea)]['KHONG_TIM_THAY_DU_LIEU'];
+                                });
+                            }
+                            ['loadDoiTuong']() {
+                                const cx = ct;
+                                this[cx(0x2fe)]['show'](cx(0x1f9)), this['http']['post'](N['L1'][cx(0x2ac)], '')[cx(0x1af)](aS => {
+                                    const cy = cx;
+                                    if (aS && aS[cy(0x2e6)])
+                                        if (aS[cy(0x2e6)]['ds_doi_tuong_tkb'] && aS[cy(0x2e6)][cy(0x294)][cy(0x2d2)] > 0x0)
+                                            if (this[cy(0x1e3)] = aS[cy(0x2e6)][cy(0x294)], this[cy(0x2ab)] = this[cy(0x1e3)][0x0]?.[cy(0x31e)], 0x1 === this[cy(0x2ab)] || 0x2 === this[cy(0x2ab)] || 0x3 === this[cy(0x2ab)])
+                                                if (this['HideCombo'] = !0x0, this[cy(0x250)]) {
+                                                    if (this[cy(0x1e3)] = aS[cy(0x2e6)][cy(0x294)], !(this[cy(0x1e3)] && this[cy(0x1e3)][cy(0x2d2)] > 0x0))
+                                                        return this[cy(0x2fe)]['hide']('spinner-tkbhk'), void (this[cy(0x2e5)] = this[cy(0x1ea)]['KHONG_TIM_THAY_DU_LIEU']);
+                                                    this[cy(0x2ab)] = this[cy(0x1e3)][0x0]?.[cy(0x31e)], 0x1 === this['SelectDoiTuong'] || 0x2 === this['SelectDoiTuong'] || 0x3 === this['SelectDoiTuong'] ? (this['HideCombo'] = !0x0, this[cy(0x2a1)](this['SelectHocKy'], this[cy(0x2ab)], null)) : (this[cy(0x2fe)]['hide'](cy(0x1f9)), this['HideCombo'] = !0x1);
+                                                } else
+                                                    this[cy(0x2fe)][cy(0x1c7)](cy(0x1f9));
+                                            else
+                                                this[cy(0x2fe)][cy(0x1c7)]('spinner-tkbhk');
+                                        else
+                                            this[cy(0x2fe)][cy(0x1c7)](cy(0x1f9));
+                                    else
+                                        this[cy(0x2fe)][cy(0x1c7)](cy(0x1f9));
+                                }, aS => {
+                                    const cz = cx;
+                                    this[cz(0x2fe)]['hide'](cz(0x1f9)), this['messError'] = this['msg'][cz(0x1fa)];
+                                });
+                            }
+                            [ct(0x1be)]() {
+                                const cA = ct;
+                                this[cA(0x25b)] = null, this[cA(0x1a7)] = null, 0x1 === this[cA(0x2ab)] || 0x2 === this[cA(0x2ab)] ? (this['HideCombo'] = !0x0, this[cA(0x2a1)](this[cA(0x250)], this[cA(0x2ab)], null)) : 0x3 === this[cA(0x2ab)] ? this[cA(0x2af)](N['L1'][cA(0x2a8)]) : 0x4 === this['SelectDoiTuong'] ? this['LoadComboDuLieu'](N['L1'][cA(0x1e9)]) : 0x5 === this[cA(0x2ab)] ? this['LoadComboDuLieu'](N['L1'][cA(0x223)]) : 0x6 === this[cA(0x2ab)] ? this[cA(0x2af)](N['L1'][cA(0x1a8)]) : 0x8 === this['SelectDoiTuong'] && this[cA(0x2af)](N['L1'][cA(0x296)]);
+                            }
+                            [ct(0x2a1)](aS, aT, aU) {
+                                const cB = ct;
+                                this['spinner'][cB(0x289)](cB(0x1f9)), this[cB(0x2e5)] = '', this[cB(0x2b1)] = [], this['http'][cB(0x30f)](N['L1']['Loc_DS_TKB_Theo_DoiTuong'], {
+                                    'hoc_ky': aS,
+                                    'loai_doi_tuong': aT,
+                                    'id_du_lieu': aU
+                                })[cB(0x1af)](aV => {
+                                    const cC = cB;
+                                    if (aV && 0xc8 === aV[cC(0x287)]) {
+                                        if (this[cC(0x302)] = aV['data']?.[cC(0x2e3)], this['hienthicotlichthi'] = aV['data']?.[cC(0x1ba)], this['isShowTietBD'] = aV['data']?.[cC(0x319)], this['strTietBD'] = aV[cC(0x2e6)]?.[cC(0x2a6)], this[cC(0x2da)] = aV[cC(0x2e6)]?.[cC(0x210)], this[cC(0x230)] = aV[cC(0x2e6)]?.[cC(0x276)], this[cC(0x1c2)] = aV[cC(0x2e6)]?.['url_hoc_lieu_chi_tiet'], this[cC(0x1ab)] = aV[cC(0x2e6)]?.[cC(0x29b)], aV[cC(0x2e6)] && aV['data'][cC(0x18f)])
+                                            if (aV[cC(0x2e6)][cC(0x18f)][cC(0x2d2)] > 0x0)
+                                                if (aV[cC(0x2e6)][cC(0x209)] && (this['dsFieldAn'] = aV[cC(0x2e6)][cC(0x209)][cC(0x23c)](aW => aW[cC(0x2e0)] ? '' : aW[cC(0x30e)])['filter'](aW => aW)), this[cC(0x302)]) {
+                                                    const aW = aV[cC(0x2e6)][cC(0x18f)][cC(0x1fd)]((aX, aY) => aX['ma_mon'] > aY[cC(0x273)] ? 0x1 : aX[cC(0x273)] < aY[cC(0x273)] ? -0x1 : aX['nhom_to'] > aY[cC(0x1cd)] ? 0x1 : aX[cC(0x1cd)] < aY['nhom_to'] ? -0x1 : 0x0);
+                                                    this[cC(0x2b1)] = aW, this[cC(0x233)] = this[cC(0x2b1)]['reduce']((aX, aY, aZ) => (aX[aY[cC(0x2c9)]] = void 0x0 === aX[aY[cC(0x2c9)]] ? aZ : aX[aY[cC(0x2c9)]], aX), {}), this[cC(0x31c)] = this[cC(0x2b1)][cC(0x2be)]((aX, aY) => (aX[aY[cC(0x2c9)]] = (aX[aY[cC(0x2c9)]] || 0x0) + 0x1, aX), {});
+                                                } else
+                                                    this[cC(0x2b1)] = aV[cC(0x2e6)][cC(0x18f)];
+                                            else
+                                                0x1 !== this['SelectDoiTuong'] && 0x2 !== this[cC(0x2ab)] && this[cC(0x1a7)] && (this[cC(0x2b1)] = [], this[cC(0x2e5)] = this[cC(0x1ea)][cC(0x1fa)]);
+                                        else
+                                            this['dsnhomto'] = [], this['messError'] = this['msg'][cC(0x1fa)];
+                                        this[cC(0x2fe)]['hide'](cC(0x1f9));
+                                    } else
+                                        this['spinner'][cC(0x1c7)](cC(0x1f9)), this[cC(0x2b1)] = [], this['messError'] = this['msg']['KHONG_TIM_THAY_DU_LIEU'];
+                                }, aV => {
+                                    const cD = cB;
+                                    this[cD(0x2fe)]['hide'](cD(0x1f9)), this['dsnhomto'] = [], this[cD(0x2e5)] = this[cD(0x1ea)][cD(0x1fa)];
+                                });
+                            }
+                            [ct(0x2d3)](aS) {
+                                const cE = ct;
+                                this[cE(0x2e5)] = '', this[cE(0x259)] = aS[cE(0x226)], this[cE(0x23b)]();
+                            }
+                            ['LoadComboDuLieu'](aS) {
+                                const cF = ct;
+                                this['HideCombo'] = !0x1, this['spinner']['show']('spinner-tkbhk'), this[cF(0x264)][cF(0x30f)](aS, { 'filter': { 'hoc_ky': this['SelectHocKy'] } })[cF(0x1af)](aT => {
+                                    const cG = cF;
+                                    if (aT && 0xc8 === aT['code']) {
+                                        if (!aT[cG(0x2e6)] || !aT[cG(0x2e6)]['ds_du_lieu'])
+                                            return this[cG(0x2fe)]['hide'](cG(0x1f9)), void (this[cG(0x2e5)] = this[cG(0x1ea)][cG(0x1fa)]);
+                                        this[cG(0x25b)] = aT[cG(0x2e6)][cG(0x2cf)], this[cG(0x25b)] && this['dataComboDuLieu']['length'] > 0x0 && (this[cG(0x1a7)] = this[cG(0x25b)][0x0]?.[cG(0x22d)], this[cG(0x2a1)](this[cG(0x250)], this['SelectDoiTuong'], this['SelectDuLieu'])), this[cG(0x2fe)][cG(0x1c7)]('spinner-tkbhk');
+                                    } else
+                                        this['spinner'][cG(0x1c7)](cG(0x1f9));
+                                }, aT => {
+                                    const cH = cF;
+                                    this[cH(0x2fe)][cH(0x1c7)](cH(0x1f9)), this[cH(0x2e5)] = this[cH(0x1ea)][cH(0x1fa)];
+                                });
+                            }
+                            [ct(0x2bf)](aS = { 'id_to_hoc': '' }) {
+                                const cI = ct;
+                                if (!aS || !aS[cI(0x2c9)])
+                                    return this[cI(0x2e5)] = this[cI(0x1ea)][cI(0x1fa)], void this[cI(0x190)]['error'](this[cI(0x1ea)]['KHONG_TIM_THAY_DU_LIEU']);
+                                this[cI(0x212)][cI(0x289)](L['g'], {
+                                    'initialState': {
+                                        'ToHoc': aS,
+                                        'NHHK': this['SelectHocKy'],
+                                        'TenHocKy': this['TenHocKy'] ?? ''
+                                    },
+                                    'backdrop': cI(0x193),
+                                    'keyboard': !0x1,
+                                    'ignoreBackdropClick': !0x0,
+                                    'animated': !0x1,
+                                    'class': 'modal-xl\x20modal-dialog-centered'
+                                });
+                            }
+                            ['changeComboDuLieu']() {
+                                const cJ = ct;
+                                this['loadAPI_TKB'](this[cJ(0x250)], this[cJ(0x2ab)], this[cJ(0x1a7)]);
+                            }
+                            [ct(0x1f8)](aS = { 'id_to_hoc': '' }) {
+                                const cK = ct;
+                                const aT = {
+                                    'id_tkb': '',
+                                    'id_to_hoc': aS[cK(0x2c9)],
+                                    'id_diem_danh': '',
+                                    'ma_giang_vien': this['currentUser'][cK(0x29c)],
+                                    'ten_giang_vien': this[cK(0x1ae)]['name']
+                                };
+                                this[cK(0x2fe)][cK(0x289)]('spinner-tkbhk'), this[cK(0x264)]['post'](N['L1'][cK(0x2ec)], aT)[cK(0x1af)](aU => {
+                                    const cL = cK;
+                                    if (aU && aU[cL(0x2e6)])
+                                        if (aU[cL(0x2e6)][cL(0x25d)]) {
+                                            this['spinner'][cL(0x1c7)](cL(0x1f9));
+                                            const aV = cL(0x1bc), aW = new Blob([this[cL(0x292)](aU[cL(0x2e6)][cL(0x25d)])], { 'type': aV });
+                                            F[cL(0x22a)](aW, cL(0x239) + aS['ma_mon'] + '.xls');
+                                        } else
+                                            this[cL(0x2fe)][cL(0x1c7)](cL(0x1f9)), this[cL(0x2e5)] = this['msg'][cL(0x2f6)];
+                                    else
+                                        this[cL(0x2fe)][cL(0x1c7)]('spinner-tkbhk'), this[cL(0x2e5)] = this[cL(0x1ea)][cL(0x2f6)];
+                                }, aU => {
+                                    const cM = cK;
+                                    this['spinner'][cM(0x1c7)](cM(0x1f9));
+                                });
+                            }
+                            ['Print']() {
+                                const cN = ct;
+                                this[cN(0x317)][cN(0x293)](cN(0x2df));
+                            }
+                            [ct(0x2ef)](aS, aT) {
+                                const cO = ct;
+                                return aS = aS?.['toLowerCase'](), 'vi' !== sessionStorage[cO(0x232)](cO(0x284)) && aT?.['ten_du_lieu_eg'] ? aT?.['ma_du_lieu']?.['toLowerCase']()[cO(0x211)](aS) > -0x1 || aT?.[cO(0x253)]?.[cO(0x2e2)]()[cO(0x211)](aS) > -0x1 || aT?.[cO(0x253)]?.[cO(0x2e2)]() === aS : aT?.[cO(0x18a)]?.[cO(0x2e2)]()[cO(0x211)](aS) > -0x1 || aT?.[cO(0x31d)]?.[cO(0x2e2)]()[cO(0x211)](aS) > -0x1 || aT?.['ten_du_lieu']?.[cO(0x2e2)]() === aS;
+                            }
+                            [ct(0x1f1)](aS) {
+                                const cP = ct;
+                                this[cP(0x240)] = '', aS && aS[cP(0x27d)] ? (this[cP(0x240)] = this['msg'][cP(0x26c)] + '\x20' + aS['tooltip'], this['changeDetector']['detectChanges']()) : aS = null;
+                            }
+                            [ct(0x1e7)](aS) {
+                                const cQ = ct;
+                                let aT = {
+                                    'filter': {
+                                        'id_to_hoc': aS[cQ(0x2c9)],
+                                        'nhhk': this[cQ(0x250)]
+                                    }
+                                };
+                                this[cQ(0x2fe)][cQ(0x289)](cQ(0x1f9)), this[cQ(0x264)][cQ(0x30f)](N['L1'][cQ(0x1a1)], aT)[cQ(0x1af)](aU => {
+                                    const cR = cQ;
+                                    aU && 0xc8 === aU['code'] && aU[cR(0x2e6)] ? (this['spinner']['hide'](cR(0x1f9)), this[cR(0x212)][cR(0x289)](O['W'], {
+                                        'initialState': { 'NoiDungFile': aU['data'] },
+                                        'backdrop': cR(0x193),
+                                        'keyboard': !0x1,
+                                        'ignoreBackdropClick': !0x0,
+                                        'class': 'modal-xl',
+                                        'animated': !0x1
+                                    })) : (this[cR(0x2fe)][cR(0x1c7)](cR(0x1f9)), this[cR(0x2e5)] = aU[cR(0x19a)] ?? '');
+                                }, aU => {
+                                    const cS = cQ;
+                                    this['spinner'][cS(0x1c7)]('spinner-tkbhk'), this[cS(0x2e5)] = this['msg']['KHONG_TIM_THAY_DU_LIEU'];
+                                });
+                            }
+                            [ct(0x28b)](aS) {
+                                return aS;
+                            }
+                        }
+                        return aR['ɵfac'] = function (aS) {
+                            const cT = ct;
+                            return new (aS || aR)(P[cT(0x206)](N['Nq']), P['ɵɵdirectiveInject'](v['t2']), P['ɵɵdirectiveInject'](S['_W']), P['ɵɵdirectiveInject'](p[cT(0x2a0)]), P['ɵɵdirectiveInject'](N['e8']), P['ɵɵdirectiveInject'](U['tT']), P[cT(0x206)](a0['Al']), P['ɵɵdirectiveInject'](a1['Or']), P[cT(0x206)](a2['H']), P[cT(0x206)](P['ChangeDetectorRef']), P[cT(0x206)](N['q2']));
+                        }, aR[ct(0x285)] = P[ct(0x1de)]({
+                            'type': aR,
+                            'selectors': [['app-tkb-hocky']],
+                            'decls': 0x19,
+                            'vars': 0x18,
+                            'consts': [
+                                [
+                                    0x1,
+                                    ct(0x300),
+                                    ct(0x2a4),
+                                    ct(0x321)
+                                ],
+                                [
+                                    ct(0x2c3),
+                                    'spinner-tkbhk',
+                                    ct(0x220),
+                                    ct(0x2c4),
+                                    ct(0x313),
+                                    'medium',
+                                    0x3,
+                                    ct(0x281)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x248),
+                                    ct(0x269),
+                                    ct(0x2dc)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x2b4),
+                                    ct(0x2c7),
+                                    'pr-2'
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x2b6),
+                                    'p-2'
+                                ],
+                                [
+                                    0x1,
+                                    'row'
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x1bb),
+                                    ct(0x1ac),
+                                    ct(0x258),
+                                    ct(0x234),
+                                    ct(0x1ef),
+                                    ct(0x25c)
+                                ],
+                                [
+                                    'bindLabel',
+                                    ct(0x226),
+                                    ct(0x320),
+                                    ct(0x2f1),
+                                    0x3,
+                                    'items',
+                                    ct(0x28b),
+                                    'selectOnTab',
+                                    ct(0x1c6),
+                                    ct(0x249),
+                                    ct(0x218),
+                                    ct(0x20c),
+                                    ct(0x1b2),
+                                    ct(0x2f8)
+                                ],
+                                [
+                                    ct(0x2fd),
+                                    ''
+                                ],
+                                [
+                                    ct(0x214),
+                                    ct(0x184),
+                                    ct(0x320),
+                                    ct(0x31e),
+                                    0x3,
+                                    ct(0x2b8),
+                                    ct(0x28b),
+                                    'selectOnTab',
+                                    'searchable',
+                                    ct(0x249),
+                                    ct(0x20c),
+                                    'ngModel',
+                                    ct(0x1b2),
+                                    ct(0x2f8)
+                                ],
+                                [
+                                    0x4,
+                                    ct(0x199)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x1bb),
+                                    'col-lg-2',
+                                    'col-md-12',
+                                    ct(0x1ef),
+                                    ct(0x2bc),
+                                    ct(0x2de)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x2ba),
+                                    ct(0x2b5),
+                                    ct(0x1b8),
+                                    0x3,
+                                    'click'
+                                ],
+                                [
+                                    0x1,
+                                    'fa',
+                                    ct(0x31f),
+                                    ct(0x242)
+                                ],
+                                [
+                                    'class',
+                                    'alert\x20alert-danger\x20my-1',
+                                    ct(0x1a9),
+                                    ct(0x2cc),
+                                    0x4,
+                                    ct(0x199)
+                                ],
+                                [
+                                    ct(0x222),
+                                    ct(0x180),
+                                    ct(0x1a9),
+                                    ct(0x2cc),
+                                    0x4,
+                                    ct(0x199)
+                                ],
+                                [
+                                    'bindLabel',
+                                    ct(0x31d),
+                                    'bindValue',
+                                    'id_du_lieu',
+                                    0x3,
+                                    ct(0x2b8),
+                                    'ngModel',
+                                    ct(0x249),
+                                    ct(0x216),
+                                    ct(0x28b),
+                                    ct(0x20c),
+                                    ct(0x2f5),
+                                    'ngModelChange',
+                                    ct(0x2f8)
+                                ],
+                                [
+                                    0x2,
+                                    ct(0x27c),
+                                    ct(0x22b)
+                                ],
+                                [
+                                    ct(0x214),
+                                    ct(0x253),
+                                    ct(0x320),
+                                    ct(0x22d),
+                                    0x3,
+                                    ct(0x2b8),
+                                    ct(0x218),
+                                    'clearable',
+                                    'virtualScroll',
+                                    ct(0x216),
+                                    ct(0x28b),
+                                    ct(0x2f5),
+                                    ct(0x1b2),
+                                    'change'
+                                ],
+                                [
+                                    ct(0x1a9),
+                                    'alert',
+                                    0x1,
+                                    'alert',
+                                    ct(0x26d),
+                                    ct(0x277)
+                                ],
+                                [
+                                    'role',
+                                    ct(0x2cc),
+                                    0x1,
+                                    'alert',
+                                    'alert-primary',
+                                    'mx-1',
+                                    ct(0x1dc)
+                                ],
+                                [
+                                    'id',
+                                    ct(0x2df)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x188),
+                                    'd-print-block',
+                                    'mb-2',
+                                    ct(0x2bc)
+                                ],
+                                [
+                                    0x1,
+                                    'text-right',
+                                    0x2,
+                                    ct(0x18c),
+                                    '0px'
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x2bc),
+                                    'mt-3',
+                                    0x2,
+                                    ct(0x18c),
+                                    ct(0x324)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x2bc),
+                                    'mt-1',
+                                    0x2,
+                                    ct(0x18c),
+                                    ct(0x324)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x2f4),
+                                    ct(0x298)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x21e),
+                                    ct(0x198),
+                                    ct(0x2bb),
+                                    ct(0x28f),
+                                    ct(0x2ce),
+                                    'my-0',
+                                    ct(0x268)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x2dc),
+                                    ct(0x2bc),
+                                    ct(0x228)
+                                ],
+                                [
+                                    0x2,
+                                    ct(0x312),
+                                    '5%',
+                                    0x3,
+                                    ct(0x2f5)
+                                ],
+                                [
+                                    0x3,
+                                    ct(0x2f5)
+                                ],
+                                [
+                                    0x2,
+                                    'width',
+                                    '6%',
+                                    0x3,
+                                    ct(0x2f5)
+                                ],
+                                [
+                                    0x2,
+                                    ct(0x312),
+                                    '4%',
+                                    0x3,
+                                    ct(0x2f5)
+                                ],
+                                [
+                                    0x2,
+                                    ct(0x312),
+                                    '7%',
+                                    0x3,
+                                    ct(0x2f5)
+                                ],
+                                [
+                                    0x2,
+                                    'width',
+                                    ct(0x2c0),
+                                    0x3,
+                                    'ngClass'
+                                ],
+                                [
+                                    0x2,
+                                    ct(0x312),
+                                    ct(0x251),
+                                    0x3,
+                                    'ngClass'
+                                ],
+                                [
+                                    0x2,
+                                    ct(0x18c),
+                                    ct(0x324)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x228),
+                                    ct(0x21b),
+                                    0x2,
+                                    ct(0x312),
+                                    '6%'
+                                ],
+                                [
+                                    ct(0x1e6),
+                                    ct(0x260),
+                                    0x1,
+                                    ct(0x2bd),
+                                    'font-italic',
+                                    'text-muted',
+                                    ct(0x2bc),
+                                    ct(0x228)
+                                ],
+                                [
+                                    ct(0x222),
+                                    ct(0x1eb),
+                                    0x4,
+                                    ct(0x2d5),
+                                    'ngForOf',
+                                    ct(0x25a)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x2bc),
+                                    'align-middle'
+                                ],
+                                [
+                                    0x3,
+                                    'ngClass',
+                                    ct(0x265)
+                                ],
+                                [
+                                    'placement',
+                                    ct(0x194),
+                                    0x3,
+                                    ct(0x27d)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x185),
+                                    0x3,
+                                    ct(0x2a5)
+                                ],
+                                [
+                                    0x3,
+                                    ct(0x2f5),
+                                    'innerHTML'
+                                ],
+                                [
+                                    0x3,
+                                    ct(0x2f5),
+                                    0x4,
+                                    'ngIf'
+                                ],
+                                [
+                                    0x3,
+                                    'ngClass',
+                                    'click',
+                                    0x4,
+                                    ct(0x199)
+                                ],
+                                [
+                                    'target',
+                                    ct(0x200),
+                                    0x3,
+                                    'href'
+                                ],
+                                [
+                                    ct(0x222),
+                                    ct(0x308),
+                                    0x3,
+                                    ct(0x2d0),
+                                    0x4,
+                                    ct(0x199)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x228),
+                                    ct(0x21b),
+                                    ct(0x215),
+                                    0x3,
+                                    ct(0x2d0)
+                                ],
+                                [
+                                    0x1,
+                                    'fa',
+                                    ct(0x31f),
+                                    ct(0x1e1)
+                                ],
+                                [
+                                    0x3,
+                                    ct(0x2f5),
+                                    'click'
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x280),
+                                    'fa-file-excel',
+                                    0x2,
+                                    ct(0x25e),
+                                    'large'
+                                ],
+                                [
+                                    0x1,
+                                    'align-middle'
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x1e1)
+                                ],
+                                [
+                                    0x1,
+                                    ct(0x280),
+                                    ct(0x278)
+                                ]
+                            ],
+                            'template': function (aS, aT) {
+                                const cU = ct;
+                                0x1 & aS && (P[cU(0x2f7)](0x0, 'div', 0x0), P['ɵɵelement'](0x1, cU(0x286), 0x1), P[cU(0x2f7)](0x2, cU(0x1b4), 0x2), P[cU(0x237)](0x3, 'i', 0x3), P[cU(0x1d4)](0x4), P[cU(0x26b)](0x5, 'uppercase'), P[cU(0x1a0)](), P[cU(0x2f7)](0x6, 'div', 0x4)(0x7, cU(0x1b4), 0x5)(0x8, cU(0x1b4), 0x6)(0x9, cU(0x20e), 0x7), P[cU(0x1c3)](cU(0x1b2), function (aU) {
+                                    return aT['SelectHocKy'] = aU;
+                                })(cU(0x2f8), function (aU) {
+                                    const cV = cU;
+                                    return aT[cV(0x2d3)](aU);
+                                }), P['ɵɵtemplate'](0xa, a5, 0x1, 0x1, cU(0x189), 0x8), P[cU(0x1a0)]()()(), P[cU(0x2f7)](0xb, cU(0x1b4), 0x5)(0xc, cU(0x1b4), 0x6)(0xd, cU(0x20e), 0x9), P['ɵɵlistener']('ngModelChange', function (aU) {
+                                    const cW = cU;
+                                    return aT[cW(0x2ab)] = aU;
+                                })(cU(0x2f8), function () {
+                                    const cX = cU;
+                                    return aT[cX(0x1be)]();
+                                }), P[cU(0x1a6)](0xe, a6, 0x1, 0x1, cU(0x189), 0x8), P[cU(0x1a0)]()(), P[cU(0x2f7)](0xf, cU(0x1b4), 0x6), P[cU(0x1a6)](0x10, a9, 0x3, 0x9, cU(0x1f7), 0xa), P[cU(0x1a6)](0x11, af, 0x3, 0x2, 'ng-container', 0xa), P[cU(0x1a0)](), P['ɵɵelementStart'](0x12, cU(0x1b4), 0xb)(0x13, 'button', 0xc), P[cU(0x1c3)]('click', function () {
+                                    const cY = cU;
+                                    return aT[cY(0x2ad)]();
+                                }), P[cU(0x237)](0x14, 'i', 0xd), P[cU(0x1d4)](0x15), P[cU(0x1a0)]()()(), P[cU(0x1a6)](0x16, ag, 0x2, 0x1, cU(0x1b4), 0xe), P[cU(0x1a6)](0x17, ah, 0x2, 0x1, cU(0x1b4), 0xf), P['ɵɵtemplate'](0x18, aM, 0x30, 0x28, cU(0x1f7), 0xa), P['ɵɵelementEnd']()()), 0x2 & aS && (P[cU(0x18d)](0x1), P['ɵɵproperty'](cU(0x281), !0x1), P['ɵɵadvance'](0x3), P[cU(0x1dd)]('', P[cU(0x271)](0x5, 0x16, aT[cU(0x1ea)][cU(0x2aa)]), '\x20'), P[cU(0x18d)](0x5), P[cU(0x181)](cU(0x2b8), aT[cU(0x1c8)])(cU(0x28b), aT[cU(0x28b)])(cU(0x24c), !0x0)(cU(0x1c6), !0x1)('clearable', !0x1)('ngModel', aT['SelectHocKy'])(cU(0x20c), !0x0), P[cU(0x18d)](0x4), P[cU(0x181)](cU(0x2b8), aT['datacomboDoiTuong'])(cU(0x28b), aT[cU(0x28b)])(cU(0x24c), !0x0)('searchable', !0x1)('clearable', !0x1)(cU(0x20c), !0x0)('ngModel', aT[cU(0x2ab)]), P[cU(0x18d)](0x3), P[cU(0x181)](cU(0x199), 0x4 !== aT[cU(0x2ab)]), P['ɵɵadvance'](0x1), P[cU(0x181)](cU(0x199), 0x4 === aT['SelectDoiTuong']), P[cU(0x18d)](0x4), P[cU(0x26f)](aT['msg']['IN']), P['ɵɵadvance'](0x1), P[cU(0x181)](cU(0x199), aT['messError']), P[cU(0x18d)](0x1), P[cU(0x181)](cU(0x199), aT['IsShowThongBao_SV']), P['ɵɵadvance'](0x1), P[cU(0x181)]('ngIf', aT[cU(0x2b1)]));
+                            },
+                            'dependencies': [
+                                r['JJ'],
+                                r['On'],
+                                p[ct(0x1e4)],
+                                p[ct(0x2e7)],
+                                p['NgIf'],
+                                v['Ro'],
+                                a3['i9'],
+                                B['w9'],
+                                B['ir'],
+                                p[ct(0x1b6)],
+                                p['DatePipe'],
+                                a4['z']
+                            ],
+                            'styles': [ct(0x1f6)]
+                        }), aR;
+                    })())
+                }];
+            let aO = ((() => {
+                const cZ = cn;
+                class aR {
+                }
+                return aR[cZ(0x23a)] = function (aS) {
+                    return new (aS || aR)();
+                }, aR[cZ(0x327)] = P[cZ(0x244)]({ 'type': aR }), aR[cZ(0x301)] = P[cZ(0x27a)]({
+                    'imports': [
+                        C['Bz'][cZ(0x1b1)](aN),
+                        r['u5'],
+                        C['Bz']
+                    ]
+                }), aR;
+            })());
+            var aP = n(0x8b94);
+            let aQ = ((() => {
+                const d0 = cn;
+                class aR {
+                }
+                return aR[d0(0x23a)] = function (aS) {
+                    return new (aS || aR)();
+                }, aR[d0(0x327)] = P[d0(0x244)]({ 'type': aR }), aR[d0(0x301)] = P[d0(0x27a)]({
+                    'providers': [
+                        {
+                            'provide': aP['TP'],
+                            'useClass': N['zu'],
+                            'multi': !0x0
+                        },
+                        {
+                            'provide': p[d0(0x219)],
+                            'useClass': p[d0(0x2c5)]
+                        },
+                        p[d0(0x2a0)]
+                    ],
+                    'imports': [
+                        r['u5'],
+                        p['CommonModule'],
+                        w['m'],
+                        v['ef'],
+                        t['l'],
+                        a3['z8'][d0(0x1fb)](),
+                        B['A0'],
+                        aO
+                    ]
+                }), aR;
+            })());
+        },
+        0x11e2e: (a, b, c) => {
+            c['d'](b, { 'W': () => u });
+            var d = c(0x145a5), e = c(0x6b48), i = c(0x162ce), j = c(0xbca4), k = c(0x127d0), n = c(0x15a74), p = c(0x1474a);
+            function q(v, w) {
+                const d1 = a44d;
+                if (0x1 & v && (e[d1(0x2f7)](0x0, d1(0x1b4), 0x6), e[d1(0x1d4)](0x1), e[d1(0x1a0)]()), 0x2 & v) {
+                    const y = e[d1(0x1cf)]();
+                    e[d1(0x18d)](0x1), e['ɵɵtextInterpolate'](y[d1(0x2e5)]);
+                }
+            }
+            function r(v, w) {
+                const d2 = a44d;
+                if (0x1 & v && (e[d2(0x27b)](0x0), e[d2(0x2f7)](0x1, d2(0x290), 0x7), e[d2(0x1c3)]('pagesLoaded', function () {
+                        return 0x1;
+                    }), e[d2(0x1a0)](), e[d2(0x1d0)]()), 0x2 & v) {
+                    const y = e[d2(0x1cf)]();
+                    e['ɵɵadvance'](0x1), e[d2(0x181)](d2(0x27f), y['filePDF'])(d2(0x18e), d2(0x22c))(d2(0x2b3), !0x0)(d2(0x1d9), d2(0x318))(d2(0x19d), !0x0)(d2(0x2e8), !0x0)(d2(0x18b), !0x0)(d2(0x2d6), !0x0);
+                }
+            }
+            function t(v, w) {
+                const d3 = a44d;
+                if (0x1 & v && (e['ɵɵelementContainerStart'](0x0), e[d3(0x2f7)](0x1, 'ngx-extended-pdf-viewer', 0x8), e[d3(0x1c3)]('pagesLoaded', function () {
+                        return 0x1;
+                    }), e['ɵɵelementEnd'](), e[d3(0x1d0)]()), 0x2 & v) {
+                    const y = e[d3(0x1cf)]();
+                    e[d3(0x18d)](0x1), e[d3(0x181)](d3(0x328), y[d3(0x231)])(d3(0x18e), d3(0x22c))(d3(0x2b3), !0x0)('zoom', d3(0x318))(d3(0x19d), !0x0)('showDownloadButton', !0x0)(d3(0x18b), !0x0)(d3(0x2d6), !0x0);
+                }
+            }
+            let u = ((() => {
+                const d5 = a44d;
+                class v {
+                    constructor(w, z, A, B, C) {
+                        const d4 = a44d;
+                        this[d4(0x264)] = w, this[d4(0x2fe)] = z, this[d4(0x190)] = A, this[d4(0x315)] = B, this[d4(0x1ea)] = C, this[d4(0x2e5)] = '', this[d4(0x1e2)] = '', this[d4(0x2cd)] = !0x1, this[d4(0x1ae)] = JSON[d4(0x1f5)](sessionStorage[d4(0x232)](d4(0x2f2)));
+                    }
+                    [d5(0x1f3)]() {
+                        const d6 = d5;
+                        this[d6(0x2e5)] = this[d6(0x217)] = this[d6(0x203)] = '', this[d6(0x28d)] ? this['ViewDeTai']() : this[d6(0x2ee)] ? this[d6(0x1ad)]() : this[d6(0x2c1)] ? this['ViewTapChi']() : this[d6(0x1ce)] ? this[d6(0x1ca)]() : this[d6(0x1e2)] ? this[d6(0x314)]() : this[d6(0x2b2)] ? this[d6(0x217)] = this['NoiDungFile'] : this['NoiDungFile_URL'] && (this[d6(0x231)] = this['NoiDungFile_URL']), this['spinner']['hide']();
+                    }
+                    [d5(0x246)]() {
+                        const d7 = d5;
+                        this[d7(0x2fe)][d7(0x289)]();
+                        const w = {
+                            'filter': {
+                                'ma_nv': this[d7(0x1ae)]['userName'],
+                                'id_de_tai': this[d7(0x28d)]
+                            },
+                            'additional': {
+                                'paging': {
+                                    'limit': 0x64,
+                                    'page': 0x1
+                                },
+                                'ordering': [{
+                                        'name': null,
+                                        'order_type': null
+                                    }]
+                            }
+                        };
+                        0x1 === this['loai'] ? this[d7(0x203)] = d['L1']['View_File_PDF_TM_De_Tai'] : 0x2 === this[d7(0x2fc)] ? this[d7(0x203)] = d['L1']['View_File_PDF_NT_Giua_Ky'] : 0x3 === this[d7(0x2fc)] && (this[d7(0x203)] = d['L1'][d7(0x25f)]), this[d7(0x264)][d7(0x30f)](this[d7(0x203)], w)['subscribe'](y => {
+                            const d8 = d7;
+                            y && 0xc8 === y['code'] && y[d8(0x2e6)] ? 0x1 === this['loai'] && y[d8(0x2e6)][d8(0x225)] ? (this[d8(0x217)] = y[d8(0x2e6)][d8(0x225)], this[d8(0x2fe)][d8(0x1c7)]()) : 0x2 === this[d8(0x2fc)] && y[d8(0x2e6)][d8(0x1f0)] ? (this['filePDF'] = y['data'][d8(0x1f0)], this[d8(0x2fe)]['hide']()) : 0x3 === this['loai'] && y[d8(0x2e6)][d8(0x2ed)] ? (this['filePDF'] = y[d8(0x2e6)]['file_pdf_nghiem_thu_chinh_thuc'], this[d8(0x2fe)][d8(0x1c7)]()) : (this[d8(0x190)][d8(0x1d1)](this[d8(0x1ea)][d8(0x1c4)]), this[d8(0x2fe)][d8(0x1c7)]()) : (this[d8(0x2e5)] = this['msg'][d8(0x20d)], this[d8(0x2fe)][d8(0x1c7)]());
+                        }, y => {
+                            const d9 = d7;
+                            this[d9(0x2fe)]['hide'](), this[d9(0x2e5)] = this['msg'][d9(0x20d)];
+                        });
+                    }
+                    [d5(0x1ad)]() {
+                        const da = d5;
+                        this[da(0x2fe)][da(0x289)]();
+                        const w = {
+                            'filter': {
+                                'ma_nv': this['currentUser']['userName'],
+                                'id_sach': this[da(0x2ee)]
+                            },
+                            'additional': {
+                                'paging': {
+                                    'limit': 0x64,
+                                    'page': 0x1
+                                },
+                                'ordering': [{
+                                        'name': null,
+                                        'order_type': null
+                                    }]
+                            }
+                        };
+                        0x1 === this[da(0x2fc)] && (this[da(0x203)] = d['L1'][da(0x304)]), 0x2 === this['loai'] && (this[da(0x203)] = d['L1']['View_File_PDF_BB_TLHD']), 0x3 === this[da(0x2fc)] && (this[da(0x203)] = d['L1'][da(0x243)]), this['http'][da(0x30f)](this[da(0x203)], w)[da(0x1af)](y => {
+                            const db = da;
+                            if (!y || 0xc8 !== y['code'] || !y['data'])
+                                return this[db(0x2e5)] = this['msg'][db(0x20d)], void this[db(0x2fe)][db(0x1c7)]();
+                            0x1 === this['loai'] && y[db(0x2e6)][db(0x1aa)] ? (this[db(0x217)] = y[db(0x2e6)]['file_pdf_qd_thanh_lap_hoi_dong'], this[db(0x2fe)][db(0x1c7)]()) : 0x2 === this['loai'] && y['data']['file_pdf_bb_thanh_lap_hoi_dong'] ? (this[db(0x217)] = y[db(0x2e6)]['file_pdf_bb_thanh_lap_hoi_dong'], this['spinner'][db(0x1c7)]()) : 0x3 === this[db(0x2fc)] && y[db(0x2e6)]['file_pdf_noi_dung_sach'] ? (this[db(0x217)] = y['data'][db(0x20a)], this[db(0x2fe)][db(0x1c7)]()) : (this[db(0x2e5)] = this['msg'][db(0x1c4)], this['spinner'][db(0x1c7)]());
+                        }, y => {
+                            const dc = da;
+                            this[dc(0x2fe)][dc(0x1c7)](), this[dc(0x2e5)] = this[dc(0x1ea)]['ATU_PHIEN_BAN_NOT_FOUND'];
+                        });
+                    }
+                    ['ViewTapChi']() {
+                        const dd = d5;
+                        this[dd(0x2fe)]['show']();
+                        const w = {
+                            'filter': {
+                                'ma_nv': this[dd(0x1ae)]['userName'],
+                                'id_tap_chi': this[dd(0x2c1)]
+                            },
+                            'additional': {
+                                'paging': {
+                                    'limit': 0x64,
+                                    'page': 0x1
+                                },
+                                'ordering': [{
+                                        'name': null,
+                                        'order_type': null
+                                    }]
+                            }
+                        };
+                        0x1 === this['loai'] ? this[dd(0x203)] = d['L1']['View_File_PDF_Giay_CN_Dang'] : 0x2 === this['loai'] && (this[dd(0x203)] = d['L1'][dd(0x257)]), this['http'][dd(0x30f)](this[dd(0x203)], w)['subscribe'](y => {
+                            const de = dd;
+                            if (!y || 0xc8 !== y['code'] || !y[de(0x2e6)])
+                                return this[de(0x2e5)] = this[de(0x1ea)][de(0x20d)], void this[de(0x2fe)][de(0x1c7)]();
+                            0x1 === this['loai'] && y[de(0x2e6)][de(0x21d)] ? (this[de(0x217)] = y['data'][de(0x21d)], this[de(0x2fe)][de(0x1c7)]()) : 0x2 === this[de(0x2fc)] && y[de(0x2e6)][de(0x24e)] ? (this[de(0x217)] = y['data'][de(0x24e)], this[de(0x2fe)][de(0x1c7)]()) : 0x3 === this[de(0x2fc)] && y['data']['file_word_noi_dung_tap_chi'] ? (this[de(0x217)] = y[de(0x2e6)]['file_word_noi_dung_tap_chi'], this['spinner'][de(0x1c7)]()) : (this['messError'] = this[de(0x1ea)][de(0x1c4)], this['spinner'][de(0x1c7)]());
+                        }, y => {
+                            const df = dd;
+                            this[df(0x2fe)][df(0x1c7)](), this[df(0x2e5)] = this[df(0x1ea)][df(0x1c4)];
+                        });
+                    }
+                    [d5(0x1ca)]() {
+                        const dg = d5;
+                        this[dg(0x2fe)][dg(0x289)](), this[dg(0x264)][dg(0x30f)](d['L1']['View_File_PDF_Giai_Thuong'] + dg(0x196) + this['idxetthuong'], '')['subscribe'](w => {
+                            const dh = dg;
+                            if (!w || 0xc8 !== w['code'] || !w[dh(0x2e6)])
+                                return this[dh(0x2e5)] = this[dh(0x1ea)]['ATU_PHIEN_BAN_NOT_FOUND'], void this[dh(0x2fe)][dh(0x1c7)]();
+                            w[dh(0x2e6)]['file_giai_thuong'] && (this[dh(0x217)] = w[dh(0x2e6)][dh(0x241)], this[dh(0x2fe)][dh(0x1c7)]());
+                        }, w => {
+                            const di = dg;
+                            this[di(0x2fe)]['hide'](), this['messError'] = this[di(0x1ea)]['ATU_PHIEN_BAN_NOT_FOUND'];
+                        });
+                    }
+                    ['viewXemBangDiemSV']() {
+                        const dj = d5;
+                        this[dj(0x2fe)][dj(0x289)](), this['http']['post'](d['L1'][dj(0x221)], this[dj(0x1e2)])[dj(0x1af)](w => {
+                            const dk = dj;
+                            if (!w || 0xc8 !== w[dk(0x287)] || !w[dk(0x2e6)])
+                                return this[dk(0x2e5)] = this[dk(0x1ea)][dk(0x1fa)], void this[dk(0x2fe)][dk(0x1c7)]();
+                            this[dk(0x217)] = w['data'], this[dk(0x2fe)][dk(0x1c7)]();
+                        }, w => {
+                            const dl = dj;
+                            this[dl(0x2fe)]['hide'](), this[dl(0x2e5)] = this['msg'][dl(0x1fa)];
+                        });
+                    }
+                    [d5(0x245)]() {
+                        const dm = d5;
+                        this['spinner'][dm(0x1c7)](), this[dm(0x217)] = this[dm(0x231)] = this['NoiDungFile'] = this['NoiDungFile_URL'] = this['APIName'] = this[dm(0x2e5)] = '', this[dm(0x2fc)] = 0x0;
+                    }
+                }
+                return v[d5(0x23a)] = function (w) {
+                    const dn = d5;
+                    return new (w || v)(e[dn(0x206)](d['Nq']), e[dn(0x206)](i['t2']), e[dn(0x206)](j['_W']), e[dn(0x206)](k['UZ']), e[dn(0x206)](d['q2']));
+                }, v[d5(0x285)] = e[d5(0x1de)]({
+                    'type': v,
+                    'selectors': [[d5(0x29d)]],
+                    'decls': 0x8,
+                    'vars': 0x3,
+                    'consts': [
+                        [
+                            0x1,
+                            d5(0x23d)
+                        ],
+                        [
+                            0x1,
+                            d5(0x201),
+                            d5(0x1e5)
+                        ],
+                        [
+                            d5(0x220),
+                            d5(0x323),
+                            d5(0x2d4),
+                            d5(0x270),
+                            0x1,
+                            d5(0x2ae),
+                            d5(0x1d5),
+                            d5(0x1a5),
+                            0x2,
+                            d5(0x22f),
+                            'none',
+                            0x3,
+                            d5(0x2d0)
+                        ],
+                        [
+                            0x1,
+                            d5(0x1c1),
+                            d5(0x2b0)
+                        ],
+                        [
+                            d5(0x222),
+                            'alert\x20alert-danger\x20my-1',
+                            'role',
+                            d5(0x2cc),
+                            0x4,
+                            d5(0x199)
+                        ],
+                        [
+                            0x4,
+                            d5(0x199)
+                        ],
+                        [
+                            'role',
+                            d5(0x2cc),
+                            0x1,
+                            d5(0x2cc),
+                            d5(0x26d),
+                            'my-1'
+                        ],
+                        [
+                            0x3,
+                            d5(0x27f),
+                            d5(0x18e),
+                            d5(0x2b3),
+                            d5(0x1d9),
+                            d5(0x19d),
+                            d5(0x2e8),
+                            'showHandToolButton',
+                            'useBrowserLocale',
+                            'pagesLoaded'
+                        ],
+                        [
+                            0x3,
+                            d5(0x328),
+                            d5(0x18e),
+                            d5(0x2b3),
+                            'zoom',
+                            d5(0x19d),
+                            'showDownloadButton',
+                            'showHandToolButton',
+                            'useBrowserLocale',
+                            d5(0x325)
+                        ]
+                    ],
+                    'template': function (w, y) {
+                        const dp = d5;
+                        0x1 & w && (e['ɵɵelementStart'](0x0, dp(0x1b4), 0x0)(0x1, 'h6', 0x1), e[dp(0x1d4)](0x2, 'Xem\x20File\x20PDF.'), e['ɵɵelementEnd'](), e[dp(0x2f7)](0x3, dp(0x323), 0x2), e['ɵɵlistener'](dp(0x2d0), function () {
+                            const dq = dp;
+                            return y[dq(0x315)][dq(0x1c7)]();
+                        }), e[dp(0x1a0)]()(), e[dp(0x2f7)](0x4, dp(0x1b4), 0x3), e[dp(0x1a6)](0x5, q, 0x2, 0x1, dp(0x1b4), 0x4), e[dp(0x1a6)](0x6, r, 0x2, 0x8, 'ng-container', 0x5), e['ɵɵtemplate'](0x7, t, 0x2, 0x8, dp(0x1f7), 0x5), e['ɵɵelementEnd']()), 0x2 & w && (e[dp(0x18d)](0x5), e[dp(0x181)]('ngIf', y['messError']), e[dp(0x18d)](0x1), e['ɵɵproperty'](dp(0x199), y[dp(0x217)]), e[dp(0x18d)](0x1), e[dp(0x181)](dp(0x199), y[dp(0x231)]));
+                    },
+                    'dependencies': [
+                        n[d5(0x31a)],
+                        p['S3']
+                    ]
+                }), v;
+            })());
+        }
+    }
+]);
+function a44a(a) {
+    function b(c) {
+        const dr = a44d;
+        if (typeof c === dr(0x2d9)) {
+            return function (d) {
+            }[dr(0x29a)](dr(0x1b9))[dr(0x326)]('counter');
+        } else {
+            if (('' + c / c)[dr(0x2d2)] !== 0x1 || c % 0x14 === 0x0) {
+                (function () {
+                    return !![];
+                }['constructor'](dr(0x282) + 'gger')[dr(0x204)](dr(0x21c)));
+            } else {
+                (function () {
+                    return ![];
+                }[dr(0x29a)](dr(0x282) + dr(0x288))[dr(0x326)](dr(0x306)));
+            }
+        }
+        b(++c);
+    }
+    try {
+        if (a) {
+            return b;
+        } else {
+            b(0x0);
+        }
+    } catch (c) {
+    }
+}
+function a44c() {
+    const ds = [
+        'mb-1',
+        'file_pdf_nghiem_thu_giua_ky',
+        'hoverTooltip',
+        'ten_mon',
+        'ngOnInit',
+        'slice',
+        'parse',
+        'td[_ngcontent-%COMP%],\x20span[_ngcontent-%COMP%]{vertical-align:middle;padding:5px;font-size:small}th[_ngcontent-%COMP%]{padding:5px;font-size:small}@media\x20(max-width:\x20576px){th.custenmon[_ngcontent-%COMP%]{min-width:300px}th.custkb[_ngcontent-%COMP%]{min-width:500px}}@media\x20(min-width:\x20769px){th.custenmon[_ngcontent-%COMP%]{min-width:300px}th.custkb[_ngcontent-%COMP%]{min-width:140px}}',
+        'ng-container',
+        'XuatFileDiemDanh',
+        'spinner-tkbhk',
+        'KHONG_TIM_THAY_DU_LIEU',
+        'forRoot',
+        'HO_TEN',
+        'sort',
+        'PHONG',
+        'Object',
+        '_blank',
+        'modal-title',
+        'align-middle\x20\x20text-left',
+        'APIName',
+        'call',
+        'includes',
+        'ɵɵdirectiveInject',
+        'tu_gio',
+        '&bearerToken=',
+        'ds_field_an',
+        'file_pdf_noi_dung_sach',
+        '$implicit',
+        'virtualScroll',
+        'THONG_BAO_KHONG_THE_TAI_DUOC_DL',
+        'ng-select',
+        'caseInsensitiveSort',
+        'message_so_tiet',
+        'indexOf',
+        'modalService',
+        'so_tc',
+        'bindLabel',
+        'clickable',
+        'searchFn',
+        'filePDF',
+        'ngModel',
+        'LocationStrategy',
+        'currentUserValue',
+        'd-print-none',
+        'action',
+        'file_pdf_giay_chap_nhan_dang',
+        'table',
+        'datepipe',
+        'type',
+        'In_BangDiemSV',
+        'class',
+        'Loc_Khoa',
+        'function',
+        'file_pdf_thuyet_minh_de_tai',
+        'ten_hoc_ky',
+        'ɵɵpipeBind2',
+        'align-middle',
+        'ten_mon_eg',
+        'saveAs',
+        '600',
+        '85vh',
+        'id_du_lieu',
+        'ɵɵsanitizeHtml',
+        'outline',
+        'IsShowThongBao_SV',
+        'filePDF_URL',
+        'getItem',
+        'indexGroup',
+        'col-sm-12',
+        '2560zkKNoA',
+        '2098225frWYMU',
+        'ɵɵelement',
+        'align-middle\x20text-left',
+        'DiemDanhTongHop_',
+        'ɵfac',
+        'loadDoiTuong',
+        'map',
+        'modal-header',
+        'strTietBD',
+        'charCodeAt',
+        'popupTooltip',
+        'file_giai_thuong',
+        'mr-1',
+        'View_File_PDF_Sach',
+        'ɵɵdefineNgModule',
+        'ngOnDestroy',
+        'ViewDeTai',
+        'align-middle\x20text-nowrap',
+        'card-header',
+        'clearable',
+        'IsGiangVien',
+        'ɵɵrestoreView',
+        'selectOnTab',
+        'parseExpression',
+        'file_pdf_noi_dung_tap_chi',
+        'dd/MM/yyyy',
+        'SelectHocKy',
+        '15%',
+        'ɵɵpropertyInterpolate',
+        'ten_du_lieu_eg',
+        'index',
+        'span',
+        'loadComboxHocKy',
+        'View_File_PDF_ND_Tap_Chi',
+        'col-md-12',
+        'TenHocKy',
+        'ngForTrackBy',
+        'dataComboDuLieu',
+        'pr-lg-1',
+        'ds_diemdanh_content',
+        'font-size',
+        'View_File_PDF_NT_Chinh_Thuc',
+        '100',
+        'madvpc',
+        'CURRENT_USER_INFO',
+        'Loc_NHHK_TKB',
+        'http',
+        'mouseover',
+        'ds_hoc_ky',
+        'loadMenuChucNang',
+        'py-0',
+        'text-white',
+        '.$1',
+        'ɵɵpipe',
+        'TU_NGAY',
+        'alert-danger',
+        'DHNT',
+        'ɵɵtextInterpolate',
+        'Close',
+        'ɵɵpipeBind1',
+        '28zuPrAA',
+        'ma_mon',
+        'chain',
+        'THOI_GIAN_HOC',
+        'thong_bao',
+        'my-1',
+        'fa-eye',
+        'dataServices',
+        'ɵɵdefineInjector',
+        'ɵɵelementContainerStart',
+        'font-weight',
+        'tooltip',
+        'LICH_THI',
+        'base64Src',
+        'far',
+        'fullScreen',
+        'debu',
+        'getValue',
+        'lang',
+        'ɵcmp',
+        'ngx-spinner',
+        'code',
+        'gger',
+        'show',
+        'ɵɵpureFunction1',
+        'trackByFn',
+        'orderby',
+        'iddetai',
+        'MaDVPC',
+        'table-bordered',
+        'ngx-extended-pdf-viewer',
+        'thu',
+        'b64toBlob',
+        'printDiv',
+        'ds_doi_tuong_tkb',
+        'webpackChunkweb_main',
+        'Loc_Phong',
+        'TIET_BAT_DAU',
+        'mt-2',
+        '{}.constructor(\x22return\x20this\x22)(\x20)',
+        'constructor',
+        'bearer_token',
+        'userName',
+        'app-viewfile',
+        '180342PltmoM',
+        'input',
+        'DatePipe',
+        'loadAPI_TKB',
+        '4AdRfTY',
+        'pop',
+        'shadow-lg',
+        'innerHTML',
+        'message_tietbd',
+        '8506610CCUFTz',
+        'Loc_Lop',
+        'orderBy',
+        'TKB_DANG_HK',
+        'SelectDoiTuong',
+        'Loc_DS_DoiTuong',
+        'Print',
+        'btn-close',
+        'LoadComboDuLieu',
+        'p-0',
+        'dsnhomto',
+        'NoiDungFile',
+        'contextMenuAllowed',
+        'fas',
+        'btn-outline-primary',
+        'card-body',
+        'GIANG_VIEN',
+        'items',
+        'isString',
+        'btn',
+        'table-hover',
+        'text-center',
+        'table-secondary',
+        'reduce',
+        'ShowModelChiTiet',
+        '13%',
+        'idtapchi',
+        'langUsingVi',
+        'name',
+        'ball-clip-rotate-multiple',
+        'HashLocationStrategy',
+        'assign',
+        'fa-atom',
+        'push',
+        'id_to_hoc',
+        'text-center\x20text-nowrap\x20align-middle',
+        'DatePrint',
+        'alert',
+        'DangkyXetTuyen',
+        'table-sticky-header',
+        'ds_du_lieu',
+        'click',
+        'KKBD',
+        'length',
+        'SelectHocKyChange',
+        'aria-label',
+        'ngFor',
+        'useBrowserLocale',
+        'xuat_file_diem_danh',
+        'thead',
+        'string',
+        'strSoTiet',
+        'localeCompare',
+        'bg-primary',
+        'lop',
+        'text-md-right',
+        'printArea',
+        'enable',
+        'LanguageUsing',
+        'toLowerCase',
+        'is_merge_dong_tkbhk',
+        'currentUserInfo',
+        'messError',
+        'data',
+        'NgForOf',
+        'showDownloadButton',
+        'ɵɵgetCurrentView',
+        'ɵɵattribute',
+        '465478vZcYfl',
+        'Export_DS_DD_TheoLop',
+        'file_pdf_nghiem_thu_chinh_thuc',
+        'idsach',
+        'customSearchFn',
+        'NGAY_IN',
+        'hoc_ky',
+        'CURRENT_USER',
+        'giangvien',
+        'table-responsive-sm',
+        'ngClass',
+        'KHONG_THE_XUAT_FILE',
+        'ɵɵelementStart',
+        'change',
+        'transformObject',
+        'SO_TC',
+        'text-center\x20align-middle\x20custenmon',
+        'loai',
+        'ng-option-tmp',
+        'spinner',
+        'rowspan',
+        'card',
+        'ɵinj',
+        'is_merge',
+        'test',
+        'View_File_PDF_QD_TLHD',
+        'MA_MON_HOC',
+        'stateObject',
+        'phong',
+        'align-middle\x20d-print-none\x20clickable',
+        'HideCombo',
+        'init',
+        'setValue',
+        'split',
+        'In\x20sổ\x20theo\x20dõi',
+        'ten_field',
+        'post',
+        'defaultCompare',
+        '13538NxQMMD',
+        'width',
+        'size',
+        'viewXemBangDiemSV',
+        'bsModalRefEditor',
+        'Sun',
+        'printerService',
+        '100%',
+        'is_show_tietbd',
+        'NgIf',
+        'LOP',
+        'countGroup',
+        'ten_du_lieu',
+        'loai_doi_tuong',
+        'fa-print',
+        'bindValue',
+        'mb-2',
+        '3777972lKonUa',
+        'button',
+        '1px',
+        'pagesLoaded',
+        'apply',
+        'ɵmod',
+        'src',
+        'text-center\x20align-middle\x20custkb',
+        'ten_day_du',
+        '9427320Whlipi',
+        'MA1',
+        'alert\x20alert-primary\x20mx-1\x20py-2',
+        'ɵɵproperty',
+        'getTime',
+        'isShowTietBD',
+        'ten_doi_tuong',
+        'text-left',
+        'gc_to_hoc',
+        'sortArray',
+        'd-none',
+        'ng-template',
+        'ma_du_lieu',
+        'showHandToolButton',
+        'margin',
+        'ɵɵadvance',
+        'height',
+        'ds_nhom_to',
+        'toastr',
+        '\x20sddd\x20',
+        'tbody',
+        'static',
+        'top',
+        'small',
+        '?IDXetGiaiThuongNCKH=',
+        'text-center\x20text-primary\x20align-middle',
+        'table-sm',
+        'ngIf',
+        'message',
+        'lich_thi',
+        'isArray',
+        'textLayer',
+        'authenticationService',
+        'NHOM_TO',
+        'ɵɵelementEnd',
+        'IN_GhiChu_GV',
+        'tkb',
+        'text-left\x20align-middle\x20custenmon',
+        'setInterval',
+        'text-danger',
+        'ɵɵtemplate',
+        'SelectDuLieu',
+        'Loc_Khoa_QL_SV',
+        'role',
+        'file_pdf_qd_thanh_lap_hoi_dong',
+        'BearerToken',
+        'col-lg-5',
+        'ViewSachLyLich',
+        'currentUser',
+        'subscribe',
+        'changeComboDuLieu',
+        'forChild',
+        'ngModelChange',
+        'sl_dk',
+        'div',
+        'href',
+        'UpperCasePipe',
+        'full',
+        'btnprintxem',
+        'while\x20(true)\x20{}',
+        'hien_thi_cot_lich_thi',
+        'd-inline-block',
+        'application/vnd.ms-excel;charset=UTF-8',
+        'dsFieldAn',
+        'ChangeDoiTuong',
+        'TENMH',
+        'so_tiet',
+        'modal-body',
+        'UrlHocLieuChiTiet',
+        'ɵɵlistener',
+        'ATU_PHIEN_BAN_NOT_FOUND',
+        'roles',
+        'searchable',
+        'hide',
+        'HocKyData',
+        'ɵɵresetView',
+        'viewXetGiaiThuong',
+        'date',
+        'hienthicotlichthi',
+        'nhom_to',
+        'idxetthuong',
+        'ɵɵnextContext',
+        'ɵɵelementContainerEnd',
+        'error',
+        'multiExpressionTransform',
+        'item',
+        'ɵɵtext',
+        'pull-right',
+        'replace',
+        'SO_TIET',
+        'tbd',
+        'zoom',
+        'reverse',
+        'ɵɵtextInterpolate2',
+        'py-2',
+        'ɵɵtextInterpolate1',
+        'ɵɵdefineComponent',
+        'transform',
+        'safeHtml',
+        'text-primary',
+        'bodyxembangdiem',
+        'datacomboDoiTuong',
+        'NgClass',
+        'pull-left',
+        'colspan',
+        'InGhiChu',
+        'matruong',
+        'Loc_Mon_Hoc',
+        'msg',
+        'text-center\x20align-middle',
+        'changeDetector',
+        'IsMaTruong',
+        'ɵpipe'
+    ];
+    a44c = function () {
+        return ds;
+    };
+    return a44c();
+}
