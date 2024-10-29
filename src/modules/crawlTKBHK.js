@@ -9,7 +9,7 @@ async function extractTKBHK(page) {
     // Chờ cho bảng thời khóa biểu xuất hiện
   await page.waitForSelector('table.table.table-sm.table-hover.table-bordered');
 
-  await new Promise(resolve => setTimeout(resolve, 1500));
+  await new Promise(resolve => setTimeout(resolve, 2000));
 
   // Chờ đợi cho trang tải và drop-down hiện ra
   await page.waitForSelector('ng-select[bindlabel="ten_hoc_ky"]');  // Dropdown của học kỳ
