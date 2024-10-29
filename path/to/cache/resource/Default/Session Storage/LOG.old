@@ -1,5 +1,8 @@
-2024/10/29-10:15:13.063 5d20 Reusing MANIFEST F:\mid-project-680372032\path\to\cache\resource\Default\Session Storage/MANIFEST-000001
-2024/10/29-10:15:13.064 5d20 Recovering log #16
-2024/10/29-10:15:13.064 5d20 Reusing old log F:\mid-project-680372032\path\to\cache\resource\Default\Session Storage/000016.log 
-2024/10/29-10:15:38.394 7d0c Level-0 table #19: started
-2024/10/29-10:15:38.398 7d0c Level-0 table #19: 32108 bytes OK
+2024/10/29-10:17:27.024 49c Reusing MANIFEST F:\mid-project-680372032\path\to\cache\resource\Default\Session Storage/MANIFEST-000001
+2024/10/29-10:17:27.024 49c Recovering log #16
+2024/10/29-10:17:27.025 49c Level-0 table #18: started
+2024/10/29-10:17:27.028 49c Level-0 table #18: 32108 bytes OK
+2024/10/29-10:17:27.029 49c Recovering log #18
+2024/10/29-10:17:27.029 49c Reusing old log F:\mid-project-680372032\path\to\cache\resource\Default\Session Storage/000018.log 
+2024/10/29-10:17:27.034 49c Delete type=0 #16
+2024/10/29-10:17:27.034 49c Delete type=2 #19

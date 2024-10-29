@@ -14,14 +14,14 @@ const crawlXemHocPhi = async (page) => {
   // Chờ đợi combobox xuất hiện
   await new Promise((resolve) => setTimeout(resolve, 1000));
   await page.waitForSelector(".ng-select-container");
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 1500));
 
   // Mở combobox bằng cách click vào nó
   await page.click(".ng-select-container");
 
   // Chờ dropdown được mở ra
   await page.waitForSelector(".ng-dropdown-panel .ng-option");
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 1500));
 
   // Crawl tất cả các options từ combobox
   const options = await page.evaluate(() => {
@@ -66,7 +66,7 @@ const crawlXemHocPhi = async (page) => {
       });
     }, option);
 
-    await new Promise((resolve) => setTimeout(resolve, 2000)); // Chờ trang cập nhật bảng
+    await new Promise((resolve) => setTimeout(resolve, 1500)); // Chờ trang cập nhật bảng
 
     // Khởi tạo biến để lưu dữ liệu bảng
     let tableData = [];
@@ -76,7 +76,7 @@ const crawlXemHocPhi = async (page) => {
     console.log("Chờ bảng dữ liệu xuất hiện...");
     if (i === 0) {
       await page.waitForSelector("#excel-table tbody tr", { visible: true });
-      await new Promise((resolve) => setTimeout(resolve, 2000)); // Chờ trang cập nhật bảng
+      await new Promise((resolve) => setTimeout(resolve, 1500)); // Chờ trang cập nhật bảng
       tableData = await page.evaluate(() => {
         const rows = document.querySelectorAll("#excel-table tbody tr");
         const data = [];

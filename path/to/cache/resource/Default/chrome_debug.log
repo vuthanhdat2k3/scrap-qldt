@@ -1,1 +1,3 @@
-[1029/101727.120:INFO:CONSOLE(111)] "Uncaught SyntaxError: Invalid left-hand side in assignment", source: https://qldt.ptit.edu.vn/ (111)
+[1029/102032.888:INFO:CONSOLE(111)] "Uncaught SyntaxError: Invalid left-hand side in assignment", source: https://qldt.ptit.edu.vn/ (111)
+[1029/102040.038:INFO:CONSOLE(1272)] "[object Object]", source: https://qldt.ptit.edu.vn/4234.57e089c85c4a2ef8.js (1272)
+[1029/102043.974:INFO:CONSOLE(5)] "optionElements:  [object NodeList]", source: pptr://__puppeteer_evaluation_script__ (5)
